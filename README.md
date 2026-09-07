@@ -4,7 +4,7 @@ A visual archive of Minecraft update artwork, from **Wilderness Bound** to the *
 
 ![Wilderness Bound key art](.catalogue/previews/01.jpg)
 
-**66 images · 26 updates**
+**67 images · 26 updates**
 
 Open **[index.html](index.html)** for the searchable offline gallery. Primary labels identify the archive's preferred source scene; they do not assert an official publisher ranking.
 
@@ -41,7 +41,7 @@ This checkout includes reconstructed derivatives. See **[progress and validation
 | [Village & Pillage](artwork/19-village-pillage) | 3 | [P38](artwork/19-village-pillage/key-art-without-logo-2560x1440.png) |
 | [Update Aquatic](artwork/20-update-aquatic) | 5 | [P41](artwork/20-update-aquatic/key-art-landscape-without-logo-2560x1440.png) |
 | [World of Color Update](artwork/21-world-of-color-update) | 2 | [P42](artwork/21-world-of-color-update/key-art-without-logo-2560x1440.png) |
-| [Exploration Update](artwork/22-exploration-update) | 2 | [P45](artwork/22-exploration-update/key-art-full-original-8001x3391.jpg) |
+| [Exploration Update](artwork/22-exploration-update) | 3 | [P45](artwork/22-exploration-update/key-art-full-original-8001x3391.jpg) |
 | [Frostburn Update](artwork/23-frostburn-update) | 2 | [P47](artwork/23-frostburn-update/original-release-screenshot-1280x720.png) |
 | [Combat Update](artwork/24-combat-update) | 1 | [P49](artwork/24-combat-update/original-official-artwork-1280x720.png) |
 | [Bountiful Update](artwork/25-bountiful-update) | 1 | Separate title references |

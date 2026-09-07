@@ -1376,6 +1376,32 @@
       "role": "key-art"
     },
     {
+      "id": "R52",
+      "title": "Trailer title composition reconstructed from the full original",
+      "file": "reconstructed/22-exploration-update/trailer-title-reconstruction-6000x3375.png",
+      "derived_from": [
+        "P45",
+        "S52"
+      ],
+      "note": "6000 x 3375 reconstruction of the official trailer framing. Original P45 scene and relocated Vex pixels; AI reconstructs the small S52 title and wall exposed by moving the Vex. This is a derivative, not an original high-resolution titled release.",
+      "update": "Exploration Update",
+      "width": 6000,
+      "height": 3375,
+      "format": "PNG",
+      "bytes": 12261263,
+      "sha256": "8ea01f39ed8fd585793c94872072edbd86098d1feb75f25e465984c037464cd1",
+      "pdf_asset_number": null,
+      "origin": "reconstructed",
+      "primary": false,
+      "source_page": null,
+      "source_image": null,
+      "creator": "Derived from Mojang Studios artwork",
+      "role": "key-art",
+      "validation": "reconstruction/validation/exploration-update.json",
+      "classification": "AI reconstruction",
+      "preview": ".catalogue/previews/R52.jpg"
+    },
+    {
       "update": "Frostburn Update",
       "title": "Original release screenshot",
       "file": "artwork/23-frostburn-update/original-release-screenshot-1280x720.png",

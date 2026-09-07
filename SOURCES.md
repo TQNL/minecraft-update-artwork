@@ -650,6 +650,16 @@ Creator: Mojang Studios.
 
 16:9 reference from the official Exploration Update trailer. Stored at 640 x 360; used for title and Vex placement, not high-resolution scene detail.
 
+### R52: Trailer title composition reconstructed from the full original
+
+[6000 × 3375 PNG](reconstructed/22-exploration-update/trailer-title-reconstruction-6000x3375.png) · AI reconstruction
+
+Creator: Derived from Mojang Studios artwork.
+
+6000 x 3375 reconstruction of the official trailer framing. Original P45 scene and relocated Vex pixels; AI reconstructs the small S52 title and wall exposed by moving the Vex. This is a derivative, not an original high-resolution titled release.
+
+Source asset IDs: P45, S52.
+
 ## Frostburn Update
 
 ### P47: Original release screenshot

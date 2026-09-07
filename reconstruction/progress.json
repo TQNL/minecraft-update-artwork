@@ -281,10 +281,18 @@
     },
     {
       "update": "Exploration Update",
-      "status": "pending",
+      "status": "complete",
       "requested_work": "reconstruct requested variants",
-      "outputs": [],
-      "validation": []
+      "outputs": [
+        "R52"
+      ],
+      "validation": [
+        "reconstruction/validation/exploration-update.json"
+      ],
+      "limitations": [
+        "The title is an AI reconstruction of the small trailer reference, not the original high-resolution logo; fine cracks and shading are inferred.",
+        "The wall behind the relocated Vex is locally reconstructed; fine concealed geometry cannot be confirmed from the sources."
+      ]
     },
     {
       "update": "Frostburn Update",
