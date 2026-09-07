@@ -42,7 +42,7 @@ Choose an update below, or download the repository and open **[index.html](index
 ## About the files
 
 - Distinct compositions and title treatments are kept separately.
-- Image dimensions describe the stored files. No AI enlargements are included.
+- Image dimensions describe the stored files.
 - Fan art and uncertain sources are clearly labelled in the gallery and source list.
 - Descriptive image metadata is removed without resizing or recompressing the image data.
 
