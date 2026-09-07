@@ -44,10 +44,13 @@
     },
     {
       "update": "Mounts of Mayhem",
-      "status": "pending",
+      "status": "complete_no_change",
       "requested_work": "retain source artwork",
       "outputs": [],
-      "validation": []
+      "validation": [
+        "reconstruction/validation/mounts-of-mayhem.json"
+      ],
+      "limitations": []
     },
     {
       "update": "The Copper Age",
