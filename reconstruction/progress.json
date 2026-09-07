@@ -138,10 +138,15 @@
     },
     {
       "update": "Bats and Pots",
-      "status": "pending",
+      "status": "complete_no_change",
       "requested_work": "retain source artwork",
       "outputs": [],
-      "validation": []
+      "validation": [
+        "reconstruction/validation/bats-and-pots.json"
+      ],
+      "limitations": [
+        "Only a 1170 x 500 banner source is available."
+      ]
     },
     {
       "update": "Trails & Tales",
