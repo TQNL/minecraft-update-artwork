@@ -225,10 +225,17 @@
     },
     {
       "update": "Buzzy Bees",
-      "status": "pending",
+      "status": "complete",
       "requested_work": "reconstruct requested variants",
-      "outputs": [],
-      "validation": []
+      "outputs": [
+        "R37"
+      ],
+      "validation": [
+        "reconstruction/validation/buzzy-bees.json"
+      ],
+      "limitations": [
+        "Alex enhancement contains synthesized edge and surface detail."
+      ]
     },
     {
       "update": "Village & Pillage",

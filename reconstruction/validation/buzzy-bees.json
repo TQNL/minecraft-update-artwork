@@ -1,0 +1,118 @@
+{
+  "source_ids": [
+    "P36",
+    "P37"
+  ],
+  "method": "P36 original scene with an AI-enhanced larger Alex from the P37 reference, registered and restricted by a local polygon.",
+  "registration_matrix": [
+    [
+      0.9961757174987595,
+      0.0001651630025740316,
+      1.488903796818066
+    ],
+    [
+      -0.0001651630025740316,
+      0.9961757174987595,
+      2.4090918378040427
+    ]
+  ],
+  "registration_inliers": 131,
+  "registration_matches": 208,
+  "repair_crop": [
+    100,
+    220,
+    500,
+    800
+  ],
+  "repair_polygon_in_crop": [
+    [
+      220,
+      20
+    ],
+    [
+      300,
+      20
+    ],
+    [
+      305,
+      115
+    ],
+    [
+      290,
+      215
+    ],
+    [
+      278,
+      250
+    ],
+    [
+      300,
+      335
+    ],
+    [
+      318,
+      490
+    ],
+    [
+      245,
+      500
+    ],
+    [
+      222,
+      449
+    ],
+    [
+      182,
+      447
+    ],
+    [
+      160,
+      417
+    ],
+    [
+      140,
+      350
+    ],
+    [
+      104,
+      315
+    ],
+    [
+      43,
+      327
+    ],
+    [
+      36,
+      275
+    ],
+    [
+      86,
+      257
+    ],
+    [
+      72,
+      182
+    ],
+    [
+      115,
+      138
+    ],
+    [
+      208,
+      112
+    ]
+  ],
+  "modified_mask_fraction": 0.02377224392361111,
+  "original_P36_pixels_unchanged_outside_mask": true,
+  "visual_review": [
+    "Full scene and Alex close-up inspected: one Alex, correct pose and bottle, intact hive and clean joins."
+  ],
+  "source_collection_unchanged": true,
+  "outputs": [
+    {
+      "id": "R37",
+      "file": "reconstructed/18-buzzy-bees/larger-alex-variant-2560x1440.png",
+      "sha256": "0a26ce0ed94e47e054179bdf635001878fb9c5181cde1e8a7a1566554bd496a0"
+    }
+  ]
+}

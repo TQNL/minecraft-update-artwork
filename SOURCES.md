@@ -516,6 +516,16 @@ Creator: Mojang Studios.
 
 [Source image](https://minecraft.wiki/images/BuzzyBeesArtwork.jpg?02f44)
 
+### R37: Larger Alex variant on clean scene
+
+[2560 × 1440 PNG](reconstructed/18-buzzy-bees/larger-alex-variant-2560x1440.png) · AI reconstruction
+
+Creator: Derived from Mojang Studios artwork.
+
+P36 source retained outside a local AI-enhanced Alex patch matching P37 larger placement.
+
+Source asset IDs: P36, P37.
+
 ## Village & Pillage
 
 ### P38: Key art — without logo

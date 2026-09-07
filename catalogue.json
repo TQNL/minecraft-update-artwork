@@ -1074,6 +1074,32 @@
       "role": "key-art"
     },
     {
+      "id": "R37",
+      "title": "Larger Alex variant on clean scene",
+      "file": "reconstructed/18-buzzy-bees/larger-alex-variant-2560x1440.png",
+      "derived_from": [
+        "P36",
+        "P37"
+      ],
+      "note": "P36 source retained outside a local AI-enhanced Alex patch matching P37 larger placement.",
+      "update": "Buzzy Bees",
+      "width": 2560,
+      "height": 1440,
+      "format": "PNG",
+      "bytes": 2542371,
+      "sha256": "0a26ce0ed94e47e054179bdf635001878fb9c5181cde1e8a7a1566554bd496a0",
+      "pdf_asset_number": null,
+      "origin": "reconstructed",
+      "primary": false,
+      "source_page": null,
+      "source_image": null,
+      "creator": "Derived from Mojang Studios artwork",
+      "role": "key-art",
+      "validation": "reconstruction/validation/buzzy-bees.json",
+      "classification": "AI reconstruction",
+      "preview": ".catalogue/previews/R37.jpg"
+    },
+    {
       "update": "Village & Pillage",
       "title": "Key art — without logo",
       "file": "artwork/19-village-pillage/key-art-without-logo-2560x1440.png",
