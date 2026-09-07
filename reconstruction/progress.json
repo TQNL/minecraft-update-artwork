@@ -1,0 +1,177 @@
+{
+  "branch": "ai-reconstruction",
+  "source_commit": "afeb6e7f2d0291292678782382a2e0e9a1d2e9dc",
+  "order": "newest first through Combat Update (1.9)",
+  "updates": [
+    {
+      "update": "Wilderness Bound",
+      "status": "complete_no_change",
+      "requested_work": "retain source artwork",
+      "outputs": [],
+      "validation": [
+        "P01 source hash verified; one source scene and no requested derivative."
+      ]
+    },
+    {
+      "update": "Chaos Cubed",
+      "status": "pending",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [],
+      "validation": []
+    },
+    {
+      "update": "Tiny Takeover",
+      "status": "pending",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [],
+      "validation": []
+    },
+    {
+      "update": "Mounts of Mayhem",
+      "status": "pending",
+      "requested_work": "retain source artwork",
+      "outputs": [],
+      "validation": []
+    },
+    {
+      "update": "The Copper Age",
+      "status": "pending",
+      "requested_work": "retain source artwork",
+      "outputs": [],
+      "validation": []
+    },
+    {
+      "update": "Chase the Skies",
+      "status": "pending",
+      "requested_work": "retain source artwork",
+      "outputs": [],
+      "validation": []
+    },
+    {
+      "update": "Spring to Life",
+      "status": "pending",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [],
+      "validation": []
+    },
+    {
+      "update": "The Garden Awakens",
+      "status": "pending",
+      "requested_work": "retain source artwork",
+      "outputs": [],
+      "validation": []
+    },
+    {
+      "update": "Bundles of Bravery",
+      "status": "pending",
+      "requested_work": "retain source artwork",
+      "outputs": [],
+      "validation": []
+    },
+    {
+      "update": "Tricky Trials",
+      "status": "pending",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [],
+      "validation": []
+    },
+    {
+      "update": "Armored Paws",
+      "status": "pending",
+      "requested_work": "retain source artwork",
+      "outputs": [],
+      "validation": []
+    },
+    {
+      "update": "Bats and Pots",
+      "status": "pending",
+      "requested_work": "retain source artwork",
+      "outputs": [],
+      "validation": []
+    },
+    {
+      "update": "Trails & Tales",
+      "status": "pending",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [],
+      "validation": []
+    },
+    {
+      "update": "The Wild Update",
+      "status": "pending",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [],
+      "validation": []
+    },
+    {
+      "update": "Caves & Cliffs Part II",
+      "status": "pending",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [],
+      "validation": []
+    },
+    {
+      "update": "Caves & Cliffs Part I",
+      "status": "pending",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [],
+      "validation": []
+    },
+    {
+      "update": "Nether Update",
+      "status": "pending",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [],
+      "validation": []
+    },
+    {
+      "update": "Buzzy Bees",
+      "status": "pending",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [],
+      "validation": []
+    },
+    {
+      "update": "Village & Pillage",
+      "status": "pending",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [],
+      "validation": []
+    },
+    {
+      "update": "Update Aquatic",
+      "status": "pending",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [],
+      "validation": []
+    },
+    {
+      "update": "World of Color Update",
+      "status": "pending",
+      "requested_work": "retain source artwork",
+      "outputs": [],
+      "validation": []
+    },
+    {
+      "update": "Exploration Update",
+      "status": "pending",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [],
+      "validation": []
+    },
+    {
+      "update": "Frostburn Update",
+      "status": "pending",
+      "requested_work": "retain source artwork",
+      "outputs": [],
+      "validation": []
+    },
+    {
+      "update": "Combat Update",
+      "status": "pending",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [],
+      "validation": []
+    }
+  ]
+}

@@ -19,3 +19,7 @@ Source artwork stays separate from reconstructions. Derivative entries identify 
 Work proceeds newest to oldest, one update at a time. Direct registration and source pixels are preferred wherever they suffice. AI edits are restricted to the requested reconstruction or enhancement. Every result is checked at full view and in detail for seams, duplicated subjects, distorted geometry, changed lettering and lost content.
 
 Completed work and validation will be recorded on the reconstruction branch. Unfinished items must remain explicitly pending.
+
+## Current work
+
+See [progress and validation](reconstruction/progress.json). Pending entries are not completed reconstructions. Reconstructed files use distinct R-prefixed IDs and identify their source IDs.
