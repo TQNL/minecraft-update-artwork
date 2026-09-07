@@ -54,10 +54,13 @@
     },
     {
       "update": "The Copper Age",
-      "status": "pending",
+      "status": "complete_no_change",
       "requested_work": "retain source artwork",
       "outputs": [],
-      "validation": []
+      "validation": [
+        "reconstruction/validation/copper-age.json"
+      ],
+      "limitations": []
     },
     {
       "update": "Chase the Skies",
