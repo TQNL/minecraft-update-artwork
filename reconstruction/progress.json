@@ -150,10 +150,19 @@
     },
     {
       "update": "Trails & Tales",
-      "status": "pending",
+      "status": "complete",
       "requested_work": "reconstruct requested variants",
-      "outputs": [],
-      "validation": []
+      "outputs": [
+        "R21",
+        "R23"
+      ],
+      "validation": [
+        "reconstruction/validation/trails-tales.json"
+      ],
+      "limitations": [
+        "The original title and alternate Sniffer retain P21 source detail.",
+        "The panorama retains its original softness away from the repaired narrow lines."
+      ]
     },
     {
       "update": "The Wild Update",

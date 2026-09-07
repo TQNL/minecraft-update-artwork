@@ -4,7 +4,7 @@ A visual archive of Minecraft update artwork, from **Wilderness Bound** to the *
 
 ![Wilderness Bound key art](.catalogue/previews/01.jpg)
 
-**54 images · 26 updates**
+**56 images · 26 updates**
 
 Open **[index.html](index.html)** for the searchable offline gallery. Primary labels identify the archive's preferred source scene; they do not assert an official publisher ranking.
 
@@ -32,7 +32,7 @@ This checkout includes reconstructed derivatives. See **[progress and validation
 | [Tricky Trials](artwork/10-tricky-trials) | 5 | [P17](artwork/10-tricky-trials/key-art-full-composition-without-title-2058x1440.png) |
 | [Armored Paws](artwork/11-armored-paws) | 1 | [P19](artwork/11-armored-paws/badlands-trailer-artwork-1170x500.jpg) |
 | [Bats and Pots](artwork/12-bats-and-pots) | 1 | [P20](artwork/12-bats-and-pots/bats-and-pots-release-banner-1170x500.jpg) |
-| [Trails & Tales](artwork/13-trails-tales) | 3 | [P22](artwork/13-trails-tales/key-art-full-composition-with-title-2058x1440.png) |
+| [Trails & Tales](artwork/13-trails-tales) | 5 | [P22](artwork/13-trails-tales/key-art-full-composition-with-title-2058x1440.png) |
 | [The Wild Update](artwork/14-the-wild-update) | 3 | [P24](artwork/14-the-wild-update/key-art-landscape-without-logo-2560x1440.png) |
 | [Caves & Cliffs Part II](artwork/15-caves-cliffs-part-ii) | 2 | [P29](artwork/15-caves-cliffs-part-ii/key-art-without-title-2560x1440.png) |
 | [Caves & Cliffs Part I](artwork/16-caves-cliffs-part-i) | 3 | [P31](artwork/16-caves-cliffs-part-i/key-art-without-title-2560x1440.png) |

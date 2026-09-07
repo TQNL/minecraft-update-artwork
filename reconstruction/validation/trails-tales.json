@@ -1,0 +1,60 @@
+{
+  "source_ids": [
+    "P21",
+    "P22",
+    "P23"
+  ],
+  "method": "Direct aligned source compositing; original P21 title and alternate Sniffer patch over P22 scene. Narrow panorama separator interpolated between real neighbouring pixels.",
+  "title_and_sniffer_patch_rectangles": [
+    [
+      660,
+      185,
+      1410,
+      485
+    ],
+    [
+      460,
+      1020,
+      925,
+      1310
+    ]
+  ],
+  "key_art_crop": [
+    0,
+    152,
+    2058,
+    1310
+  ],
+  "panorama_repair_columns": [
+    [
+      1339,
+      1352
+    ],
+    [
+      4073,
+      4079
+    ]
+  ],
+  "panorama_changed_fraction": 0.0050185185185185185,
+  "panorama_mean_seam_jump_before": 93.53604938271604,
+  "panorama_mean_seam_jump_after": 0.11901234567901235,
+  "no_ai_generation": true,
+  "visual_review": [
+    "Full key art and panorama inspected.",
+    "Title and alternate Sniffer close-ups checked: correct text, one Sniffer, no visible patch boundary.",
+    "Panorama seam and right edge checked: dark lines removed; original scene retained elsewhere."
+  ],
+  "source_collection_unchanged": true,
+  "outputs": [
+    {
+      "id": "R21",
+      "file": "reconstructed/13-trails-tales/titled-alternate-sniffer-2058x1158.png",
+      "sha256": "7b142a6c9c07d7eb828d34ecfea1b1078130af87cdca813574656a909b93bd44"
+    },
+    {
+      "id": "R23",
+      "file": "reconstructed/13-trails-tales/promotional-panorama-seams-repaired-4080x1350.png",
+      "sha256": "30034d2d51802877726bf9bbbc2436059e49917256aadbafe7ce12a651eb5d03"
+    }
+  ]
+}

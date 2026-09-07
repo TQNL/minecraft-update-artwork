@@ -641,6 +641,57 @@
       "role": "promotional-panorama"
     },
     {
+      "id": "R21",
+      "title": "Titled scene with alternate Sniffer placement",
+      "file": "reconstructed/13-trails-tales/titled-alternate-sniffer-2058x1158.png",
+      "derived_from": [
+        "P21",
+        "P22"
+      ],
+      "classification": "Source composite",
+      "role": "key-art",
+      "note": "Direct source-pixel reconstruction; no AI generation. P22 scene with original P21 title and alternate Sniffer placement.",
+      "update": "Trails & Tales",
+      "width": 2058,
+      "height": 1158,
+      "format": "PNG",
+      "bytes": 2704636,
+      "sha256": "7b142a6c9c07d7eb828d34ecfea1b1078130af87cdca813574656a909b93bd44",
+      "pdf_asset_number": null,
+      "origin": "reconstructed",
+      "primary": false,
+      "source_page": null,
+      "source_image": null,
+      "creator": "Derived from Mojang Studios artwork",
+      "validation": "reconstruction/validation/trails-tales.json",
+      "preview": ".catalogue/previews/R21.jpg"
+    },
+    {
+      "id": "R23",
+      "title": "Promotional panorama with separator repair",
+      "file": "reconstructed/13-trails-tales/promotional-panorama-seams-repaired-4080x1350.png",
+      "derived_from": [
+        "P23"
+      ],
+      "classification": "Source repair",
+      "role": "promotional-panorama",
+      "note": "Direct source-pixel reconstruction; no AI generation. Narrow internal separator and right export border repaired from adjacent pixels. Retained separately from key art.",
+      "update": "Trails & Tales",
+      "width": 4080,
+      "height": 1350,
+      "format": "PNG",
+      "bytes": 4452976,
+      "sha256": "30034d2d51802877726bf9bbbc2436059e49917256aadbafe7ce12a651eb5d03",
+      "pdf_asset_number": null,
+      "origin": "reconstructed",
+      "primary": false,
+      "source_page": null,
+      "source_image": null,
+      "creator": "Derived from Mojang Studios artwork",
+      "validation": "reconstruction/validation/trails-tales.json",
+      "preview": ".catalogue/previews/R23.jpg"
+    },
+    {
       "update": "The Wild Update",
       "title": "Key art — landscape without logo",
       "file": "artwork/14-the-wild-update/key-art-landscape-without-logo-2560x1440.png",

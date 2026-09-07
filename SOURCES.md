@@ -316,6 +316,26 @@ Creator: Mojang Studios.
 
 Separate promotional panorama, not a continuation of the main key art. Source has visible softness and a vertical seam.
 
+### R21: Titled scene with alternate Sniffer placement
+
+[2058 × 1158 PNG](reconstructed/13-trails-tales/titled-alternate-sniffer-2058x1158.png) · Source composite
+
+Creator: Derived from Mojang Studios artwork.
+
+Direct source-pixel reconstruction; no AI generation. P22 scene with original P21 title and alternate Sniffer placement.
+
+Source asset IDs: P21, P22.
+
+### R23: Promotional panorama with separator repair
+
+[4080 × 1350 PNG](reconstructed/13-trails-tales/promotional-panorama-seams-repaired-4080x1350.png) · Source repair
+
+Creator: Derived from Mojang Studios artwork.
+
+Direct source-pixel reconstruction; no AI generation. Narrow internal separator and right export border repaired from adjacent pixels. Retained separately from key art.
+
+Source asset IDs: P23.
+
 ## The Wild Update
 
 ### P24: Key art — landscape without logo
