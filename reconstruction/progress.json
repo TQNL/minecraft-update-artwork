@@ -28,10 +28,19 @@
     },
     {
       "update": "Tiny Takeover",
-      "status": "pending",
+      "status": "complete",
       "requested_work": "reconstruct requested variants",
-      "outputs": [],
-      "validation": []
+      "outputs": [
+        "R05",
+        "R04"
+      ],
+      "validation": [
+        "reconstruction/validation/tiny-takeover.json"
+      ],
+      "limitations": [
+        "Corner content is synthesized.",
+        "Added sides retain the detail limit of the smaller JPEG source."
+      ]
     },
     {
       "update": "Mounts of Mayhem",

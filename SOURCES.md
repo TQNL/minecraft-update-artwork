@@ -70,6 +70,26 @@ Creator: Mojang Studios.
 
 [Source image](https://minecraft.wiki/images/Tiny_Takeover_Key_Art.png?025dc)
 
+### R05: Complete scene - no title
+
+[2275 × 1440 PNG](reconstructed/03-tiny-takeover/complete-scene-no-title-2275x1440.png) · AI reconstruction
+
+Creator: Derived from Mojang Studios artwork.
+
+P05 clean scene extended with P04 side coverage. Four missing corners are synthesized; other scene pixels come from the source composite.
+
+Source asset IDs: P04, P05.
+
+### R04: Complete scene - original title treatment
+
+[2275 × 1440 PNG](reconstructed/03-tiny-takeover/complete-scene-with-title-2275x1440.png) · AI reconstruction
+
+Creator: Derived from Mojang Studios artwork.
+
+Complete scene with original P04 lettering transferred from source pixels. Corner content is synthesized; added sides retain the smaller source detail limit.
+
+Source asset IDs: P04, P05.
+
 ## Mounts of Mayhem
 
 ### P06: Key art — wide launch banner
