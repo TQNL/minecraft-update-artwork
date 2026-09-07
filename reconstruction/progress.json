@@ -64,10 +64,13 @@
     },
     {
       "update": "Chase the Skies",
-      "status": "pending",
+      "status": "complete_no_change",
       "requested_work": "retain source artwork",
       "outputs": [],
-      "validation": []
+      "validation": [
+        "reconstruction/validation/chase-the-skies.json"
+      ],
+      "limitations": []
     },
     {
       "update": "Spring to Life",
