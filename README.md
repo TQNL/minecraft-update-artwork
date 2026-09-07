@@ -4,7 +4,7 @@ A visual archive of Minecraft update artwork, from **Wilderness Bound** to the *
 
 ![Wilderness Bound key art](.catalogue/previews/01.jpg)
 
-**51 images · 26 updates**
+**52 images · 26 updates**
 
 Open **[index.html](index.html)** for the searchable offline gallery. Primary labels identify the archive's preferred source scene; they do not assert an official publisher ranking.
 
@@ -26,7 +26,7 @@ This checkout includes reconstructed derivatives. See **[progress and validation
 | [Mounts of Mayhem](artwork/04-mounts-of-mayhem) | 2 | [P07](artwork/04-mounts-of-mayhem/key-art-full-composition-2048x1440.png) |
 | [The Copper Age](artwork/05-the-copper-age) | 2 | [P09](artwork/05-the-copper-age/key-art-full-composition-2048x1440.png) |
 | [Chase the Skies](artwork/06-chase-the-skies) | 1 | [P10](artwork/06-chase-the-skies/key-art-full-composition-2048x1440.jpg) |
-| [Spring to Life](artwork/07-spring-to-life) | 2 | [P12](artwork/07-spring-to-life/key-art-square-variant-2048x2048.png) |
+| [Spring to Life](artwork/07-spring-to-life) | 3 | [P12](artwork/07-spring-to-life/key-art-square-variant-2048x2048.png) |
 | [The Garden Awakens](artwork/08-the-garden-awakens) | 1 | [P13](artwork/08-the-garden-awakens/key-art-landscape-2560x1440.png) |
 | [Bundles of Bravery](artwork/09-bundles-of-bravery) | 2 | [P14](artwork/09-bundles-of-bravery/key-art-with-minecraft-logo-2560x1440.png) |
 | [Tricky Trials](artwork/10-tricky-trials) | 3 | [P17](artwork/10-tricky-trials/key-art-full-composition-without-title-2058x1440.png) |

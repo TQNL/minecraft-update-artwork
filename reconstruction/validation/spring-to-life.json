@@ -1,0 +1,56 @@
+{
+  "source_ids": [
+    "P11",
+    "P12"
+  ],
+  "canvas": [
+    3430,
+    2048
+  ],
+  "base_offset_xy": [
+    639,
+    0
+  ],
+  "matrix_a_to_canvas": [
+    [
+      1.3394970542235654,
+      -9.871787472878366e-06,
+      0.5667968530277676
+    ],
+    [
+      9.865523648339736e-06,
+      1.3403475285437074,
+      93.9308397227473
+    ]
+  ],
+  "missing_source_fraction": 0.023310091335641398,
+  "generation_alignment_matrix": [
+    [
+      0.9990902872896413,
+      0.0006240552788511274,
+      0.932111172942288
+    ],
+    [
+      -0.0006240552788511274,
+      0.9990902872896413,
+      -2.8427886620852445
+    ]
+  ],
+  "registration_inliers": 1319,
+  "registration_matches": 1755,
+  "ai_patch_fraction_including_blend": 0.028048412445335277,
+  "source_composite_unchanged_outside_corner_mask": true,
+  "visual_review": [
+    "Full composition inspected: central characters, animals and lettering-free scene preserved.",
+    "Top and bottom corners and vertical joins inspected: no obvious seam or doubled subjects."
+  ],
+  "method": "Aligned source union with P12 centre, P11 sides, built-in AI corner fill restored only through a restricted corner mask.",
+  "source_collection_unchanged": true,
+  "outputs": [
+    {
+      "id": "R12",
+      "file": "reconstructed/07-spring-to-life/complete-scene-3430x2048.png",
+      "sha256": "0d7f035a0a07750f99fc9059b50a0dc0e14dbe2c40627bbd418a126bc12b6104"
+    }
+  ]
+}

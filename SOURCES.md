@@ -166,6 +166,16 @@ Creator: Mojang Studios.
 
 [Source image](https://minecraft.wiki/images/Spring_to_life_Key_art_2048x2048.png?2b339)
 
+### R12: Complete scene with reconstructed corners
+
+[3430 × 2048 PNG](reconstructed/07-spring-to-life/complete-scene-3430x2048.png) · AI reconstruction
+
+Creator: Derived from Mojang Studios artwork.
+
+P12 centre with P11 sides. Missing corners synthesized with a narrow blend; source pixels retained elsewhere.
+
+Source asset IDs: P11, P12.
+
 ## The Garden Awakens
 
 ### P13: Key art — landscape

@@ -332,6 +332,32 @@
       "role": "key-art"
     },
     {
+      "id": "R12",
+      "title": "Complete scene with reconstructed corners",
+      "file": "reconstructed/07-spring-to-life/complete-scene-3430x2048.png",
+      "derived_from": [
+        "P11",
+        "P12"
+      ],
+      "note": "P12 centre with P11 sides. Missing corners synthesized with a narrow blend; source pixels retained elsewhere.",
+      "update": "Spring to Life",
+      "width": 3430,
+      "height": 2048,
+      "format": "PNG",
+      "bytes": 5923983,
+      "sha256": "0d7f035a0a07750f99fc9059b50a0dc0e14dbe2c40627bbd418a126bc12b6104",
+      "pdf_asset_number": null,
+      "origin": "reconstructed",
+      "primary": false,
+      "source_page": null,
+      "source_image": null,
+      "creator": "Derived from Mojang Studios artwork",
+      "role": "key-art",
+      "validation": "reconstruction/validation/spring-to-life.json",
+      "classification": "AI reconstruction",
+      "preview": ".catalogue/previews/R12.jpg"
+    },
+    {
       "update": "The Garden Awakens",
       "title": "Key art — landscape",
       "file": "artwork/08-the-garden-awakens/key-art-landscape-2560x1440.png",

@@ -74,10 +74,18 @@
     },
     {
       "update": "Spring to Life",
-      "status": "pending",
+      "status": "complete",
       "requested_work": "reconstruct requested variants",
-      "outputs": [],
-      "validation": []
+      "outputs": [
+        "R12"
+      ],
+      "validation": [
+        "reconstruction/validation/spring-to-life.json"
+      ],
+      "limitations": [
+        "Missing corners are synthesized.",
+        "Landscape sides retain their source compression and are resampled to the square image scale."
+      ]
     },
     {
       "update": "The Garden Awakens",
