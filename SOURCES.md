@@ -368,6 +368,26 @@ Creator: Mojang Studios.
 
 [Source image](https://minecraft.wiki/images/Wild_update_Key_Art_2048x2048.png?00936)
 
+### R25: Titled landscape from clean source
+
+[2560 × 1440 PNG](reconstructed/14-the-wild-update/titled-landscape-2560x1440.png) · Source composite
+
+Creator: Derived from Mojang Studios artwork.
+
+Aligned P24 scene pixels with target-only frame content preserved. Original P25 lettering retained.
+
+Source asset IDs: P24, P25.
+
+### R26: Square composition with higher-detail source centre
+
+[2560 × 2560 PNG](reconstructed/14-the-wild-update/square-with-clean-source-centre-2560x2560.png) · Source composite
+
+Creator: Derived from Mojang Studios artwork.
+
+Aligned P24 scene pixels with target-only frame content preserved. Square-only sky, red parrot and cavern retained from P26; those regions retain their source detail limit.
+
+Source asset IDs: P24, P26.
+
 ## Caves & Cliffs Part II
 
 ### P28: Key art — official titled variant

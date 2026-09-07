@@ -166,10 +166,19 @@
     },
     {
       "update": "The Wild Update",
-      "status": "pending",
+      "status": "complete",
       "requested_work": "reconstruct requested variants",
-      "outputs": [],
-      "validation": []
+      "outputs": [
+        "R25",
+        "R26"
+      ],
+      "validation": [
+        "reconstruction/validation/wild-update.json"
+      ],
+      "limitations": [
+        "The square gains P24 detail in its shared 56 percent; P26-only regions retain their original detail limit.",
+        "P25 title pixels retain the original 1920-pixel-wide source detail."
+      ]
     },
     {
       "update": "Caves & Cliffs Part II",

@@ -755,6 +755,58 @@
       "role": "key-art"
     },
     {
+      "id": "R25",
+      "title": "Titled landscape from clean source",
+      "file": "reconstructed/14-the-wild-update/titled-landscape-2560x1440.png",
+      "derived_from": [
+        "P24",
+        "P25"
+      ],
+      "classification": "Source composite",
+      "note": "Aligned P24 scene pixels with target-only frame content preserved. Original P25 lettering retained.",
+      "update": "The Wild Update",
+      "width": 2560,
+      "height": 1440,
+      "format": "PNG",
+      "bytes": 4342657,
+      "sha256": "d689aa4d21579c34c58698547fa399cdeec46ef765b8acbe09df8e988701ea33",
+      "pdf_asset_number": null,
+      "origin": "reconstructed",
+      "primary": false,
+      "source_page": null,
+      "source_image": null,
+      "creator": "Derived from Mojang Studios artwork",
+      "role": "key-art",
+      "validation": "reconstruction/validation/wild-update.json",
+      "preview": ".catalogue/previews/R25.jpg"
+    },
+    {
+      "id": "R26",
+      "title": "Square composition with higher-detail source centre",
+      "file": "reconstructed/14-the-wild-update/square-with-clean-source-centre-2560x2560.png",
+      "derived_from": [
+        "P24",
+        "P26"
+      ],
+      "classification": "Source composite",
+      "note": "Aligned P24 scene pixels with target-only frame content preserved. Square-only sky, red parrot and cavern retained from P26; those regions retain their source detail limit.",
+      "update": "The Wild Update",
+      "width": 2560,
+      "height": 2560,
+      "format": "PNG",
+      "bytes": 6107975,
+      "sha256": "00e7beb9de293258c50852e2cd93fc3c7db56c17cb7400efc56bf215bca6b51d",
+      "pdf_asset_number": null,
+      "origin": "reconstructed",
+      "primary": false,
+      "source_page": null,
+      "source_image": null,
+      "creator": "Derived from Mojang Studios artwork",
+      "role": "key-art",
+      "validation": "reconstruction/validation/wild-update.json",
+      "preview": ".catalogue/previews/R26.jpg"
+    },
+    {
       "update": "Caves & Cliffs Part II",
       "title": "Key art — official titled variant",
       "file": "artwork/15-caves-cliffs-part-ii/key-art-official-titled-variant-1920x1075.jpg",

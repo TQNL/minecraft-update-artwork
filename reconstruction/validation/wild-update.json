@@ -1,0 +1,72 @@
+{
+  "method": "Direct source composite: P24 aligned to each target frame; original P25 title restored and P26-only regions retained. No generated scene pixels.",
+  "title": {
+    "base_id": "P24",
+    "target_id": "P25",
+    "output_size": [
+      2560,
+      1440
+    ],
+    "matrix_base_to_output": [
+      [
+        0.9999909097529877,
+        -7.385836295768898e-05,
+        -0.01587617351962066
+      ],
+      [
+        7.376466380700884e-05,
+        0.9999909097529878,
+        149.35960314862433
+      ]
+    ],
+    "base_coverage": 0.8963498263888889,
+    "base_blend_pixels": 16
+  },
+  "square": {
+    "base_id": "P24",
+    "target_id": "P26",
+    "output_size": [
+      2560,
+      2560
+    ],
+    "matrix_base_to_output": [
+      [
+        0.9998310856791628,
+        -9.45459619082317e-05,
+        0.26484940474642077
+      ],
+      [
+        9.448597081565032e-05,
+        1.0004658990668958,
+        709.6651649925556
+      ]
+    ],
+    "base_coverage": 0.5626254272460938,
+    "base_blend_pixels": 16
+  },
+  "title_patch_rectangle": [
+    975,
+    220,
+    1600,
+    430
+  ],
+  "parrot_visibility": "P26 red parrot retained in its original square-only region. P25 retains its original omission.",
+  "no_ai_generation": true,
+  "visual_review": [
+    "Both full compositions inspected.",
+    "Title, parrot and upper/lower overlap joins inspected: source content preserved, no doubled objects or obvious joins."
+  ],
+  "source_collection_unchanged": true,
+  "outputs": [
+    {
+      "id": "R25",
+      "file": "reconstructed/14-the-wild-update/titled-landscape-2560x1440.png",
+      "sha256": "d689aa4d21579c34c58698547fa399cdeec46ef765b8acbe09df8e988701ea33"
+    },
+    {
+      "id": "R26",
+      "file": "reconstructed/14-the-wild-update/square-with-clean-source-centre-2560x2560.png",
+      "sha256": "00e7beb9de293258c50852e2cd93fc3c7db56c17cb7400efc56bf215bca6b51d"
+    }
+  ]
+}
