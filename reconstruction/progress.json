@@ -99,10 +99,13 @@
     },
     {
       "update": "Bundles of Bravery",
-      "status": "pending",
+      "status": "complete_no_change",
       "requested_work": "retain source artwork",
       "outputs": [],
-      "validation": []
+      "validation": [
+        "reconstruction/validation/bundles-of-bravery.json"
+      ],
+      "limitations": []
     },
     {
       "update": "Tricky Trials",
