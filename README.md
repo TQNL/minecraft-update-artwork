@@ -4,7 +4,7 @@ A visual archive of Minecraft update artwork, from **Wilderness Bound** to the *
 
 ![Wilderness Bound key art](.catalogue/previews/01.jpg)
 
-**48 images · 26 updates**
+**49 images · 26 updates**
 
 Open **[index.html](index.html)** for the searchable offline gallery. Primary labels identify the archive's preferred source scene; they do not assert an official publisher ranking.
 
@@ -21,7 +21,7 @@ This checkout includes reconstructed derivatives. See **[progress and validation
 | Update | Files | Primary source |
 | :--- | ---: | :--- |
 | [Wilderness Bound](artwork/01-wilderness-bound) | 1 | [P01](artwork/01-wilderness-bound/key-art-no-logo-2560x1440.png) |
-| [Chaos Cubed](artwork/02-chaos-cubed) | 2 | [P02](artwork/02-chaos-cubed/key-art-no-logo-2560x1440.png) |
+| [Chaos Cubed](artwork/02-chaos-cubed) | 3 | [P02](artwork/02-chaos-cubed/key-art-no-logo-2560x1440.png) |
 | [Tiny Takeover](artwork/03-tiny-takeover) | 2 | [P05](artwork/03-tiny-takeover/key-art-no-logo-2048x1440.png) |
 | [Mounts of Mayhem](artwork/04-mounts-of-mayhem) | 2 | [P07](artwork/04-mounts-of-mayhem/key-art-full-composition-2048x1440.png) |
 | [The Copper Age](artwork/05-the-copper-age) | 2 | [P09](artwork/05-the-copper-age/key-art-full-composition-2048x1440.png) |

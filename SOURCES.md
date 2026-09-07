@@ -38,6 +38,16 @@ Creator: Mojang Studios.
 
 [Source image](https://minecraft.wiki/images/Chaos_Cubed_Key_Art_expanded.png?fc180)
 
+### R03: Expanded composition - ratings badge removed
+
+[2560 × 1440 PNG](reconstructed/02-chaos-cubed/expanded-composition-rating-removed-2560x1440.png) · AI reconstruction
+
+Creator: Derived from Mojang Studios artwork.
+
+The covered wall was reconstructed with a localized AI patch. All pixels outside the repair bounds are identical to P03; both source compositions are preserved separately.
+
+Source asset IDs: P03.
+
 ## Tiny Takeover
 
 ### P04: Key art — with title

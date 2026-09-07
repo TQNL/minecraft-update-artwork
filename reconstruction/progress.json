@@ -14,10 +14,17 @@
     },
     {
       "update": "Chaos Cubed",
-      "status": "pending",
+      "status": "complete",
       "requested_work": "reconstruct requested variants",
-      "outputs": [],
-      "validation": []
+      "outputs": [
+        "R03"
+      ],
+      "validation": [
+        "reconstruction/validation/chaos-cubed.json"
+      ],
+      "limitations": [
+        "The wall behind the ratings badge is synthesized; no uncovered original is available."
+      ]
     },
     {
       "update": "Tiny Takeover",

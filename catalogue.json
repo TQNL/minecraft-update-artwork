@@ -66,6 +66,31 @@
       "role": "key-art"
     },
     {
+      "id": "R03",
+      "pdf_asset_number": null,
+      "update": "Chaos Cubed",
+      "title": "Expanded composition - ratings badge removed",
+      "file": "reconstructed/02-chaos-cubed/expanded-composition-rating-removed-2560x1440.png",
+      "width": 2560,
+      "height": 1440,
+      "format": "PNG",
+      "bytes": 3015238,
+      "sha256": "7a291ea7046352a1cdd38867ce1097bc7c32de53338777aafefd622e39d50706",
+      "classification": "AI reconstruction",
+      "source_page": null,
+      "source_image": null,
+      "creator": "Derived from Mojang Studios artwork",
+      "note": "The covered wall was reconstructed with a localized AI patch. All pixels outside the repair bounds are identical to P03; both source compositions are preserved separately.",
+      "preview": ".catalogue/previews/R03.jpg",
+      "origin": "reconstructed",
+      "primary": false,
+      "role": "key-art",
+      "derived_from": [
+        "P03"
+      ],
+      "validation": "reconstruction/validation/chaos-cubed.json"
+    },
+    {
       "update": "Tiny Takeover",
       "title": "Key art — with title",
       "file": "artwork/03-tiny-takeover/key-art-with-title-1920x1080.jpg",
