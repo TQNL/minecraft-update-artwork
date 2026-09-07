@@ -4,7 +4,7 @@ A visual archive of Minecraft update artwork, from **Wilderness Bound** to the *
 
 ![Wilderness Bound key art](.catalogue/previews/01.jpg)
 
-**59 images · 26 updates**
+**60 images · 26 updates**
 
 Open **[index.html](index.html)** for the searchable offline gallery. Primary labels identify the archive's preferred source scene; they do not assert an official publisher ranking.
 
@@ -35,7 +35,7 @@ This checkout includes reconstructed derivatives. See **[progress and validation
 | [Trails & Tales](artwork/13-trails-tales) | 5 | [P22](artwork/13-trails-tales/key-art-full-composition-with-title-2058x1440.png) |
 | [The Wild Update](artwork/14-the-wild-update) | 5 | [P24](artwork/14-the-wild-update/key-art-landscape-without-logo-2560x1440.png) |
 | [Caves & Cliffs Part II](artwork/15-caves-cliffs-part-ii) | 3 | [P29](artwork/15-caves-cliffs-part-ii/key-art-without-title-2560x1440.png) |
-| [Caves & Cliffs Part I](artwork/16-caves-cliffs-part-i) | 3 | [P31](artwork/16-caves-cliffs-part-i/key-art-without-title-2560x1440.png) |
+| [Caves & Cliffs Part I](artwork/16-caves-cliffs-part-i) | 4 | [P31](artwork/16-caves-cliffs-part-i/key-art-without-title-2560x1440.png) |
 | [Nether Update](artwork/17-nether-update) | 2 | [P34](artwork/17-nether-update/key-art-without-title-2560x1440.png) |
 | [Buzzy Bees](artwork/18-buzzy-bees) | 2 | [P36](artwork/18-buzzy-bees/key-art-smaller-alex-2560x1440.png) |
 | [Village & Pillage](artwork/19-village-pillage) | 2 | [P38](artwork/19-village-pillage/key-art-without-logo-2560x1440.png) |

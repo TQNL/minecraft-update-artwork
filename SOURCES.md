@@ -452,6 +452,16 @@ Creator: Mojang Studios.
 
 [Source image](https://minecraft.wiki/images/Caves_%26_Cliffs_logo_2.png?92b5c)
 
+### R30: Clean scene with official Part I title
+
+[2560 × 1440 PNG](reconstructed/16-caves-cliffs-part-i/official-title-composite-2560x1440.png) · Source composite
+
+Creator: Derived from Mojang Studios artwork.
+
+P31 scene with original P30 title and PART I pixels. No AI generation.
+
+Source asset IDs: P30, P31.
+
 ## Nether Update
 
 ### P34: Key art — without title

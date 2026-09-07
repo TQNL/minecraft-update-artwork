@@ -196,10 +196,17 @@
     },
     {
       "update": "Caves & Cliffs Part I",
-      "status": "pending",
+      "status": "complete",
       "requested_work": "reconstruct requested variants",
-      "outputs": [],
-      "validation": []
+      "outputs": [
+        "R30"
+      ],
+      "validation": [
+        "reconstruction/validation/caves-cliffs-part-i.json"
+      ],
+      "limitations": [
+        "Lettering retains P30 source detail."
+      ]
     },
     {
       "update": "Nether Update",

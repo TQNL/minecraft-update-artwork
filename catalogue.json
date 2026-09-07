@@ -938,6 +938,32 @@
       "role": "title-logo"
     },
     {
+      "id": "R30",
+      "title": "Clean scene with official Part I title",
+      "file": "reconstructed/16-caves-cliffs-part-i/official-title-composite-2560x1440.png",
+      "derived_from": [
+        "P30",
+        "P31"
+      ],
+      "classification": "Source composite",
+      "note": "P31 scene with original P30 title and PART I pixels. No AI generation.",
+      "update": "Caves & Cliffs Part I",
+      "width": 2560,
+      "height": 1440,
+      "format": "PNG",
+      "bytes": 2519515,
+      "sha256": "92a63299aeae1bf33c8f8ad54de13459bcc73634ab7d6baee26b2e7bd41de4e3",
+      "pdf_asset_number": null,
+      "origin": "reconstructed",
+      "primary": false,
+      "source_page": null,
+      "source_image": null,
+      "creator": "Derived from Mojang Studios artwork",
+      "role": "key-art",
+      "validation": "reconstruction/validation/caves-cliffs-part-i.json",
+      "preview": ".catalogue/previews/R30.jpg"
+    },
+    {
       "update": "Nether Update",
       "title": "Key art — without title",
       "file": "artwork/17-nether-update/key-art-without-title-2560x1440.png",
