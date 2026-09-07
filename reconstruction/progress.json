@@ -210,10 +210,18 @@
     },
     {
       "update": "Nether Update",
-      "status": "pending",
+      "status": "complete",
       "requested_work": "reconstruct requested variants",
-      "outputs": [],
-      "validation": []
+      "outputs": [
+        "R34"
+      ],
+      "validation": [
+        "reconstruction/validation/nether-update.json"
+      ],
+      "limitations": [
+        "Custom title placement is unofficial.",
+        "The original 388-pixel logo is resampled; no claim of recovered logo detail."
+      ]
     },
     {
       "update": "Buzzy Bees",

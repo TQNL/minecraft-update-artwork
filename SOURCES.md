@@ -484,6 +484,16 @@ Creator: Mojang Studios.
 
 [Source image](https://minecraft.wiki/images/Nether_Update_logo_2.png?e7dc0)
 
+### R34: Custom titled scene
+
+[2560 × 1440 PNG](reconstructed/17-nether-update/custom-title-placement-2560x1440.png) · Custom title placement
+
+Creator: Derived from Mojang Studios artwork.
+
+Unofficial placement of the original update logo on P34. Scene pixels unchanged outside the title.
+
+Source asset IDs: P34, P35.
+
 ## Buzzy Bees
 
 ### P36: Key art — smaller Alex

@@ -1006,6 +1006,32 @@
       "role": "title-logo"
     },
     {
+      "id": "R34",
+      "title": "Custom titled scene",
+      "file": "reconstructed/17-nether-update/custom-title-placement-2560x1440.png",
+      "derived_from": [
+        "P34",
+        "P35"
+      ],
+      "classification": "Custom title placement",
+      "note": "Unofficial placement of the original update logo on P34. Scene pixels unchanged outside the title.",
+      "update": "Nether Update",
+      "width": 2560,
+      "height": 1440,
+      "format": "PNG",
+      "bytes": 3454019,
+      "sha256": "12d8509fcd3615dd1b2333dfe3836b27d2d2aafd4786ca5ad86adce89bf16086",
+      "pdf_asset_number": null,
+      "origin": "reconstructed",
+      "primary": false,
+      "source_page": null,
+      "source_image": null,
+      "creator": "Derived from Mojang Studios artwork",
+      "role": "key-art",
+      "validation": "reconstruction/validation/nether-update.json",
+      "preview": ".catalogue/previews/R34.jpg"
+    },
+    {
       "update": "Buzzy Bees",
       "title": "Key art — smaller Alex",
       "file": "artwork/18-buzzy-bees/key-art-smaller-alex-2560x1440.png",

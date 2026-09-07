@@ -1,0 +1,30 @@
+{
+  "method": "Original transparent P35 title resampled and centred in the unoccupied ceiling of P34.",
+  "no_ai_generation": true,
+  "title_box_xywh": [
+    900,
+    108,
+    760,
+    215
+  ],
+  "title_width_fraction": 0.296875,
+  "changed_bounds": [
+    900,
+    108,
+    1660,
+    323
+  ],
+  "all_other_pixels_unchanged": true,
+  "visual_review": [
+    "Full composition and title checked; exact lettering retained and no characters, portal or lava columns obscured."
+  ],
+  "custom_unofficial_title_placement": true,
+  "source_collection_unchanged": true,
+  "outputs": [
+    {
+      "id": "R34",
+      "file": "reconstructed/17-nether-update/custom-title-placement-2560x1440.png",
+      "sha256": "12d8509fcd3615dd1b2333dfe3836b27d2d2aafd4786ca5ad86adce89bf16086"
+    }
+  ]
+}
