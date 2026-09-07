@@ -296,10 +296,15 @@
     },
     {
       "update": "Frostburn Update",
-      "status": "pending",
+      "status": "complete_no_change",
       "requested_work": "retain source artwork",
       "outputs": [],
-      "validation": []
+      "validation": [
+        "reconstruction/validation/frostburn-update.json"
+      ],
+      "limitations": [
+        "Only a 1280 x 720 scene is collected; the separate fan title does not supply additional scene detail."
+      ]
     },
     {
       "update": "Combat Update",
