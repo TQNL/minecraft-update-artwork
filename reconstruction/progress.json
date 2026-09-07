@@ -239,10 +239,17 @@
     },
     {
       "update": "Village & Pillage",
-      "status": "pending",
+      "status": "complete",
       "requested_work": "reconstruct requested variants",
-      "outputs": [],
-      "validation": []
+      "outputs": [
+        "R38"
+      ],
+      "validation": [
+        "reconstruction/validation/village-pillage.json"
+      ],
+      "limitations": [
+        "Derived composition combines official scene and lettering; this exact combination is not an original official release."
+      ]
     },
     {
       "update": "Update Aquatic",

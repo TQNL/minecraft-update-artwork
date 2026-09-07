@@ -1142,6 +1142,32 @@
       "role": "key-art"
     },
     {
+      "id": "R38",
+      "title": "Clean scene with reference title placement",
+      "file": "reconstructed/19-village-pillage/clean-scene-with-reference-title-placement-2560x1440.png",
+      "derived_from": [
+        "P38",
+        "P39"
+      ],
+      "classification": "Source composite",
+      "note": "P38 scene with original P39 lettering at matching normalized coordinates. Derived composition; scene layout remains P38.",
+      "update": "Village & Pillage",
+      "width": 2560,
+      "height": 1440,
+      "format": "PNG",
+      "bytes": 2866268,
+      "sha256": "2cdd0bd97d440781635926ea891267f4c61494e3c5a4fa9b0d346ebf62b2c4e8",
+      "pdf_asset_number": null,
+      "origin": "reconstructed",
+      "primary": false,
+      "source_page": null,
+      "source_image": null,
+      "creator": "Derived from Mojang Studios artwork",
+      "role": "key-art",
+      "validation": "reconstruction/validation/village-pillage.json",
+      "preview": ".catalogue/previews/R38.jpg"
+    },
+    {
       "update": "Update Aquatic",
       "title": "Key art — wide banner with logo",
       "file": "artwork/20-update-aquatic/key-art-wide-banner-with-logo-1500x500.jpg",

@@ -548,6 +548,16 @@ Creator: Mojang Studios.
 
 [Source image](https://minecraft.wiki/images/Village_%26_Pillage_art.jpg?f04d9)
 
+### R38: Clean scene with reference title placement
+
+[2560 × 1440 PNG](reconstructed/19-village-pillage/clean-scene-with-reference-title-placement-2560x1440.png) · Source composite
+
+Creator: Derived from Mojang Studios artwork.
+
+P38 scene with original P39 lettering at matching normalized coordinates. Derived composition; scene layout remains P38.
+
+Source asset IDs: P38, P39.
+
 ## Update Aquatic
 
 ### P40: Key art — wide banner with logo

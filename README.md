@@ -4,7 +4,7 @@ A visual archive of Minecraft update artwork, from **Wilderness Bound** to the *
 
 ![Wilderness Bound key art](.catalogue/previews/01.jpg)
 
-**62 images · 26 updates**
+**63 images · 26 updates**
 
 Open **[index.html](index.html)** for the searchable offline gallery. Primary labels identify the archive's preferred source scene; they do not assert an official publisher ranking.
 
@@ -38,7 +38,7 @@ This checkout includes reconstructed derivatives. See **[progress and validation
 | [Caves & Cliffs Part I](artwork/16-caves-cliffs-part-i) | 4 | [P31](artwork/16-caves-cliffs-part-i/key-art-without-title-2560x1440.png) |
 | [Nether Update](artwork/17-nether-update) | 3 | [P34](artwork/17-nether-update/key-art-without-title-2560x1440.png) |
 | [Buzzy Bees](artwork/18-buzzy-bees) | 3 | [P36](artwork/18-buzzy-bees/key-art-smaller-alex-2560x1440.png) |
-| [Village & Pillage](artwork/19-village-pillage) | 2 | [P38](artwork/19-village-pillage/key-art-without-logo-2560x1440.png) |
+| [Village & Pillage](artwork/19-village-pillage) | 3 | [P38](artwork/19-village-pillage/key-art-without-logo-2560x1440.png) |
 | [Update Aquatic](artwork/20-update-aquatic) | 2 | [P41](artwork/20-update-aquatic/key-art-landscape-without-logo-2560x1440.png) |
 | [World of Color Update](artwork/21-world-of-color-update) | 2 | [P42](artwork/21-world-of-color-update/key-art-without-logo-2560x1440.png) |
 | [Exploration Update](artwork/22-exploration-update) | 2 | [P45](artwork/22-exploration-update/key-art-full-original-8001x3391.jpg) |
