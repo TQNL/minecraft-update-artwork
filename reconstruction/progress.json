@@ -109,10 +109,20 @@
     },
     {
       "update": "Tricky Trials",
-      "status": "pending",
+      "status": "complete",
       "requested_work": "reconstruct requested variants",
-      "outputs": [],
-      "validation": []
+      "outputs": [
+        "R17",
+        "R16"
+      ],
+      "validation": [
+        "reconstruction/validation/tricky-trials.json"
+      ],
+      "limitations": [
+        "Corner masonry is inferred, with approximate fine patterns.",
+        "P16 lettering and side strips retain lower source detail.",
+        "The enhanced foreground Breeze contains synthesized detail."
+      ]
     },
     {
       "update": "Armored Paws",

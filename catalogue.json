@@ -484,6 +484,58 @@
       "role": "key-art"
     },
     {
+      "id": "R17",
+      "title": "Expanded clean scene",
+      "file": "reconstructed/10-tricky-trials/expanded-clean-scene-2198x1440.png",
+      "derived_from": [
+        "P16",
+        "P17"
+      ],
+      "note": "P17 base with P16 side information. Small corner fills and source joins reconstructed.",
+      "update": "Tricky Trials",
+      "width": 2198,
+      "height": 1440,
+      "format": "PNG",
+      "bytes": 3755837,
+      "sha256": "b65805dffa28f72eec29bc4412ac07194ff3f5dfab10775439a289519035f194",
+      "pdf_asset_number": null,
+      "origin": "reconstructed",
+      "primary": false,
+      "source_page": null,
+      "source_image": null,
+      "creator": "Derived from Mojang Studios artwork",
+      "role": "key-art",
+      "validation": "reconstruction/validation/tricky-trials.json",
+      "classification": "AI reconstruction",
+      "preview": ".catalogue/previews/R17.jpg"
+    },
+    {
+      "id": "R16",
+      "title": "Titled scene with alternate Breeze placement",
+      "file": "reconstructed/10-tricky-trials/titled-breeze-variant-2196x1235.png",
+      "derived_from": [
+        "P16",
+        "P17"
+      ],
+      "note": "P17 base with P16 side information. Original P16 lettering retained; alternate foreground Breeze enhanced in a restricted region. Widescreen P16 framing retained.",
+      "update": "Tricky Trials",
+      "width": 2196,
+      "height": 1235,
+      "format": "PNG",
+      "bytes": 3506520,
+      "sha256": "5def78d2b5c379eaac5d7a6da74b0fee5f7692eb9ee6cd7bd386937d745ed9cb",
+      "pdf_asset_number": null,
+      "origin": "reconstructed",
+      "primary": false,
+      "source_page": null,
+      "source_image": null,
+      "creator": "Derived from Mojang Studios artwork",
+      "role": "key-art",
+      "validation": "reconstruction/validation/tricky-trials.json",
+      "classification": "AI reconstruction",
+      "preview": ".catalogue/previews/R16.jpg"
+    },
+    {
       "update": "Armored Paws",
       "title": "Badlands trailer artwork",
       "file": "artwork/11-armored-paws/badlands-trailer-artwork-1170x500.jpg",

@@ -238,6 +238,26 @@ Creator: Mojang Studios.
 
 [Source image](https://minecraft.wiki/images/Tricky_Trials_Key_Art_With_Release_Date.jpg?1443c)
 
+### R17: Expanded clean scene
+
+[2198 × 1440 PNG](reconstructed/10-tricky-trials/expanded-clean-scene-2198x1440.png) · AI reconstruction
+
+Creator: Derived from Mojang Studios artwork.
+
+P17 base with P16 side information. Small corner fills and source joins reconstructed.
+
+Source asset IDs: P16, P17.
+
+### R16: Titled scene with alternate Breeze placement
+
+[2196 × 1235 PNG](reconstructed/10-tricky-trials/titled-breeze-variant-2196x1235.png) · AI reconstruction
+
+Creator: Derived from Mojang Studios artwork.
+
+P17 base with P16 side information. Original P16 lettering retained; alternate foreground Breeze enhanced in a restricted region. Widescreen P16 framing retained.
+
+Source asset IDs: P16, P17.
+
 ## Armored Paws
 
 ### P19: Badlands trailer artwork

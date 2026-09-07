@@ -1,0 +1,3 @@
+Use case: precise-object-edit.
+Image 1 is the edit target: the compressed Tricky Trials foreground Breeze variant. Image 2 is a sharper quality reference only, with a slightly different position.
+Improve image 1 to match the crisp block edges, smooth surfaces and clean translucent wind ribbons of image 2. Preserve image 1's exact Breeze position, scale, face, pose, wind spiral shape and background masonry geometry. Remove JPEG blocking and ringing without changing object design or moving anything. Do not adopt the different position in image 2. No new features or text. Keep the full framing of image 1.

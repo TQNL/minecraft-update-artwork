@@ -4,7 +4,7 @@ A visual archive of Minecraft update artwork, from **Wilderness Bound** to the *
 
 ![Wilderness Bound key art](.catalogue/previews/01.jpg)
 
-**52 images · 26 updates**
+**54 images · 26 updates**
 
 Open **[index.html](index.html)** for the searchable offline gallery. Primary labels identify the archive's preferred source scene; they do not assert an official publisher ranking.
 
@@ -29,7 +29,7 @@ This checkout includes reconstructed derivatives. See **[progress and validation
 | [Spring to Life](artwork/07-spring-to-life) | 3 | [P12](artwork/07-spring-to-life/key-art-square-variant-2048x2048.png) |
 | [The Garden Awakens](artwork/08-the-garden-awakens) | 1 | [P13](artwork/08-the-garden-awakens/key-art-landscape-2560x1440.png) |
 | [Bundles of Bravery](artwork/09-bundles-of-bravery) | 2 | [P14](artwork/09-bundles-of-bravery/key-art-with-minecraft-logo-2560x1440.png) |
-| [Tricky Trials](artwork/10-tricky-trials) | 3 | [P17](artwork/10-tricky-trials/key-art-full-composition-without-title-2058x1440.png) |
+| [Tricky Trials](artwork/10-tricky-trials) | 5 | [P17](artwork/10-tricky-trials/key-art-full-composition-without-title-2058x1440.png) |
 | [Armored Paws](artwork/11-armored-paws) | 1 | [P19](artwork/11-armored-paws/badlands-trailer-artwork-1170x500.jpg) |
 | [Bats and Pots](artwork/12-bats-and-pots) | 1 | [P20](artwork/12-bats-and-pots/bats-and-pots-release-banner-1170x500.jpg) |
 | [Trails & Tales](artwork/13-trails-tales) | 3 | [P22](artwork/13-trails-tales/key-art-full-composition-with-title-2058x1440.png) |
