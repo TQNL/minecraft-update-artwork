@@ -14,7 +14,7 @@ The default branch contains collected source artwork. The **[ai-reconstruction b
 
 **[Reconstruction guide](RECONSTRUCTION.md)** · **[Stable PDF asset mapping](ASSET-MAP.md)** · **[Sources](SOURCES.md)** · **[Catalogue](catalogue.json)** · **[Credits](CREDITS.md)**
 
-This checkout includes reconstructed derivatives. See **[progress and validation](reconstruction/progress.json)** for completed work and limitations.
+This checkout includes 20 reconstructed derivatives. See **[results, quality limits and excluded files](reconstruction/RESULTS.md)** and **[progress and validation](reconstruction/progress.json)**.
 
 ## Browse the collection
 

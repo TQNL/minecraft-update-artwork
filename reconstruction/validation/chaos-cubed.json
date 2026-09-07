@@ -37,5 +37,13 @@
     "Full composition inspected; original characters, blocks and lettering retained.",
     "Before/after repair crop inspected; badge and caption absent, no visible doubled objects or patch border."
   ],
-  "output_sha256": "7a291ea7046352a1cdd38867ce1097bc7c32de53338777aafefd622e39d50706"
+  "output_sha256": "7a291ea7046352a1cdd38867ce1097bc7c32de53338777aafefd622e39d50706",
+  "source_collection_unchanged": true,
+  "outputs": [
+    {
+      "id": "R03",
+      "file": "reconstructed/02-chaos-cubed/expanded-composition-rating-removed-2560x1440.png",
+      "sha256": "7a291ea7046352a1cdd38867ce1097bc7c32de53338777aafefd622e39d50706"
+    }
+  ]
 }

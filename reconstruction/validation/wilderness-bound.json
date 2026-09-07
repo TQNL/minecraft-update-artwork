@@ -1,0 +1,8 @@
+{
+  "source_ids": [
+    "P01"
+  ],
+  "decision": "Retain the single original scene; no reconstruction requested.",
+  "source_collection_unchanged": true,
+  "outputs": []
+}

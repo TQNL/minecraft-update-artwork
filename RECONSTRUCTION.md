@@ -18,7 +18,7 @@ Source artwork stays separate from reconstructions. Derivative entries identify 
 
 Work proceeds newest to oldest, one update at a time. Direct registration and source pixels are preferred wherever they suffice. AI edits are restricted to the requested reconstruction or enhancement. Every result is checked at full view and in detail for seams, duplicated subjects, distorted geometry, changed lettering and lost content.
 
-Completed work and validation will be recorded on the reconstruction branch. Unfinished items must remain explicitly pending.
+All 24 families through Combat Update have been assessed, producing 20 derived images. See the [results and quality limits](reconstruction/RESULTS.md).
 
 ## Current work
 

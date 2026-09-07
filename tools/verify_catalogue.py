@@ -26,9 +26,9 @@ def verify():
     assert page.count('<article ')==len(assets)
     for target in re.findall(r'(?:href|src)="([^"]+)"',page):
         if not target.startswith(('http:','https:','#')):assert (ROOT/unquote(target)).is_file(),target
-    for p in [ROOT/'README.md',ROOT/'SOURCES.md',ROOT/'ASSET-MAP.md',ROOT/'RECONSTRUCTION.md']:
+    for p in [ROOT/'README.md',ROOT/'SOURCES.md',ROOT/'ASSET-MAP.md',ROOT/'RECONSTRUCTION.md',*list((ROOT/'reconstruction').glob('*.md'))]:
         for target in re.findall(r'\]\(([^)]+)\)',p.read_text(encoding='utf-8')):
-            if not target.startswith(('http:','https:','#')):assert (ROOT/unquote(target)).exists(),(p,target)
+            if not target.startswith(('http:','https:','#')):assert (p.parent/unquote(target)).exists(),(p,target)
     print(json.dumps({'assets':len(assets),'hashes_dimensions_links':'verified','derived':sum(a.get('origin')=='reconstructed' for a in assets)}))
 
 if __name__=='__main__':verify()

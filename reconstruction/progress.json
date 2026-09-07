@@ -9,7 +9,7 @@
       "requested_work": "retain source artwork",
       "outputs": [],
       "validation": [
-        "P01 source hash verified; one source scene and no requested derivative."
+        "reconstruction/validation/wilderness-bound.json"
       ]
     },
     {
@@ -322,5 +322,7 @@
         "Fine edges in buildings and wings are inferred; the original remains available for strict source fidelity."
       ]
     }
-  ]
+  ],
+  "status": "complete_with_documented_quality_limits",
+  "completed": "2026-09-08"
 }

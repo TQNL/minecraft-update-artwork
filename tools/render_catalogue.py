@@ -48,7 +48,7 @@ The default branch contains collected source artwork. The **[ai-reconstruction b
 
 This is an independent archive. Artwork and trademarks belong to their respective creators; inclusion does not grant a new licence.
 '''
-    if reconstruction:readme=readme.replace('## Browse the collection','This checkout includes reconstructed derivatives. See **[progress and validation](reconstruction/progress.json)** for completed work and limitations.\n\n## Browse the collection')
+    if reconstruction:readme=readme.replace('## Browse the collection','This checkout includes 20 reconstructed derivatives. See **[results, quality limits and excluded files](reconstruction/RESULTS.md)** and **[progress and validation](reconstruction/progress.json)**.\n\n## Browse the collection')
     (ROOT/'README.md').write_text(readme,encoding='utf-8')
     source='# Sources and resolution notes\n\nSource references and stored dimensions are recorded below. Older attribution gaps remain explicit. Promotional panoramas are separate from key-art scenes.\n\nDirect wallpaper ZIPs for six recent updates were unavailable during collection; they may contain additional variants.\n\n'
     kinds=list(dict.fromkeys(a['classification'] for a in assets))
