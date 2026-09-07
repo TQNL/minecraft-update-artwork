@@ -849,6 +849,32 @@
       "role": "key-art"
     },
     {
+      "id": "R28",
+      "title": "Clean scene with official Part II title",
+      "file": "reconstructed/15-caves-cliffs-part-ii/official-title-composite-2560x1440.png",
+      "derived_from": [
+        "P28",
+        "P29"
+      ],
+      "classification": "Source composite",
+      "note": "P29 scene with original P28 title and PART II pixels. No AI generation.",
+      "update": "Caves & Cliffs Part II",
+      "width": 2560,
+      "height": 1440,
+      "format": "PNG",
+      "bytes": 4040909,
+      "sha256": "7b133723e4c020232c36064e7d76dd0aad4070f654ef1f6392619356cd7d774c",
+      "pdf_asset_number": null,
+      "origin": "reconstructed",
+      "primary": false,
+      "source_page": null,
+      "source_image": null,
+      "creator": "Derived from Mojang Studios artwork",
+      "role": "key-art",
+      "validation": "reconstruction/validation/caves-cliffs-part-ii.json",
+      "preview": ".catalogue/previews/R28.jpg"
+    },
+    {
       "update": "Caves & Cliffs Part I",
       "title": "Key art — with title and Part I",
       "file": "artwork/16-caves-cliffs-part-i/key-art-with-title-and-part-i-1280x720.png",

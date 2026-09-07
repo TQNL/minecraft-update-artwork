@@ -182,10 +182,17 @@
     },
     {
       "update": "Caves & Cliffs Part II",
-      "status": "pending",
+      "status": "complete",
       "requested_work": "reconstruct requested variants",
-      "outputs": [],
-      "validation": []
+      "outputs": [
+        "R28"
+      ],
+      "validation": [
+        "reconstruction/validation/caves-cliffs-part-ii.json"
+      ],
+      "limitations": [
+        "Lettering retains P28 source detail."
+      ]
     },
     {
       "update": "Caves & Cliffs Part I",

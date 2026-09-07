@@ -410,6 +410,16 @@ Creator: Mojang Studios.
 
 [Source image](https://minecraft.wiki/images/Caves_%26_Cliffs_Part_II.png?fb5d5)
 
+### R28: Clean scene with official Part II title
+
+[2560 × 1440 PNG](reconstructed/15-caves-cliffs-part-ii/official-title-composite-2560x1440.png) · Source composite
+
+Creator: Derived from Mojang Studios artwork.
+
+P29 scene with original P28 title and PART II pixels. No AI generation.
+
+Source asset IDs: P28, P29.
+
 ## Caves & Cliffs Part I
 
 ### P30: Key art — with title and Part I
