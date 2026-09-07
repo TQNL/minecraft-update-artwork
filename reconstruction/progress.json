@@ -271,10 +271,13 @@
     },
     {
       "update": "World of Color Update",
-      "status": "pending",
+      "status": "complete_no_change",
       "requested_work": "retain source artwork",
       "outputs": [],
-      "validation": []
+      "validation": [
+        "reconstruction/validation/world-of-color.json"
+      ],
+      "limitations": []
     },
     {
       "update": "Exploration Update",
