@@ -692,6 +692,16 @@ Creator: Mojang Studios.
 
 [Source image](https://minecraft.wiki/images/Combat_Update.png?f362f)
 
+### R49: Combat Update - AI-enhanced and resampled 5K
+
+[5120 × 2880 PNG](reconstructed/24-combat-update/combat-enhanced-and-resampled-5120x2880.png) · AI enhancement and resampling
+
+Creator: Derived from Mojang Studios artwork.
+
+5120 x 2880 derivative from the 1280 x 720 source. AI working resolution was 1672 x 941, followed by registration and Lanczos resampling. Original lettering, facial designs and small Enderman restored. Not native 5K artwork; generated edge detail is inferred.
+
+Source asset IDs: P49.
+
 ## Bountiful Update
 
 ### P50: Fan-made title logo

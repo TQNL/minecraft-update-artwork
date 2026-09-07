@@ -1465,6 +1465,31 @@
       "role": "key-art"
     },
     {
+      "id": "R49",
+      "title": "Combat Update - AI-enhanced and resampled 5K",
+      "file": "reconstructed/24-combat-update/combat-enhanced-and-resampled-5120x2880.png",
+      "derived_from": [
+        "P49"
+      ],
+      "classification": "AI enhancement and resampling",
+      "note": "5120 x 2880 derivative from the 1280 x 720 source. AI working resolution was 1672 x 941, followed by registration and Lanczos resampling. Original lettering, facial designs and small Enderman restored. Not native 5K artwork; generated edge detail is inferred.",
+      "update": "Combat Update",
+      "width": 5120,
+      "height": 2880,
+      "format": "PNG",
+      "bytes": 7602944,
+      "sha256": "afe7634e509d99f91c98749d546e528cfe3d172001f6fcad7a862797a73391f3",
+      "pdf_asset_number": null,
+      "origin": "reconstructed",
+      "primary": false,
+      "source_page": null,
+      "source_image": null,
+      "creator": "Derived from Mojang Studios artwork",
+      "role": "key-art",
+      "validation": "reconstruction/validation/combat-update.json",
+      "preview": ".catalogue/previews/R49.jpg"
+    },
+    {
       "update": "Bountiful Update",
       "title": "Fan-made title logo",
       "file": "artwork/25-bountiful-update/fan-made-title-logo-1920x1080.png",

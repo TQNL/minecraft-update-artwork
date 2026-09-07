@@ -308,10 +308,19 @@
     },
     {
       "update": "Combat Update",
-      "status": "pending",
+      "status": "complete",
       "requested_work": "reconstruct requested variants",
-      "outputs": [],
-      "validation": []
+      "outputs": [
+        "R49"
+      ],
+      "validation": [
+        "reconstruction/validation/combat-update.json"
+      ],
+      "limitations": [
+        "This is an AI-enhanced and resampled derivative, not native 5K source artwork.",
+        "AI working resolution is only 1672 x 941; the final 5K dimensions do not demonstrate recovered original detail.",
+        "Fine edges in buildings and wings are inferred; the original remains available for strict source fidelity."
+      ]
     }
   ]
 }
