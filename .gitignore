@@ -1,0 +1,13 @@
+# Private working material and local exports
+_Inventory/
+private/
+local/
+*.ppt
+*.pptx
+*.zip
+*.log
+.env
+.env.*
+Thumbs.db
+Desktop.ini
+.DS_Store
