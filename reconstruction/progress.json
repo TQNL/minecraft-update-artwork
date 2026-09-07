@@ -89,10 +89,13 @@
     },
     {
       "update": "The Garden Awakens",
-      "status": "pending",
+      "status": "complete_no_change",
       "requested_work": "retain source artwork",
       "outputs": [],
-      "validation": []
+      "validation": [
+        "reconstruction/validation/garden-awakens.json"
+      ],
+      "limitations": []
     },
     {
       "update": "Bundles of Bravery",
