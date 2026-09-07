@@ -253,10 +253,21 @@
     },
     {
       "update": "Update Aquatic",
-      "status": "pending",
+      "status": "complete",
       "requested_work": "reconstruct requested variants",
-      "outputs": [],
-      "validation": []
+      "outputs": [
+        "R40A",
+        "R40B",
+        "R41"
+      ],
+      "validation": [
+        "reconstruction/validation/update-aquatic.json"
+      ],
+      "limitations": [
+        "Outer P40 reefs and bubble particles retain the smaller source detail and may look softer than the P41 centre.",
+        "Water behind the clipped title fragment is synthesized.",
+        "Title placements are custom and unofficial; lettering retains its source resolution."
+      ]
     },
     {
       "update": "World of Color Update",

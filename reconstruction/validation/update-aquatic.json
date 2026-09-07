@@ -1,0 +1,59 @@
+{
+  "source_ids": [
+    "P40",
+    "P41"
+  ],
+  "method": "P41 native scene centre with aligned P40 outer reefs. Restricted AI patch removes the leftover title fragment; original P40 logo used for two labelled title placements.",
+  "canvas": [
+    4320,
+    1440
+  ],
+  "source_base_offset": [
+    880,
+    0
+  ],
+  "source_join_blend_pixels": 40,
+  "title_fragment_patch_crop": [
+    650,
+    140,
+    1020,
+    550
+  ],
+  "banner_title_box": [
+    180,
+    70,
+    740,
+    216
+  ],
+  "custom_scene_title_box": [
+    1760,
+    60,
+    700,
+    204
+  ],
+  "character_choice": "All P41 central subjects retained; P40 outer fish and reefs retained where outside the P41 frame.",
+  "custom_title_placements_unofficial": true,
+  "visual_review": [
+    "Full banner and custom titled scene inspected: one instance of each P41 main subject, correct lettering.",
+    "Title removal region and both source joins inspected.",
+    "Title placements avoid the turtles, dolphins and central characters."
+  ],
+  "source_collection_unchanged": true,
+  "outputs": [
+    {
+      "id": "R40A",
+      "file": "reconstructed/20-update-aquatic/expanded-banner-no-title-4320x1440.png",
+      "sha256": "8840659687c7bf84416bc2e85d66a1b1463d78295da4353942d3c5aa66c45dd1"
+    },
+    {
+      "id": "R40B",
+      "file": "reconstructed/20-update-aquatic/expanded-banner-with-title-4320x1440.png",
+      "sha256": "f0d9e82bfe1f9f114762682ab7677e899b8f211d4b1e948f472cb285dd2d1143"
+    },
+    {
+      "id": "R41",
+      "file": "reconstructed/20-update-aquatic/custom-titled-scene-2560x1440.png",
+      "sha256": "655deec30d480941a8c46894430415d6543725ee07f19a65f3694d05a9b5973d"
+    }
+  ]
+}

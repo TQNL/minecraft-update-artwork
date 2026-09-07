@@ -580,6 +580,36 @@ Creator: Mojang Studios.
 
 [Source image](https://minecraft.wiki/images/Update_Aquatic.png?1df60)
 
+### R40A: Expanded banner without title
+
+[4320 × 1440 PNG](reconstructed/20-update-aquatic/expanded-banner-no-title-4320x1440.png) · AI reconstruction
+
+Creator: Derived from Mojang Studios artwork.
+
+P41 centre with P40 outer reefs. A small AI water patch removes a clipped title fragment. Untitled derived composition.
+
+Source asset IDs: P40, P41.
+
+### R40B: Expanded banner with custom title placement
+
+[4320 × 1440 PNG](reconstructed/20-update-aquatic/expanded-banner-with-title-4320x1440.png) · AI reconstruction and custom title placement
+
+Creator: Derived from Mojang Studios artwork.
+
+P41 centre with P40 outer reefs. A small AI water patch removes a clipped title fragment. Title placement is custom and unofficial.
+
+Source asset IDs: P40, P41.
+
+### R41: Clean scene with custom title placement
+
+[2560 × 1440 PNG](reconstructed/20-update-aquatic/custom-titled-scene-2560x1440.png) · Custom title placement
+
+Creator: Derived from Mojang Studios artwork.
+
+P41 scene pixels retained beneath a resampled original logo. Title placement is custom and unofficial.
+
+Source asset IDs: P40, P41.
+
 ## World of Color Update
 
 ### P42: Key art — without logo
