@@ -3,7 +3,7 @@ from pathlib import Path
 from urllib.parse import quote
 import html,json
 ROOT=Path(__file__).resolve().parents[1]
-BRANCH='https://github.com/TQNL/minecraft-update-artwork/tree/ai-reconstruction/'
+BRANCH='https://github.com/TQNL/minecraft-update-artwork/tree/f-quality-review/'
 
 def render():
     data=json.loads((ROOT/'catalogue.json').read_text(encoding='utf-8'))
@@ -13,7 +13,7 @@ def render():
     selected=[a for a in assets if a.get('primary') or a['id'] in preferred|titles]
     groups=list(dict.fromkeys(a['update'] for a in selected));esc=html.escape
     page=['<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Minecraft update key art: primary originals and selected reconstructed variants, newest first."><title>Key Art Showcase · Minecraft Update Artwork</title><link rel="stylesheet" href=".catalogue/style.css"><link rel="stylesheet" href=".catalogue/showcase.css"></head><body>',
-    '<header><p class="eyebrow">THE KEY ART SELECTION</p><h1>Originals &amp;<br>preferred variants<span>.</span></h1><p class="intro">The primary source for each update, alongside selected reconstructed and custom versions.</p>',
+    '<header><p class="eyebrow">F-STAGE QUALITY BRANCH</p><h1>Originals &amp;<br>preferred variants<span>.</span></h1><p class="intro">The primary source for each update, alongside selected reconstructed and custom versions.</p>',
     f'<p class="stats">{sum(bool(a.get("primary")) for a in selected)} primary sources <span>/</span> {len(preferred)} preferred variants</p>',
     '<nav aria-label="Gallery navigation"><a href="showcase.html" aria-current="page">Key art showcase</a><a href="index.html">Complete gallery</a><a href="'+BRANCH+'reconstruction/RESULTS.md">Methods &amp; quality notes</a><a href="'+BRANCH+'">Repository</a></nav>',
     '<p class="selection-note">Browse newest first. Original files remain available beside every added version. “Preferred” identifies the variants selected for this gallery, not an official publisher ranking. Two older title-only references follow the scene artwork.</p>',
@@ -34,7 +34,7 @@ def render():
             page.append(f'<div class="links"><a href="{file}">View full size ↗</a><a href="{file}" download>Download ↓</a></div></div></article>')
         page.append('</div></section>')
     page.append('<p id="empty" hidden>No artwork matches. Try another update or clear the filters.</p></main><footer>Independent archive · Artwork belongs to its respective creators · Added variants are clearly labelled; enlarged dimensions do not establish native detail. <a href="index.html">Browse every version</a></footer><script src=".catalogue/filter.js"></script></body></html>')
-    markup='\n'.join(page).replace('</nav>','<a href="'+BRANCH+'reconstruction/quality-review/README.md">Quality review &amp; scores</a></nav>',1)
+    markup='\n'.join(page).replace('</nav>', '<a href="review.html">F-stage before/after review</a></nav>', 1).replace('</nav>','<a href="'+BRANCH+'reconstruction/quality-review/README.md">Historical critic records</a></nav>',1)
     (ROOT/'showcase.html').write_text(markup,encoding='utf-8')
     print(json.dumps({'showcase_images':len(selected),'preferred_variants':len(preferred),'update_groups':len(groups)}))
 

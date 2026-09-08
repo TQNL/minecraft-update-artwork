@@ -26,11 +26,9 @@
         "The wall behind the ratings badge is synthesized; no uncovered original is available."
       ],
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R03": 9
-        }
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
       }
     },
     {
@@ -49,12 +47,9 @@
         "Added sides retain the detail limit of the smaller JPEG source."
       ],
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R05": 8.8,
-          "R04": 8.8
-        }
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
       }
     },
     {
@@ -102,11 +97,9 @@
         "Landscape sides retain their source compression and are resampled to the square image scale."
       ],
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R12": 8.7
-        }
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
       }
     },
     {
@@ -145,12 +138,9 @@
         "Small missing corner fills and narrow blend regions remain inferred."
       ],
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R17": 8.6,
-          "R16": 8.4
-        }
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
       }
     },
     {
@@ -193,12 +183,9 @@
         "R23 now uses source geometry with bounded sharpening and a 66-pixel-wide localized AI separator repair; source softness remains and hidden separator detail is inferred."
       ],
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R21": 9.2,
-          "R23": 8.5
-        }
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
       }
     },
     {
@@ -217,12 +204,9 @@
         "P25 title pixels retain the original 1920-pixel-wide source detail."
       ],
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R25": 9.1,
-          "R26": 9.1
-        }
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
       }
     },
     {
@@ -239,11 +223,9 @@
         "Main logo uses the larger official P32 source; PART II retains P28 detail."
       ],
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R28": 9
-        }
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
       }
     },
     {
@@ -260,11 +242,9 @@
         "Main logo uses the larger official P32 source; PART I retains P30 detail."
       ],
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R30": 9
-        }
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
       }
     },
     {
@@ -282,11 +262,9 @@
         "Fine lettering texture is inferred by local AI restoration of the small original logo."
       ],
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R34": 8.6
-        }
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
       }
     },
     {
@@ -303,11 +281,9 @@
         "Alex enhancement contains synthesized edge and surface detail."
       ],
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R37": 8.8
-        }
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
       }
     },
     {
@@ -324,11 +300,9 @@
         "Derived composition combines official scene and lettering; this exact combination is not an original official release."
       ],
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R38": 9.1
-        }
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
       }
     },
     {
@@ -344,17 +318,13 @@
         "reconstruction/validation/update-aquatic.json"
       ],
       "limitations": [
-        "Original coral, kelp and sand shapes retain the smaller source resolution in outer regions.",
-        "Water and bubble detail remains locally AI-restored. Title placements remain custom and unofficial, with inferred fine lettering detail."
+        "Expanded variants start from F and retain its mixed source resolution and source-specific bubble styles.",
+        "The small older AI title-removal water fill and custom title treatment are inherited. No new generation or geometry masks in this round."
       ],
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R40A": 8.1,
-          "R40B": 8.1,
-          "R41": 8.7
-        }
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
       }
     },
     {
@@ -382,11 +352,9 @@
         "The wall behind the relocated Vex is locally reconstructed; fine concealed geometry cannot be confirmed from the sources."
       ],
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R52": 8.5
-        }
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
       }
     },
     {
@@ -416,11 +384,9 @@
         "Source geometry is preserved with bounded sharpening; native-size softness remains because original detail is limited."
       ],
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R49": 8.8
-        }
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
       }
     }
   ],

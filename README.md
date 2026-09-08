@@ -6,17 +6,17 @@ A visual archive of Minecraft update artwork, from **Wilderness Bound** to the *
 
 **68 images · 26 updates**
 
-Browse online: **[Key art showcase](https://tqnl.github.io/minecraft-update-artwork/showcase.html)** · **[Complete gallery](https://tqnl.github.io/minecraft-update-artwork/index.html)**. No download is needed. You can also open [showcase.html](showcase.html) or [index.html](index.html) locally. Primary labels identify the archive's preferred source scene; they do not assert an official publisher ranking.
+Browse online: **[Key art showcase](https://tqnl.github.io/minecraft-update-artwork/f-quality/showcase.html)** · **[Complete gallery](https://tqnl.github.io/minecraft-update-artwork/f-quality/index.html)**. No download is needed. You can also open [showcase.html](showcase.html) or [index.html](index.html) locally. Primary labels identify the archive's preferred source scene; they do not assert an official publisher ranking.
 
 ## Source collection and reconstructions
 
-The default branch contains collected source artwork. The **[ai-reconstruction branch](https://github.com/TQNL/minecraft-update-artwork/tree/ai-reconstruction)** contains separately labelled reconstructions, enhancements and custom title treatments. Source files remain alongside derivatives except for the documented collection removals and replacements.
+The default branch contains collected source artwork. This **[f-quality-review branch](https://github.com/TQNL/minecraft-update-artwork/tree/f-quality-review)** contains separately labelled reconstructions, enhancements and custom title treatments. Source files remain alongside derivatives except for the documented collection removals and replacements.
 
 **[Reconstruction guide](RECONSTRUCTION.md)** · **[Stable PDF asset mapping](ASSET-MAP.md)** · **[Sources](SOURCES.md)** · **[Catalogue](catalogue.json)** · **[Credits](CREDITS.md)**
 
 The update folders follow the default branch layout. Added images sit beside their source images in `artwork/`; each affected folder has a short README explaining its additions. See **[results, quality limits and excluded files](reconstruction/RESULTS.md)** and **[progress and validation](reconstruction/progress.json)**.
 
-**[Latest 20-image quality review and scores](reconstruction/quality-review/README.md)**
+**[F-stage before/after review](https://tqnl.github.io/minecraft-update-artwork/f-quality/review.html) · [Decisions for all 20 outputs](reconstruction/F-QUALITY.md)**
 
 ## Browse the collection
 

@@ -244,7 +244,7 @@ Creator: Mojang Studios.
 
 Creator: Derived from Mojang Studios artwork.
 
-P17 centre with registered P16 side coverage and small synthesized missing corners. Original source masonry and textures replace the broad AI side restoration; smaller-source side detail is retained.
+P17 centre with registered P16 side coverage and small synthesized missing corners. Original source masonry and textures replace the broad AI side restoration; smaller-source side detail is retained. F-quality round: restrained luminance sharpening only in the softer outer source strips, feathered into the native centre.
 
 Source asset IDs: P16, P17.
 
@@ -254,7 +254,7 @@ Source asset IDs: P16, P17.
 
 Creator: Derived from Mojang Studios artwork.
 
-P16 widescreen framing, original lettering and alternate Breeze placement over P17. Registered source pixels restore side-strip masonry and the Breeze-region geometry; small corner fills and narrow transition pixels remain reconstructed.
+P16 widescreen framing, original lettering and alternate Breeze placement over P17. Registered source pixels restore side-strip masonry and the Breeze-region geometry; small corner fills and narrow transition pixels remain reconstructed. F-quality round: restrained luminance sharpening in the outer source strips and restored Breeze region, with soft adjustment boundaries.
 
 Source asset IDs: P16, P17.
 
@@ -332,7 +332,7 @@ Source asset IDs: P21, P22.
 
 Creator: Derived from Mojang Studios artwork.
 
-Original P23 geometry and textures with bounded source sharpening. Only a 66-pixel-wide strip of the earlier AI result remains at the damaged separator, blended to adjacent source gradients. Separator detail is inferred; original source softness remains elsewhere. Kept separate from key art.
+Original P23 geometry and textures with bounded source sharpening. Only a 66-pixel-wide strip of the earlier AI result remains at the damaged separator, blended to adjacent source gradients. Separator detail is inferred; original source softness remains elsewhere. Kept separate from key art. F-quality round: mild luminance sharpening with a noise threshold across the soft source panorama; preserved its repaired separator and existing haze.
 
 Source asset IDs: P23.
 
@@ -586,7 +586,7 @@ Creator: Mojang Studios.
 
 Creator: Derived from Mojang Studios artwork.
 
-Saved F-stage source composite: P40 expanded sides and P41 native centre, with mild source sharpening, adjusted source joins and the earlier small AI water fill that removed clipped lettering. Mixed source resolution and bubble treatments remain visible.
+Saved F-stage source composite: P40 expanded sides and P41 native centre, with mild source sharpening, adjusted source joins and the earlier small AI water fill that removed clipped lettering. Mixed source resolution and bubble treatments remain visible. F-quality round: modest luminance sharpening in enlarged side regions and gently feathered, subpixel-radius smoothing around the two source sharpness transitions. Bubble positions and coral geometry are retained.
 
 Source asset IDs: P40, P41.
 
@@ -596,7 +596,7 @@ Source asset IDs: P40, P41.
 
 Creator: Derived from Mojang Studios artwork.
 
-Saved F-stage source composite: P40 expanded sides and P41 native centre, with mild source sharpening, adjusted source joins and the earlier small AI water fill that removed clipped lettering. Mixed source resolution and bubble treatments remain visible. The existing custom title is overlaid on that exact F scene.
+Saved F-stage source composite: P40 expanded sides and P41 native centre, with mild source sharpening, adjusted source joins and the earlier small AI water fill that removed clipped lettering. Mixed source resolution and bubble treatments remain visible. The existing custom title is overlaid on that exact F scene. F-quality round: same scene changes as R40A; title overlay pixels retained exactly.
 
 Source asset IDs: P40, P41.
 

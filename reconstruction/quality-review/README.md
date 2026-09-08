@@ -2,9 +2,9 @@
 
 # Reconstruction quality review
 
-All **20 current derivatives pass at 8/10 or higher after three independent critic rounds**. The latest round includes a source-geometry correction prompted by AI changes to the Minecraft voxel style. Nine files were corrected in this revision, following the earlier 16-image quality pass. All 48 originals remain unchanged beside the derivatives.
+At the end of the previous branch, all **20 derivatives passed at 8/10 or higher after three independent critic rounds**. Those scores refer to the recorded historical hashes. The latest round includes a source-geometry correction prompted by AI changes to the Minecraft voxel style. Nine files were corrected in this revision, following the earlier 16-image quality pass. All 48 originals remain unchanged beside the derivatives.
 
-[Source geometry comparisons and corrections](source-geometry.md) · [Current hashes](final.json) · [Earlier generation prompts](prompts.md)
+[Source geometry comparisons and corrections](source-geometry.md) · [Historical round-3 hashes](after-round-3.json) · [Earlier generation prompts](prompts.md)
 
 The scores are subjective visual assessments. Original low-resolution regions can remain soft, and retained hidden-corner, water or logo reconstruction is not verified original detail.
 

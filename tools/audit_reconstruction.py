@@ -86,4 +86,10 @@ def audit():
     print(json.dumps(result,indent=2))
     return result
 
-if __name__=='__main__':audit()
+if __name__=='__main__':
+    report=json.loads((ROOT/'reconstruction/quality-review/final.json').read_text())
+    if report.get('review_type')=='non-generative F-stage quality round':
+        from audit_f_quality import audit as audit_current
+        audit_current()
+    else:
+        audit()

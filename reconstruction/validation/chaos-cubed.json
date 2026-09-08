@@ -11,12 +11,9 @@
     }
   ],
   "current_quality_review": {
-    "report": "reconstruction/quality-review/README.md",
-    "data": "reconstruction/quality-review/final.json",
-    "round": 3,
-    "scores": {
-      "R03": 9
-    }
+    "report": "reconstruction/F-QUALITY.md",
+    "status": "review-ready",
+    "branch": "f-quality-review"
   },
   "current_methods": {
     "R03": "The covered wall was reconstructed with a localized AI patch. All pixels outside the repair bounds are identical to P03; both source compositions are preserved separately."
@@ -74,7 +71,7 @@
       }
     ]
   },
-  "source_geometry_comparison": {
+  "historical_source_geometry_comparison": {
     "R03": "Covered rating wall checked against adjacent P03 wall pattern and P02 composition. Pixel steps and flat block surfaces remain coherent. Hidden exact pixels cannot be verified."
   }
 }

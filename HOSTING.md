@@ -1,12 +1,11 @@
-# Online galleries
+# GitHub Pages galleries
 
-- [Key art showcase](https://tqnl.github.io/minecraft-update-artwork/showcase.html): primary sources and preferred added variants.
-- [Complete gallery](https://tqnl.github.io/minecraft-update-artwork/index.html): every collected source and added variant.
+The `pages-gallery` publication branch combines two static galleries:
 
-Both pages are static HTML hosted by GitHub Pages from the root of the `ai-reconstruction` branch. Pushing updates to this branch republishes the site. `.nojekyll` keeps the static files, including the shared `.catalogue` assets, intact.
+- The existing `ai-reconstruction` gallery stays at the site root.
+- The `f-quality-review` branch is published under `/f-quality/`.
+- `/f-quality/review.html` provides lossless before/after comparisons for all 20 reconstruction outputs.
 
-The showcase selection is recorded in [.catalogue/showcase.json](.catalogue/showcase.json). Source composites and custom title placements appear alongside AI reconstructions, with their actual methods labelled. The separate repaired promotional panorama is available in the complete gallery.
+The two content branches keep their usual update folders and source images. The publication branch contains generated site copies only; it is not the editing branch. Update its two trees from the recorded content commits when publishing another round. GitHub Pages serves `pages-gallery` from `/`, with `.nojekyll`.
 
-To update the pages after editing the catalogue or selection, run `python tools/render_catalogue.py`, then `python tools/verify_catalogue.py`. Commit and push the generated files. Images remain in their update folders and are shared by both galleries; hosting creates no additional artwork copies.
-
-Both HTML files also work when opened locally. Viewing the hosted galleries needs no repository download, sign-in, or installation.
+Public comparison snapshots under `.catalogue/f-review/before/` intentionally preserve five checkpoint images. All other retained comparisons reuse their unchanged artwork files. Private slides, manual inventory material and local scratch files are excluded.

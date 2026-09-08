@@ -13,12 +13,9 @@
     }
   ],
   "current_quality_review": {
-    "report": "reconstruction/quality-review/README.md",
-    "data": "reconstruction/quality-review/final.json",
-    "round": 3,
-    "scores": {
-      "R30": 9
-    }
+    "report": "reconstruction/F-QUALITY.md",
+    "status": "review-ready",
+    "branch": "f-quality-review"
   },
   "current_methods": {
     "R30": "P31 scene with the larger official P32 Minecraft / Caves & Cliffs logo and original P30 PART I lettering. Direct source compositing; no AI generation."
@@ -71,7 +68,7 @@
       }
     ]
   },
-  "source_geometry_comparison": {
+  "historical_source_geometry_comparison": {
     "R30": "Official P32 logo, P30 part lettering and P31 scene; no generated geometry. Retained."
   }
 }

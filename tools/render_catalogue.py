@@ -21,7 +21,7 @@ def render():
                 note+=f'- **[{a["id"]} · {a["title"]}]({Path(a["file"]).name})** — {a["classification"]}. {a.get("note", "")}\n'
             note+='\nDerived images are not original high-resolution releases. See the [full results and quality limits](../../reconstruction/RESULTS.md) for details.\n'
             (folder/'README.md').write_text(note,encoding='utf-8')
-    branch_link = 'https://github.com/TQNL/minecraft-update-artwork/tree/ai-reconstruction'
+    branch_link = 'https://github.com/TQNL/minecraft-update-artwork/tree/f-quality-review'
     readme = f'''# Minecraft Update Artwork
 
 A visual archive of Minecraft update artwork, from **Wilderness Bound** to the **Redstone Update**, arranged newest first.
@@ -30,11 +30,11 @@ A visual archive of Minecraft update artwork, from **Wilderness Bound** to the *
 
 **{len(assets)} images · {len(groups)} updates**
 
-Browse online: **[Key art showcase](https://tqnl.github.io/minecraft-update-artwork/showcase.html)** · **[Complete gallery](https://tqnl.github.io/minecraft-update-artwork/index.html)**. No download is needed. You can also open [showcase.html](showcase.html) or [index.html](index.html) locally. Primary labels identify the archive's preferred source scene; they do not assert an official publisher ranking.
+Browse online: **[Key art showcase](https://tqnl.github.io/minecraft-update-artwork/f-quality/showcase.html)** · **[Complete gallery](https://tqnl.github.io/minecraft-update-artwork/f-quality/index.html)**. No download is needed. You can also open [showcase.html](showcase.html) or [index.html](index.html) locally. Primary labels identify the archive's preferred source scene; they do not assert an official publisher ranking.
 
 ## Source collection and reconstructions
 
-The default branch contains collected source artwork. The **[ai-reconstruction branch]({branch_link})** contains separately labelled reconstructions, enhancements and custom title treatments. Source files remain alongside derivatives except for the documented collection removals and replacements.
+The default branch contains collected source artwork. This **[f-quality-review branch]({branch_link})** contains separately labelled reconstructions, enhancements and custom title treatments. Source files remain alongside derivatives except for the documented collection removals and replacements.
 
 **[Reconstruction guide](RECONSTRUCTION.md)** · **[Stable PDF asset mapping](ASSET-MAP.md)** · **[Sources](SOURCES.md)** · **[Catalogue](catalogue.json)** · **[Credits](CREDITS.md)**
 
@@ -59,13 +59,13 @@ The default branch contains collected source artwork. The **[ai-reconstruction b
 This is an independent archive. Artwork and trademarks belong to their respective creators; inclusion does not grant a new licence.
 '''
     if reconstruction:readme=readme.replace('## Browse the collection','The update folders follow the default branch layout. Added images sit beside their source images in `artwork/`; each affected folder has a short README explaining its additions. See **[results, quality limits and excluded files](reconstruction/RESULTS.md)** and **[progress and validation](reconstruction/progress.json)**.\n\n## Browse the collection')
-    if reconstruction:readme=readme.replace('## Browse the collection','**[Latest 20-image quality review and scores](reconstruction/quality-review/README.md)**\n\n## Browse the collection')
+    if reconstruction:readme=readme.replace('## Browse the collection','**[F-stage before/after review](https://tqnl.github.io/minecraft-update-artwork/f-quality/review.html) · [Decisions for all 20 outputs](reconstruction/F-QUALITY.md)**\n\n## Browse the collection')
     (ROOT/'README.md').write_text(readme,encoding='utf-8')
     source='# Sources and resolution notes\n\nSource references and stored dimensions are recorded below. Older attribution gaps remain explicit. Promotional panoramas are separate from key-art scenes.\n\nDirect wallpaper ZIPs for six recent updates were unavailable during collection; they may contain additional variants.\n\n'
     kinds=list(dict.fromkeys(a['classification'] for a in assets))
     page=['<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Minecraft Update Artwork</title><link rel="stylesheet" href=".catalogue/style.css"></head><body>',
-          '<header><p class="eyebrow">THE UPDATE COLLECTION</p><h1>Minecraft<br>Update Artwork<span>.</span></h1><p class="intro">Source artwork and clearly identified variants, newest first.</p>',
-          f'<p class="stats">{len(assets)} images <span>/</span> {len(groups)} updates <span>/</span> '+('Reconstruction branch' if reconstruction else 'Source collection')+'</p>',
+          '<header><p class="eyebrow">F-STAGE QUALITY BRANCH</p><h1>Minecraft<br>Update Artwork<span>.</span></h1><p class="intro">Source artwork and clearly identified variants, newest first.</p>',
+          f'<p class="stats">{len(assets)} images <span>/</span> {len(groups)} updates <span>/</span> '+('F-stage quality branch' if reconstruction else 'Source collection')+'</p>',
           '<nav aria-label="Collection resources"><a href="showcase.html">Key art showcase</a><a href="index.html" aria-current="page">Complete gallery</a><a href="'+branch_link+'/SOURCES.md">Sources</a><a href="'+branch_link+'/reconstruction/RESULTS.md">Methods &amp; quality notes</a></nav>',
           '<div class="filters"><label for="search">Find artwork</label><input id="search" type="search" placeholder="Search an update, ID or variant"><label for="type">Artwork type</label><select id="type"><option value="">All types</option>'+''.join(f'<option>{esc(k)}</option>' for k in kinds)+'</select></div><p id="count" role="status" aria-live="polite"></p></header><main>']
     for n,group in enumerate(groups,1):
@@ -88,8 +88,8 @@ This is an independent archive. Artwork and trademarks belong to their respectiv
             page.append('</div></div></article>')
         page.append('</div></section>')
     page.append(f'<p id="empty" hidden>No artwork matches. Try another update or clear the filters.</p></main><footer>Independent archive · Artwork belongs to its respective creators · Updated {data["updated"]}</footer><script src=".catalogue/filter.js"></script></body></html>')
-    markup='\n'.join(page)
-    if reconstruction:markup=markup.replace('</nav>','<a href="'+branch_link+'/reconstruction/quality-review/README.md">Quality review &amp; scores</a></nav>',1)
+    markup='\n'.join(page).replace('</nav>', '<a href="review.html">F-stage before/after review</a></nav>', 1)
+    if reconstruction:markup=markup.replace('</nav>','<a href="'+branch_link+'/reconstruction/quality-review/README.md">Historical critic records</a></nav>',1)
     (ROOT/'index.html').write_text(markup,encoding='utf-8')
     (ROOT/'SOURCES.md').write_text(source,encoding='utf-8')
     if reconstruction:

@@ -90,9 +90,9 @@
       ],
       "validation": "reconstruction/validation/chaos-cubed.json",
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 9
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "visually inspected; awaiting user selection",
+        "method": "non-generative F-stage quality round"
       }
     },
     {
@@ -163,9 +163,9 @@
       "classification": "AI reconstruction",
       "preview": ".catalogue/previews/R05.jpg",
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.8
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "visually inspected; awaiting user selection",
+        "method": "non-generative F-stage quality round"
       }
     },
     {
@@ -194,9 +194,9 @@
       "classification": "AI reconstruction",
       "preview": ".catalogue/previews/R04.jpg",
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.8
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "visually inspected; awaiting user selection",
+        "method": "non-generative F-stage quality round"
       }
     },
     {
@@ -372,9 +372,9 @@
       "classification": "AI reconstruction",
       "preview": ".catalogue/previews/R12.jpg",
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.7
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "visually inspected; awaiting user selection",
+        "method": "non-generative F-stage quality round"
       }
     },
     {
@@ -511,13 +511,13 @@
         "P16",
         "P17"
       ],
-      "note": "P17 centre with registered P16 side coverage and small synthesized missing corners. Original source masonry and textures replace the broad AI side restoration; smaller-source side detail is retained.",
+      "note": "P17 centre with registered P16 side coverage and small synthesized missing corners. Original source masonry and textures replace the broad AI side restoration; smaller-source side detail is retained. F-quality round: restrained luminance sharpening only in the softer outer source strips, feathered into the native centre.",
       "update": "Tricky Trials",
       "width": 2198,
       "height": 1440,
       "format": "PNG",
-      "bytes": 3755837,
-      "sha256": "b65805dffa28f72eec29bc4412ac07194ff3f5dfab10775439a289519035f194",
+      "bytes": 3760366,
+      "sha256": "7007b130f280db4967b0cff837fa04d1bc97b21ec23fb544236706f4662899cc",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -529,9 +529,9 @@
       "classification": "AI reconstruction",
       "preview": ".catalogue/previews/R17.jpg",
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.6
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "visually inspected; awaiting user selection",
+        "method": "non-generative F-stage quality round"
       }
     },
     {
@@ -542,13 +542,13 @@
         "P16",
         "P17"
       ],
-      "note": "P16 widescreen framing, original lettering and alternate Breeze placement over P17. Registered source pixels restore side-strip masonry and the Breeze-region geometry; small corner fills and narrow transition pixels remain reconstructed.",
+      "note": "P16 widescreen framing, original lettering and alternate Breeze placement over P17. Registered source pixels restore side-strip masonry and the Breeze-region geometry; small corner fills and narrow transition pixels remain reconstructed. F-quality round: restrained luminance sharpening in the outer source strips and restored Breeze region, with soft adjustment boundaries.",
       "update": "Tricky Trials",
       "width": 2196,
       "height": 1235,
       "format": "PNG",
-      "bytes": 3500856,
-      "sha256": "20e9d30d30e7aa5853d87677466ce9cc02445ebff9dca50478bcf1253b114fb5",
+      "bytes": 3510228,
+      "sha256": "eb12590f20d2d482dea88c643b41a5d571271e3b67a8686b00034a41692673a6",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -560,9 +560,9 @@
       "classification": "AI reconstruction",
       "preview": ".catalogue/previews/R16.jpg",
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.4
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "visually inspected; awaiting user selection",
+        "method": "non-generative F-stage quality round"
       }
     },
     {
@@ -696,9 +696,9 @@
       "validation": "reconstruction/validation/trails-tales.json",
       "preview": ".catalogue/previews/R21.jpg",
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 9.2
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "visually inspected; awaiting user selection",
+        "method": "non-generative F-stage quality round"
       }
     },
     {
@@ -710,13 +710,13 @@
       ],
       "classification": "Source repair with localized AI reconstruction",
       "role": "promotional-panorama",
-      "note": "Original P23 geometry and textures with bounded source sharpening. Only a 66-pixel-wide strip of the earlier AI result remains at the damaged separator, blended to adjacent source gradients. Separator detail is inferred; original source softness remains elsewhere. Kept separate from key art.",
+      "note": "Original P23 geometry and textures with bounded source sharpening. Only a 66-pixel-wide strip of the earlier AI result remains at the damaged separator, blended to adjacent source gradients. Separator detail is inferred; original source softness remains elsewhere. Kept separate from key art. F-quality round: mild luminance sharpening with a noise threshold across the soft source panorama; preserved its repaired separator and existing haze.",
       "update": "Trails & Tales",
       "width": 4080,
       "height": 1350,
       "format": "PNG",
-      "bytes": 4812439,
-      "sha256": "977113e0e21ac9d81e8a074d9f0a01e1cdee56532789f348637a692a578fbf94",
+      "bytes": 4865946,
+      "sha256": "e29e1329a257f78f325647980a9fa85f2b25d022eda97bc202e995426d4703a6",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -726,9 +726,9 @@
       "validation": "reconstruction/validation/trails-tales.json",
       "preview": ".catalogue/previews/R23.jpg",
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.5
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "visually inspected; awaiting user selection",
+        "method": "non-generative F-stage quality round"
       }
     },
     {
@@ -820,9 +820,9 @@
       "validation": "reconstruction/validation/wild-update.json",
       "preview": ".catalogue/previews/R25.jpg",
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 9.1
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "visually inspected; awaiting user selection",
+        "method": "non-generative F-stage quality round"
       }
     },
     {
@@ -851,9 +851,9 @@
       "validation": "reconstruction/validation/wild-update.json",
       "preview": ".catalogue/previews/R26.jpg",
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 9.1
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "visually inspected; awaiting user selection",
+        "method": "non-generative F-stage quality round"
       }
     },
     {
@@ -925,9 +925,9 @@
       "validation": "reconstruction/validation/caves-cliffs-part-ii.json",
       "preview": ".catalogue/previews/R28.jpg",
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 9
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "visually inspected; awaiting user selection",
+        "method": "non-generative F-stage quality round"
       }
     },
     {
@@ -1020,9 +1020,9 @@
       "validation": "reconstruction/validation/caves-cliffs-part-i.json",
       "preview": ".catalogue/previews/R30.jpg",
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 9
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "visually inspected; awaiting user selection",
+        "method": "non-generative F-stage quality round"
       }
     },
     {
@@ -1093,9 +1093,9 @@
       "validation": "reconstruction/validation/nether-update.json",
       "preview": ".catalogue/previews/R34.jpg",
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.6
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "visually inspected; awaiting user selection",
+        "method": "non-generative F-stage quality round"
       }
     },
     {
@@ -1166,9 +1166,9 @@
       "classification": "AI reconstruction",
       "preview": ".catalogue/previews/R37.jpg",
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.8
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "visually inspected; awaiting user selection",
+        "method": "non-generative F-stage quality round"
       }
     },
     {
@@ -1239,9 +1239,9 @@
       "validation": "reconstruction/validation/village-pillage.json",
       "preview": ".catalogue/previews/R38.jpg",
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 9.1
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "visually inspected; awaiting user selection",
+        "method": "non-generative F-stage quality round"
       }
     },
     {
@@ -1296,13 +1296,13 @@
       ],
       "classification": "AI reconstruction",
       "role": "promotional-panorama",
-      "note": "Saved F-stage source composite: P40 expanded sides and P41 native centre, with mild source sharpening, adjusted source joins and the earlier small AI water fill that removed clipped lettering. Mixed source resolution and bubble treatments remain visible.",
+      "note": "Saved F-stage source composite: P40 expanded sides and P41 native centre, with mild source sharpening, adjusted source joins and the earlier small AI water fill that removed clipped lettering. Mixed source resolution and bubble treatments remain visible. F-quality round: modest luminance sharpening in enlarged side regions and gently feathered, subpixel-radius smoothing around the two source sharpness transitions. Bubble positions and coral geometry are retained.",
       "update": "Update Aquatic",
       "width": 4320,
       "height": 1440,
       "format": "PNG",
-      "bytes": 5309247,
-      "sha256": "ad2c826bddf2102654d8f3f6543665170c6927becb9a57028434bc1501adfaae",
+      "bytes": 5386119,
+      "sha256": "1055ed479ee97f1854b21b1b64f3c6780281f5e8673bf28b1f3f4bf795373f69",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -1312,8 +1312,9 @@
       "validation": "reconstruction/validation/update-aquatic.json",
       "preview": ".catalogue/previews/R40A.jpg",
       "quality_review": {
-        "status": "starting checkpoint; awaiting this branch review",
-        "report": "reconstruction/F-QUALITY.md"
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "visually inspected; awaiting user selection",
+        "method": "non-generative F-stage quality round"
       }
     },
     {
@@ -1326,13 +1327,13 @@
       ],
       "classification": "AI reconstruction and custom title placement",
       "role": "promotional-panorama",
-      "note": "Saved F-stage source composite: P40 expanded sides and P41 native centre, with mild source sharpening, adjusted source joins and the earlier small AI water fill that removed clipped lettering. Mixed source resolution and bubble treatments remain visible. The existing custom title is overlaid on that exact F scene.",
+      "note": "Saved F-stage source composite: P40 expanded sides and P41 native centre, with mild source sharpening, adjusted source joins and the earlier small AI water fill that removed clipped lettering. Mixed source resolution and bubble treatments remain visible. The existing custom title is overlaid on that exact F scene. F-quality round: same scene changes as R40A; title overlay pixels retained exactly.",
       "update": "Update Aquatic",
       "width": 4320,
       "height": 1440,
       "format": "PNG",
-      "bytes": 5412240,
-      "sha256": "c7f11b122983dc8b5ba854c243a1a916b7bc9ffe3c383843a9cd1f195c25c1cc",
+      "bytes": 5485692,
+      "sha256": "f9149ce3832ab61512f037f3fa0321d5adef32f7543b1e821ea5a1a6524f243c",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -1342,8 +1343,9 @@
       "validation": "reconstruction/validation/update-aquatic.json",
       "preview": ".catalogue/previews/R40B.jpg",
       "quality_review": {
-        "status": "starting checkpoint; awaiting this branch review",
-        "report": "reconstruction/F-QUALITY.md"
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "visually inspected; awaiting user selection",
+        "method": "non-generative F-stage quality round"
       }
     },
     {
@@ -1372,9 +1374,9 @@
       "validation": "reconstruction/validation/update-aquatic.json",
       "preview": ".catalogue/previews/R41.jpg",
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.7
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "visually inspected; awaiting user selection",
+        "method": "non-generative F-stage quality round"
       }
     },
     {
@@ -1491,9 +1493,9 @@
       "classification": "AI reconstruction",
       "preview": ".catalogue/previews/R52.jpg",
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.5
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "visually inspected; awaiting user selection",
+        "method": "non-generative F-stage quality round"
       }
     },
     {
@@ -1584,9 +1586,9 @@
       "validation": "reconstruction/validation/combat-update.json",
       "preview": ".catalogue/previews/R49.jpg",
       "quality_review": {
-        "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.8
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "visually inspected; awaiting user selection",
+        "method": "non-generative F-stage quality round"
       }
     },
     {

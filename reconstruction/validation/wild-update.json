@@ -18,13 +18,9 @@
     }
   ],
   "current_quality_review": {
-    "report": "reconstruction/quality-review/README.md",
-    "data": "reconstruction/quality-review/final.json",
-    "round": 3,
-    "scores": {
-      "R25": 9.1,
-      "R26": 9.1
-    }
+    "report": "reconstruction/F-QUALITY.md",
+    "status": "review-ready",
+    "branch": "f-quality-review"
   },
   "current_methods": {
     "R25": "Aligned P24 scene with original P25 lettering and target-only frame content. Horizontal source transitions are now blended over 150 pixels to reduce visible resolution bands.",
@@ -107,7 +103,7 @@
       }
     ]
   },
-  "source_geometry_comparison": {
+  "historical_source_geometry_comparison": {
     "R25": "Direct P24/P25 aligned source composite; no generated geometry. Retained.",
     "R26": "Direct P24/P26 source composite; no generated geometry. Retained."
   }
