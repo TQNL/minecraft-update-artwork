@@ -1,0 +1,6 @@
+{
+  "description": "Primary source scenes plus preferred added variants, newest first. Distinct title treatments and compositions are retained; separate promotional panoramas remain in the full gallery.",
+  "preferred_variants": ["R03", "R05", "R04", "R12", "R17", "R16", "R21", "R25", "R26", "R28", "R30", "R34", "R37", "R38", "R40A", "R40B", "R41", "R52", "R49"],
+  "title_only_references": ["P50", "P51"],
+  "excluded_variants": {"R23": "Separate promotional panorama repair, not a primary key-art reconstruction. Available in the complete gallery."}
+}

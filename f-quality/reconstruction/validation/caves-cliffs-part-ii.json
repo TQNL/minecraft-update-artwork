@@ -1,0 +1,74 @@
+{
+  "source_ids": [
+    "P28",
+    "P29",
+    "P32"
+  ],
+  "source_collection_unchanged": true,
+  "outputs": [
+    {
+      "id": "R28",
+      "file": "artwork/15-caves-cliffs-part-ii/official-title-composite-2560x1440.png",
+      "sha256": "a11090af50180c71d3a9cc0af4de8106ff93a2dd828f66e276a33bd4341511aa"
+    }
+  ],
+  "current_quality_review": {
+    "report": "reconstruction/F-QUALITY.md",
+    "status": "review-ready",
+    "branch": "f-quality-review"
+  },
+  "current_methods": {
+    "R28": "P29 scene with the larger official P32 Minecraft / Caves & Cliffs logo and original P28 PART II lettering. Direct source compositing; no AI generation."
+  },
+  "limitations": [
+    "Main logo uses the larger official P32 source; PART II retains P28 detail."
+  ],
+  "initial_reconstruction_evidence_scope": "The record below describes the initial output hashes and methods before this quality revision. Its pixel-preservation assertions do not apply to the revised outputs above.",
+  "initial_reconstruction": {
+    "method": "Original clean scene with aligned original title and part lettering pixels extracted through a difference mask.",
+    "no_ai_generation": true,
+    "clean_scene_unchanged_outside_lettering_mask": true,
+    "lettering_mask_fraction": 0.06177048335271791,
+    "source_geometry": {
+      "source_ids": [
+        "P28",
+        "P29"
+      ],
+      "canvas": [
+        2574,
+        1441
+      ],
+      "base_offset_xy": [
+        6,
+        0
+      ],
+      "matrix_a_to_canvas": [
+        [
+          1.3397397984595554,
+          4.67310208975834e-05,
+          0.7176555801024405
+        ],
+        [
+          -4.669268222393101e-05,
+          1.3391388055149034,
+          0.7925464017707985
+        ]
+      ],
+      "missing_source_fraction": 0.0014736593501340205
+    },
+    "visual_review": [
+      "Full composition and both lettering treatments inspected: correct title, PART II and original scene retained."
+    ],
+    "source_collection_unchanged": true,
+    "outputs": [
+      {
+        "id": "R28",
+        "file": "artwork/15-caves-cliffs-part-ii/official-title-composite-2560x1440.png",
+        "sha256": "7b133723e4c020232c36064e7d76dd0aad4070f654ef1f6392619356cd7d774c"
+      }
+    ]
+  },
+  "historical_source_geometry_comparison": {
+    "R28": "Official P32 logo, P28 part lettering and P29 scene; no generated geometry. Retained."
+  }
+}

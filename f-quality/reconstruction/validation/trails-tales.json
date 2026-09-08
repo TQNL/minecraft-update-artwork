@@ -1,0 +1,98 @@
+{
+  "source_ids": [
+    "P21",
+    "P22",
+    "P23"
+  ],
+  "source_collection_unchanged": true,
+  "outputs": [
+    {
+      "id": "R21",
+      "file": "artwork/13-trails-tales/titled-alternate-sniffer-2058x1158.png",
+      "sha256": "7b142a6c9c07d7eb828d34ecfea1b1078130af87cdca813574656a909b93bd44"
+    },
+    {
+      "id": "R23",
+      "file": "artwork/13-trails-tales/promotional-panorama-seams-repaired-4080x1350.png",
+      "sha256": "e29e1329a257f78f325647980a9fa85f2b25d022eda97bc202e995426d4703a6"
+    }
+  ],
+  "current_quality_review": {
+    "report": "reconstruction/F-QUALITY.md",
+    "status": "review-ready",
+    "branch": "f-quality-review"
+  },
+  "current_methods": {
+    "R21": "Direct source-pixel reconstruction; no AI generation. P22 scene with original P21 title and alternate Sniffer placement.",
+    "R23": "Original P23 geometry and textures with bounded source sharpening. Only a 66-pixel-wide strip of the earlier AI result remains at the damaged separator, blended to adjacent source gradients. Separator detail is inferred; original source softness remains elsewhere. Kept separate from key art. F-quality round: mild luminance sharpening with a noise threshold across the soft source panorama; preserved its repaired separator and existing haze."
+  },
+  "limitations": [
+    "R21 retains P21 title/Sniffer detail.",
+    "R23 now uses source geometry with bounded sharpening and a 66-pixel-wide localized AI separator repair; source softness remains and hidden separator detail is inferred."
+  ],
+  "initial_reconstruction_evidence_scope": "The record below describes the initial output hashes and methods before this quality revision. Its pixel-preservation assertions do not apply to the revised outputs above.",
+  "initial_reconstruction": {
+    "source_ids": [
+      "P21",
+      "P22",
+      "P23"
+    ],
+    "method": "Direct aligned source compositing; original P21 title and alternate Sniffer patch over P22 scene. Narrow panorama separator interpolated between real neighbouring pixels.",
+    "title_and_sniffer_patch_rectangles": [
+      [
+        660,
+        185,
+        1410,
+        485
+      ],
+      [
+        460,
+        1020,
+        925,
+        1310
+      ]
+    ],
+    "key_art_crop": [
+      0,
+      152,
+      2058,
+      1310
+    ],
+    "panorama_repair_columns": [
+      [
+        1339,
+        1352
+      ],
+      [
+        4073,
+        4079
+      ]
+    ],
+    "panorama_changed_fraction": 0.0050185185185185185,
+    "panorama_mean_seam_jump_before": 93.53604938271604,
+    "panorama_mean_seam_jump_after": 0.11901234567901235,
+    "no_ai_generation": true,
+    "visual_review": [
+      "Full key art and panorama inspected.",
+      "Title and alternate Sniffer close-ups checked: correct text, one Sniffer, no visible patch boundary.",
+      "Panorama seam and right edge checked: dark lines removed; original scene retained elsewhere."
+    ],
+    "source_collection_unchanged": true,
+    "outputs": [
+      {
+        "id": "R21",
+        "file": "artwork/13-trails-tales/titled-alternate-sniffer-2058x1158.png",
+        "sha256": "7b142a6c9c07d7eb828d34ecfea1b1078130af87cdca813574656a909b93bd44"
+      },
+      {
+        "id": "R23",
+        "file": "artwork/13-trails-tales/promotional-panorama-seams-repaired-4080x1350.png",
+        "sha256": "30034d2d51802877726bf9bbbc2436059e49917256aadbafe7ce12a651eb5d03"
+      }
+    ]
+  },
+  "historical_source_geometry_comparison": {
+    "R21": "Direct P21/P22 source composite; no generated geometry. Retained.",
+    "R23": "P23 compared across camel ground, distant trees and Sniffer. Broad AI surface changes were replaced with source geometry. The damaged separator retains a 66-pixel-wide strip from the earlier AI result after gradient-domain blending; exact hidden separator detail remains inferred."
+  }
+}

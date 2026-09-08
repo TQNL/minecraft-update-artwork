@@ -1,0 +1,395 @@
+{
+  "branch": "ai-reconstruction",
+  "source_commit": "afeb6e7f2d0291292678782382a2e0e9a1d2e9dc",
+  "order": "newest first through Combat Update (1.9)",
+  "updates": [
+    {
+      "update": "Wilderness Bound",
+      "status": "complete_no_change",
+      "requested_work": "retain source artwork",
+      "outputs": [],
+      "validation": [
+        "reconstruction/validation/wilderness-bound.json"
+      ]
+    },
+    {
+      "update": "Chaos Cubed",
+      "status": "complete",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [
+        "R03"
+      ],
+      "validation": [
+        "reconstruction/validation/chaos-cubed.json"
+      ],
+      "limitations": [
+        "The wall behind the ratings badge is synthesized; no uncovered original is available."
+      ],
+      "quality_review": {
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
+      }
+    },
+    {
+      "update": "Tiny Takeover",
+      "status": "complete",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [
+        "R05",
+        "R04"
+      ],
+      "validation": [
+        "reconstruction/validation/tiny-takeover.json"
+      ],
+      "limitations": [
+        "Corner content is synthesized.",
+        "Added sides retain the detail limit of the smaller JPEG source."
+      ],
+      "quality_review": {
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
+      }
+    },
+    {
+      "update": "Mounts of Mayhem",
+      "status": "complete_no_change",
+      "requested_work": "retain source artwork",
+      "outputs": [],
+      "validation": [
+        "reconstruction/validation/mounts-of-mayhem.json"
+      ],
+      "limitations": []
+    },
+    {
+      "update": "The Copper Age",
+      "status": "complete_no_change",
+      "requested_work": "retain source artwork",
+      "outputs": [],
+      "validation": [
+        "reconstruction/validation/copper-age.json"
+      ],
+      "limitations": []
+    },
+    {
+      "update": "Chase the Skies",
+      "status": "complete_no_change",
+      "requested_work": "retain source artwork",
+      "outputs": [],
+      "validation": [
+        "reconstruction/validation/chase-the-skies.json"
+      ],
+      "limitations": []
+    },
+    {
+      "update": "Spring to Life",
+      "status": "complete",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [
+        "R12"
+      ],
+      "validation": [
+        "reconstruction/validation/spring-to-life.json"
+      ],
+      "limitations": [
+        "Missing corners are synthesized.",
+        "Landscape sides retain their source compression and are resampled to the square image scale."
+      ],
+      "quality_review": {
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
+      }
+    },
+    {
+      "update": "The Garden Awakens",
+      "status": "complete_no_change",
+      "requested_work": "retain source artwork",
+      "outputs": [],
+      "validation": [
+        "reconstruction/validation/garden-awakens.json"
+      ],
+      "limitations": []
+    },
+    {
+      "update": "Bundles of Bravery",
+      "status": "complete_no_change",
+      "requested_work": "retain source artwork",
+      "outputs": [],
+      "validation": [
+        "reconstruction/validation/bundles-of-bravery.json"
+      ],
+      "limitations": []
+    },
+    {
+      "update": "Tricky Trials",
+      "status": "complete",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [
+        "R17",
+        "R16"
+      ],
+      "validation": [
+        "reconstruction/validation/tricky-trials.json"
+      ],
+      "limitations": [
+        "Source masonry and Breeze geometry restored; smaller P16 side/lettering detail remains.",
+        "Small missing corner fills and narrow blend regions remain inferred."
+      ],
+      "quality_review": {
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
+      }
+    },
+    {
+      "update": "Armored Paws",
+      "status": "complete_no_change",
+      "requested_work": "retain source artwork",
+      "outputs": [],
+      "validation": [
+        "reconstruction/validation/armored-paws.json"
+      ],
+      "limitations": [
+        "Only a 1170 x 500 banner source is available."
+      ]
+    },
+    {
+      "update": "Bats and Pots",
+      "status": "complete_no_change",
+      "requested_work": "retain source artwork",
+      "outputs": [],
+      "validation": [
+        "reconstruction/validation/bats-and-pots.json"
+      ],
+      "limitations": [
+        "Only a 1170 x 500 banner source is available."
+      ]
+    },
+    {
+      "update": "Trails & Tales",
+      "status": "complete",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [
+        "R21",
+        "R23"
+      ],
+      "validation": [
+        "reconstruction/validation/trails-tales.json"
+      ],
+      "limitations": [
+        "R21 retains P21 title/Sniffer detail.",
+        "R23 now uses source geometry with bounded sharpening and a 66-pixel-wide localized AI separator repair; source softness remains and hidden separator detail is inferred."
+      ],
+      "quality_review": {
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
+      }
+    },
+    {
+      "update": "The Wild Update",
+      "status": "complete",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [
+        "R25",
+        "R26"
+      ],
+      "validation": [
+        "reconstruction/validation/wild-update.json"
+      ],
+      "limitations": [
+        "The square gains P24 detail in its shared 56 percent; P26-only regions retain their original detail limit.",
+        "P25 title pixels retain the original 1920-pixel-wide source detail."
+      ],
+      "quality_review": {
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
+      }
+    },
+    {
+      "update": "Caves & Cliffs Part II",
+      "status": "complete",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [
+        "R28"
+      ],
+      "validation": [
+        "reconstruction/validation/caves-cliffs-part-ii.json"
+      ],
+      "limitations": [
+        "Main logo uses the larger official P32 source; PART II retains P28 detail."
+      ],
+      "quality_review": {
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
+      }
+    },
+    {
+      "update": "Caves & Cliffs Part I",
+      "status": "complete",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [
+        "R30"
+      ],
+      "validation": [
+        "reconstruction/validation/caves-cliffs-part-i.json"
+      ],
+      "limitations": [
+        "Main logo uses the larger official P32 source; PART I retains P30 detail."
+      ],
+      "quality_review": {
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
+      }
+    },
+    {
+      "update": "Nether Update",
+      "status": "complete",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [
+        "R34"
+      ],
+      "validation": [
+        "reconstruction/validation/nether-update.json"
+      ],
+      "limitations": [
+        "Custom title placement is unofficial.",
+        "Fine lettering texture is inferred by local AI restoration of the small original logo."
+      ],
+      "quality_review": {
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
+      }
+    },
+    {
+      "update": "Buzzy Bees",
+      "status": "complete",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [
+        "R37"
+      ],
+      "validation": [
+        "reconstruction/validation/buzzy-bees.json"
+      ],
+      "limitations": [
+        "Alex enhancement contains synthesized edge and surface detail."
+      ],
+      "quality_review": {
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
+      }
+    },
+    {
+      "update": "Village & Pillage",
+      "status": "complete",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [
+        "R38"
+      ],
+      "validation": [
+        "reconstruction/validation/village-pillage.json"
+      ],
+      "limitations": [
+        "Derived composition combines official scene and lettering; this exact combination is not an original official release."
+      ],
+      "quality_review": {
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
+      }
+    },
+    {
+      "update": "Update Aquatic",
+      "status": "complete",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [
+        "R40A",
+        "R40B",
+        "R41"
+      ],
+      "validation": [
+        "reconstruction/validation/update-aquatic.json"
+      ],
+      "limitations": [
+        "Expanded variants start from F and retain its mixed source resolution and source-specific bubble styles.",
+        "The small older AI title-removal water fill and custom title treatment are inherited. No new generation or geometry masks in this round."
+      ],
+      "quality_review": {
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
+      }
+    },
+    {
+      "update": "World of Color Update",
+      "status": "complete_no_change",
+      "requested_work": "retain source artwork",
+      "outputs": [],
+      "validation": [
+        "reconstruction/validation/world-of-color.json"
+      ],
+      "limitations": []
+    },
+    {
+      "update": "Exploration Update",
+      "status": "complete",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [
+        "R52"
+      ],
+      "validation": [
+        "reconstruction/validation/exploration-update.json"
+      ],
+      "limitations": [
+        "The title is an AI reconstruction of the small trailer reference, not the original high-resolution logo; fine cracks and shading are inferred.",
+        "The wall behind the relocated Vex is locally reconstructed; fine concealed geometry cannot be confirmed from the sources."
+      ],
+      "quality_review": {
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
+      }
+    },
+    {
+      "update": "Frostburn Update",
+      "status": "complete_no_change",
+      "requested_work": "retain source artwork",
+      "outputs": [],
+      "validation": [
+        "reconstruction/validation/frostburn-update.json"
+      ],
+      "limitations": [
+        "Only a 1280 x 720 scene is collected; the separate fan title does not supply additional scene detail."
+      ]
+    },
+    {
+      "update": "Combat Update",
+      "status": "complete",
+      "requested_work": "reconstruct requested variants",
+      "outputs": [
+        "R49"
+      ],
+      "validation": [
+        "reconstruction/validation/combat-update.json"
+      ],
+      "limitations": [
+        "The 5120 x 2880 file is a non-generative resampling of the 1280 x 720 source.",
+        "Source geometry is preserved with bounded sharpening; native-size softness remains because original detail is limited."
+      ],
+      "quality_review": {
+        "report": "reconstruction/F-QUALITY.md",
+        "status": "review-ready",
+        "branch": "f-quality-review"
+      }
+    }
+  ],
+  "status": "complete_with_documented_quality_limits",
+  "completed": "2026-09-08"
+}

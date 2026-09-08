@@ -1,0 +1,327 @@
+{
+  "numbering": "Stable identifiers from the original 51-asset PDF review. Never renumber after removals.",
+  "assets": [
+    {
+      "pdf_number": 1,
+      "id": "P01",
+      "filename": "artwork/01-wilderness-bound/key-art-no-logo-2560x1440.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 2,
+      "id": "P02",
+      "filename": "artwork/02-chaos-cubed/key-art-no-logo-2560x1440.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 3,
+      "id": "P03",
+      "filename": "artwork/02-chaos-cubed/key-art-expanded-composition-2560x1440.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 4,
+      "id": "P04",
+      "filename": "artwork/03-tiny-takeover/key-art-with-title-1920x1080.jpg",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 5,
+      "id": "P05",
+      "filename": "artwork/03-tiny-takeover/key-art-no-logo-2048x1440.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 6,
+      "id": "P06",
+      "filename": "artwork/04-mounts-of-mayhem/key-art-wide-launch-banner-1170x500.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 7,
+      "id": "P07",
+      "filename": "artwork/04-mounts-of-mayhem/key-art-full-composition-2048x1440.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 8,
+      "id": "P08",
+      "filename": "artwork/05-the-copper-age/key-art-alternate-wide-composition-888x540.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 9,
+      "id": "P09",
+      "filename": "artwork/05-the-copper-age/key-art-full-composition-2048x1440.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 10,
+      "id": "P10",
+      "filename": "artwork/06-chase-the-skies/key-art-full-composition-2048x1440.jpg",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 11,
+      "id": "P11",
+      "filename": "artwork/07-spring-to-life/key-art-landscape-2560x1440.jpg",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 12,
+      "id": "P12",
+      "filename": "artwork/07-spring-to-life/key-art-square-variant-2048x2048.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 13,
+      "id": "P13",
+      "filename": "artwork/08-the-garden-awakens/key-art-landscape-2560x1440.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 14,
+      "id": "P14",
+      "filename": "artwork/09-bundles-of-bravery/key-art-with-minecraft-logo-2560x1440.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 15,
+      "id": "P15",
+      "filename": "artwork/09-bundles-of-bravery/key-art-alternate-apple-placement-and-crop-1170x500.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 16,
+      "id": "P16",
+      "filename": "artwork/10-tricky-trials/key-art-titled-widescreen-1280x720.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 17,
+      "id": "P17",
+      "filename": "artwork/10-tricky-trials/key-art-full-composition-without-title-2058x1440.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 18,
+      "id": "P18",
+      "filename": "artwork/10-tricky-trials/key-art-with-title-and-release-date-1920x1080.jpg",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 19,
+      "id": "P19",
+      "filename": "artwork/11-armored-paws/badlands-trailer-artwork-1170x500.jpg",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 20,
+      "id": "P20",
+      "filename": "artwork/12-bats-and-pots/bats-and-pots-release-banner-1170x500.jpg",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 21,
+      "id": "P21",
+      "filename": "artwork/13-trails-tales/key-art-titled-widescreen-1920x1080.jpg",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 22,
+      "id": "P22",
+      "filename": "artwork/13-trails-tales/key-art-full-composition-with-title-2058x1440.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 23,
+      "id": "P23",
+      "filename": "artwork/13-trails-tales/key-art-alternate-panorama-4080x1350.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 24,
+      "id": "P24",
+      "filename": "artwork/14-the-wild-update/key-art-landscape-without-logo-2560x1440.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 25,
+      "id": "P25",
+      "filename": "artwork/14-the-wild-update/key-art-titled-landscape-1920x1080.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 26,
+      "id": "P26",
+      "filename": "artwork/14-the-wild-update/key-art-square-composition-2048x2048.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 27,
+      "id": "P27",
+      "filename": "artwork/15-caves-cliffs-part-ii/key-art-alternate-title-treatment-1280x720.jpg",
+      "status": "removed",
+      "reason": "Superseded title treatment"
+    },
+    {
+      "pdf_number": 28,
+      "id": "P28",
+      "filename": "artwork/15-caves-cliffs-part-ii/key-art-official-titled-variant-1920x1075.jpg",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 29,
+      "id": "P29",
+      "filename": "artwork/15-caves-cliffs-part-ii/key-art-without-title-2560x1440.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 30,
+      "id": "P30",
+      "filename": "artwork/16-caves-cliffs-part-i/key-art-with-title-and-part-i-1280x720.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 31,
+      "id": "P31",
+      "filename": "artwork/16-caves-cliffs-part-i/key-art-without-title-2560x1440.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 32,
+      "id": "P32",
+      "filename": "artwork/16-caves-cliffs-part-i/caves-and-cliffs-standalone-logo-1012x285.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 33,
+      "id": "P33",
+      "filename": "artwork/17-nether-update/key-art-with-title-2000x1125.png",
+      "status": "removed",
+      "reason": "Excluded custom title treatment"
+    },
+    {
+      "pdf_number": 34,
+      "id": "P34",
+      "filename": "artwork/17-nether-update/key-art-without-title-2560x1440.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 35,
+      "id": "P35",
+      "filename": "artwork/17-nether-update/standalone-title-logo-388x110.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 36,
+      "id": "P36",
+      "filename": "artwork/18-buzzy-bees/key-art-smaller-alex-2560x1440.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 37,
+      "id": "P37",
+      "filename": "artwork/18-buzzy-bees/key-art-larger-alex-variant-1280x720.jpg",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 38,
+      "id": "P38",
+      "filename": "artwork/19-village-pillage/key-art-without-logo-2560x1440.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 39,
+      "id": "P39",
+      "filename": "artwork/19-village-pillage/key-art-with-logo-2120x1192.jpg",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 40,
+      "id": "P40",
+      "filename": "artwork/20-update-aquatic/key-art-wide-banner-with-logo-1500x500.jpg",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 41,
+      "id": "P41",
+      "filename": "artwork/20-update-aquatic/key-art-landscape-without-logo-2560x1440.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 42,
+      "id": "P42",
+      "filename": "artwork/21-world-of-color-update/key-art-without-logo-2560x1440.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 43,
+      "id": "P43",
+      "filename": "artwork/21-world-of-color-update/title-logo-778x207.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 44,
+      "id": "P44",
+      "filename": "artwork/22-exploration-update/key-art-titled-crop-480x269.jpg",
+      "status": "removed",
+      "reason": "Replaced by trailer title reference",
+      "replacement_id": "S52"
+    },
+    {
+      "pdf_number": 45,
+      "id": "P45",
+      "filename": "artwork/22-exploration-update/key-art-full-original-8001x3391.jpg",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 46,
+      "id": "P46",
+      "filename": "artwork/22-exploration-update/key-art-alternate-titled-crop-615x306.jpg",
+      "status": "removed",
+      "reason": "Replaced by trailer title reference",
+      "replacement_id": "S52"
+    },
+    {
+      "pdf_number": 47,
+      "id": "P47",
+      "filename": "artwork/23-frostburn-update/original-release-screenshot-1280x720.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 48,
+      "id": "P48",
+      "filename": "artwork/23-frostburn-update/fan-made-title-logo-971x238.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 49,
+      "id": "P49",
+      "filename": "artwork/24-combat-update/original-official-artwork-1280x720.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 50,
+      "id": "P50",
+      "filename": "artwork/25-bountiful-update/fan-made-title-logo-1920x1080.png",
+      "status": "retained"
+    },
+    {
+      "pdf_number": 51,
+      "id": "P51",
+      "filename": "artwork/26-redstone-update/fan-made-title-logo-1024x319.jpg",
+      "status": "retained"
+    }
+  ],
+  "additions": [
+    {
+      "id": "S52",
+      "filename": "artwork/22-exploration-update/official-trailer-title-reference-640x360.png",
+      "replaces_pdf_assets": [
+        44,
+        46
+      ]
+    }
+  ]
+}

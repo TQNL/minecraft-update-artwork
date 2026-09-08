@@ -1,0 +1,80 @@
+{
+  "source_ids": [
+    "P49"
+  ],
+  "source_collection_unchanged": true,
+  "outputs": [
+    {
+      "id": "R49",
+      "file": "artwork/24-combat-update/combat-enhanced-and-resampled-5120x2880.png",
+      "sha256": "8a89c7933fee836494f7a5d7196b775bdd487d9eb97c70eb326d4c630a57499c"
+    }
+  ],
+  "current_quality_review": {
+    "report": "reconstruction/F-QUALITY.md",
+    "status": "review-ready",
+    "branch": "f-quality-review"
+  },
+  "current_methods": {
+    "R49": "5120 x 2880 derivative rebuilt from the original 1280 x 720 P49 using bounded sharpening and Lanczos resampling only. Original block, terrain, wing, face and lettering shapes are retained; no generated scene detail remains. Stored 5K dimensions do not establish native 5K detail."
+  },
+  "limitations": [
+    "The 5120 x 2880 file is a non-generative resampling of the 1280 x 720 source.",
+    "Source geometry is preserved with bounded sharpening; native-size softness remains because original detail is limited."
+  ],
+  "initial_reconstruction_evidence_scope": "The record below describes the initial output hashes and methods before this quality revision. Its pixel-preservation assertions do not apply to the revised outputs above.",
+  "initial_reconstruction": {
+    "source_ids": [
+      "P49"
+    ],
+    "original_dimensions": [
+      1280,
+      720
+    ],
+    "ai_generation_dimensions": [
+      1672,
+      941
+    ],
+    "output_dimensions": [
+      5120,
+      2880
+    ],
+    "registration_matches": 877,
+    "registration_inliers": 794,
+    "matrix_generated_normalized_to_source": [
+      [
+        0.9985939339206765,
+        -0.00031886505726811895,
+        0.7196267086940507
+      ],
+      [
+        0.00031886505726811895,
+        0.9985939339206765,
+        0.40005083322880486
+      ]
+    ],
+    "method": "AI edge/softness restoration registered to the original scene, with original title, face designs and small Enderman restored, then Lanczos resampling to 5K.",
+    "limitations": [
+      "This is an AI-enhanced and resampled derivative, not native 5K source artwork.",
+      "AI working resolution is only 1672 x 941; the final 5K dimensions do not demonstrate recovered original detail.",
+      "Fine edges in buildings and wings are inferred; the original remains available for strict source fidelity."
+    ],
+    "visual_checks": [
+      "Full composition compared against P49.",
+      "Side-by-side close-ups inspected for Alex, Steve, swords, wings and complete title.",
+      "Original lettering and face designs restored to avoid generated changes; small Enderman also restored.",
+      "No doubled primary subjects, missing title text or added scene content found."
+    ],
+    "source_collection_unchanged": true,
+    "outputs": [
+      {
+        "id": "R49",
+        "file": "artwork/24-combat-update/combat-enhanced-and-resampled-5120x2880.png",
+        "sha256": "afe7634e509d99f91c98749d546e528cfe3d172001f6fcad7a862797a73391f3"
+      }
+    ]
+  },
+  "historical_source_geometry_comparison": {
+    "R49": "P49 source compared at terrain, roofs, wings, faces and title. AI added bevels and changed small shapes across the scene. Rebuilt through non-generative sharpening/resampling from P49."
+  }
+}

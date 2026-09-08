@@ -1,0 +1,13 @@
+{
+  "source_ids": [
+    "P47",
+    "P48"
+  ],
+  "decision": "Retain the original release screenshot and separately classified fan title. No second scene is available to reconcile.",
+  "visual_checks": [
+    "Screenshot inspected at its native 1280 x 720: block textures and pixelated geometry are intrinsic to the game screenshot.",
+    "No new reconstruction or invented surrounding content requested for this family."
+  ],
+  "source_collection_unchanged": true,
+  "outputs": []
+}

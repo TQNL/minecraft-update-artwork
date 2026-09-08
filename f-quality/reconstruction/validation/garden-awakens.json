@@ -1,0 +1,10 @@
+{
+  "source_ids": [
+    "P13"
+  ],
+  "decision": "Retain source artworks without alteration as requested.",
+  "visual_review": "Source composition inspected; no reconstruction requested.",
+  "primary_id": "P13",
+  "source_collection_unchanged": true,
+  "outputs": []
+}

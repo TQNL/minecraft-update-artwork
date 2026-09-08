@@ -1,0 +1,2 @@
+Use case: compositing.
+Input is an aligned Minecraft Tricky Trials scene union. Fill only the solid magenta corner gaps with exact continuations of the adjacent masonry, ceiling and floor. Match straight block edges, brick patterns, texture scale, lighting and perspective. Preserve all existing pixels, characters, weapons, Breeze wind spirals and composition. No new objects, characters or text. Only small corner patches will be used; original pixels are restored elsewhere.

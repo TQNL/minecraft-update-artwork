@@ -1,0 +1,3 @@
+Use case: compositing.
+Input image: edit target, an aligned union of two Minecraft Spring to Life artworks. Only the solid neon-magenta corners are missing source pixels.
+Fill those magenta corners with seamless continuations of the existing tree canopy, sky and lower foliage. Continue the exact block edges, lighting, colours and texture scale of adjacent pixels. Preserve every existing character, animal, plant, particle and block. Do not add new objects, leaves or fireflies. Keep the full composition and its geometry unchanged. No text or logos. Only the missing corners will be used in the final composite; existing source pixels will be restored elsewhere.

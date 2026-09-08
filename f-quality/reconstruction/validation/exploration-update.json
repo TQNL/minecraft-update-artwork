@@ -1,0 +1,103 @@
+{
+  "source_ids": [
+    "P45",
+    "S52"
+  ],
+  "source_collection_unchanged": true,
+  "outputs": [
+    {
+      "id": "R52",
+      "file": "artwork/22-exploration-update/trailer-title-reconstruction-6000x3375.png",
+      "sha256": "470d39d7366f9145503e9c1bfa03dbe1ebda470e2b8e7da0c2bdc8313bd0b447"
+    }
+  ],
+  "current_quality_review": {
+    "report": "reconstruction/F-QUALITY.md",
+    "status": "review-ready",
+    "branch": "f-quality-review"
+  },
+  "current_methods": {
+    "R52": "6000 x 3375 reconstruction of the trailer framing using P45 scene and relocated Vex pixels. AI reconstructs the S52 title and exposed wall. Title matte pinholes and the C aperture were repaired using the registered scene beneath. This is a derivative, not an original high-resolution titled release."
+  },
+  "limitations": [
+    "The title is an AI reconstruction of the small trailer reference, not the original high-resolution logo; fine cracks and shading are inferred.",
+    "The wall behind the relocated Vex is locally reconstructed; fine concealed geometry cannot be confirmed from the sources."
+  ],
+  "initial_reconstruction_evidence_scope": "The record below describes the initial output hashes and methods before this quality revision. Its pixel-preservation assertions do not apply to the revised outputs above.",
+  "initial_reconstruction": {
+    "source_ids": [
+      "P45",
+      "S52"
+    ],
+    "canvas": [
+      6000,
+      3375
+    ],
+    "registration_matches": 815,
+    "registration_inliers": 609,
+    "matrix_source_to_output": [
+      [
+        0.9951952861133468,
+        -8.825862056771213e-05,
+        -94.14703404265586
+      ],
+      [
+        8.827362135636049e-05,
+        0.9950261674806065,
+        -0.35938924843796927
+      ]
+    ],
+    "background_registration_inliers": 67,
+    "background_registration_matches": 107,
+    "background_registration_matrix": [
+      [
+        1.0001596353808822,
+        -9.906713214850749e-05,
+        2.4756544118709214
+      ],
+      [
+        9.906713214850749e-05,
+        1.0001596353808822,
+        0.8280654123248522
+      ]
+    ],
+    "vex_move_matrix": [
+      [
+        1.0001066208361171,
+        -0.00221505034836847,
+        73.88672972881008
+      ],
+      [
+        0.00221505034836847,
+        1.0001066208361171,
+        147.92742085430393
+      ]
+    ],
+    "vex_source": "Original P45 scene pixels extracted through a segmented matte.",
+    "title_box": [
+      3610,
+      197,
+      2156,
+      572
+    ],
+    "title_source": "AI reconstruction of S52 logo; text checked against the trailer reference.",
+    "background_patch": "Restricted to the vacated Vex silhouette with a small blend.",
+    "visual_checks": [
+      "Full composition and title text compared with S52.",
+      "Moved Vex close-up checked for duplicated sword fragments; original dark sword outline restored to the matte.",
+      "Reconstructed title background fringe removed and inspected.",
+      "Source scene supplies the high-resolution frame; hidden wall reconstruction is locally masked."
+    ],
+    "source_collection_unchanged": true,
+    "outputs": [
+      {
+        "id": "R52",
+        "file": "artwork/22-exploration-update/trailer-title-reconstruction-6000x3375.png",
+        "sha256": "8ea01f39ed8fd585793c94872072edbd86098d1feb75f25e465984c037464cd1"
+      }
+    ]
+  },
+  "historical_source_geometry_comparison": {
+    "R52": "Trailer S52 and original P45 scene checked: source Vex remains cubic and local wall fill has straight planar edges. Exact hidden wall and fine logo details cannot be verified."
+  }
+}
