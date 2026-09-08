@@ -48,12 +48,12 @@
   "outputs": [
     {
       "id": "R21",
-      "file": "reconstructed/13-trails-tales/titled-alternate-sniffer-2058x1158.png",
+      "file": "artwork/13-trails-tales/titled-alternate-sniffer-2058x1158.png",
       "sha256": "7b142a6c9c07d7eb828d34ecfea1b1078130af87cdca813574656a909b93bd44"
     },
     {
       "id": "R23",
-      "file": "reconstructed/13-trails-tales/promotional-panorama-seams-repaired-4080x1350.png",
+      "file": "artwork/13-trails-tales/promotional-panorama-seams-repaired-4080x1350.png",
       "sha256": "30034d2d51802877726bf9bbbc2436059e49917256aadbafe7ce12a651eb5d03"
     }
   ]

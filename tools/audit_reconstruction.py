@@ -42,6 +42,12 @@ def audit():
         seen+=row['outputs']
     derived={a['id'] for a in assets.values() if a.get('origin')=='reconstructed'}
     assert set(seen)==derived and len(seen)==20
+    assert not (ROOT/'reconstructed').exists()
+    for aid in derived:
+        a=assets[aid]
+        source_folder=Path(next(s['file'] for s in source['assets'] if s['update']==a['update'])).parent
+        assert Path(a['file']).parent==source_folder,aid
+        assert (ROOT/source_folder/'README.md').is_file(),aid
     tracked=git('ls-files','--cached','--others','--exclude-standard').splitlines()
     personal=os.environ.get('USERNAME','')
     bad=re.compile(r'[a-z]:[/\\]users|@(?:gmail|outlook|hotmail)\.'+(('|' + re.escape(personal)) if len(personal)>3 else ''),re.I)
@@ -62,6 +68,7 @@ def audit():
     for branch in ['main','ai-reconstruction']:
         assert git('ls-remote','origin','refs/heads/'+branch).split()[0]==git('rev-parse',branch)
     result={'date':'2026-09-08','status':'passed','updates_checked':24,'source_assets_preserved':48,'derived_assets':20,'total_assets':68,'stable_pdf_mapping':'all 51 original IDs retained, including removal records','required_removals':['P27','P33','P44','P46'],'replacement':'S52','required_primary_sources':['P14','P17','P41'],'source_hashes':'unchanged from main','catalogue_hashes_dimensions_lineage_and_links':'verified','public_identity_scan':'passed','image_descriptive_metadata':'absent','git_author_and_committer_identity':'anonymous archive identity','source_branch_ancestry':'verified','remote_branches':'verified against local commits at audit time','visual_review':'Each derivative reviewed at full view and targeted close-ups; see per-update validation. Gallery opened locally and displayed all 68 entries.','quality_limits':'Completion means requested variants have been delivered and reviewed; it does not claim native high-resolution detail in resized source areas or exact recovery of hidden content.'}
+    result['folder_layout']='All 20 added images share their update folders with source artwork; 14 folder READMEs explain the additions.'
     print(json.dumps(result,indent=2))
     return result
 

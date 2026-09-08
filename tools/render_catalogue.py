@@ -11,6 +11,16 @@ def render():
     assets = data['assets']; groups = list(dict.fromkeys(a['update'] for a in assets))
     esc = html.escape
     reconstruction = data.get('collection') == 'reconstruction'
+    if reconstruction:
+        for group in groups:
+            added=[a for a in assets if a['update']==group and a.get('origin')=='reconstructed']
+            if not added:continue
+            folder=ROOT/Path(added[0]['file']).parent
+            note=f'# {group}: additions\n\nThis folder follows the source collection layout, with the following derived variants added on this branch. Original source images are retained.\n\n'
+            for a in added:
+                note+=f'- **[{a["id"]} · {a["title"]}]({Path(a["file"]).name})** — {a["classification"]}. {a.get("note", "")}\n'
+            note+='\nDerived images are not original high-resolution releases. See the [full results and quality limits](../../reconstruction/RESULTS.md) for details.\n'
+            (folder/'README.md').write_text(note,encoding='utf-8')
     branch_link = 'https://github.com/TQNL/minecraft-update-artwork/tree/ai-reconstruction'
     readme = f'''# Minecraft Update Artwork
 
@@ -48,7 +58,7 @@ The default branch contains collected source artwork. The **[ai-reconstruction b
 
 This is an independent archive. Artwork and trademarks belong to their respective creators; inclusion does not grant a new licence.
 '''
-    if reconstruction:readme=readme.replace('## Browse the collection','This checkout includes 20 reconstructed derivatives. See **[results, quality limits and excluded files](reconstruction/RESULTS.md)** and **[progress and validation](reconstruction/progress.json)**.\n\n## Browse the collection')
+    if reconstruction:readme=readme.replace('## Browse the collection','The update folders follow the default branch layout. Added images sit beside their source images in `artwork/`; each affected folder has a short README explaining its additions. See **[results, quality limits and excluded files](reconstruction/RESULTS.md)** and **[progress and validation](reconstruction/progress.json)**.\n\n## Browse the collection')
     (ROOT/'README.md').write_text(readme,encoding='utf-8')
     source='# Sources and resolution notes\n\nSource references and stored dimensions are recorded below. Older attribution gaps remain explicit. Promotional panoramas are separate from key-art scenes.\n\nDirect wallpaper ZIPs for six recent updates were unavailable during collection; they may contain additional variants.\n\n'
     kinds=list(dict.fromkeys(a['classification'] for a in assets))

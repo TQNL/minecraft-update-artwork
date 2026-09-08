@@ -38,12 +38,12 @@
   "outputs": [
     {
       "id": "R05",
-      "file": "reconstructed/03-tiny-takeover/complete-scene-no-title-2275x1440.png",
+      "file": "artwork/03-tiny-takeover/complete-scene-no-title-2275x1440.png",
       "sha256": "b45da234d720657506039100d2f3066ff0d9da540ebf3a3879e532d51a76b43e"
     },
     {
       "id": "R04",
-      "file": "reconstructed/03-tiny-takeover/complete-scene-with-title-2275x1440.png",
+      "file": "artwork/03-tiny-takeover/complete-scene-with-title-2275x1440.png",
       "sha256": "f709baf9308ec1b527839dcd0ce28925d3d471ed8f4cda1903d4f658a7210489"
     }
   ]

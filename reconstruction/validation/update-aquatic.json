@@ -42,17 +42,17 @@
   "outputs": [
     {
       "id": "R40A",
-      "file": "reconstructed/20-update-aquatic/expanded-banner-no-title-4320x1440.png",
+      "file": "artwork/20-update-aquatic/expanded-banner-no-title-4320x1440.png",
       "sha256": "8840659687c7bf84416bc2e85d66a1b1463d78295da4353942d3c5aa66c45dd1"
     },
     {
       "id": "R40B",
-      "file": "reconstructed/20-update-aquatic/expanded-banner-with-title-4320x1440.png",
+      "file": "artwork/20-update-aquatic/expanded-banner-with-title-4320x1440.png",
       "sha256": "f0d9e82bfe1f9f114762682ab7677e899b8f211d4b1e948f472cb285dd2d1143"
     },
     {
       "id": "R41",
-      "file": "reconstructed/20-update-aquatic/custom-titled-scene-2560x1440.png",
+      "file": "artwork/20-update-aquatic/custom-titled-scene-2560x1440.png",
       "sha256": "655deec30d480941a8c46894430415d6543725ee07f19a65f3694d05a9b5973d"
     }
   ]

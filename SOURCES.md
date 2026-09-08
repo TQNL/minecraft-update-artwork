@@ -40,7 +40,7 @@ Creator: Mojang Studios.
 
 ### R03: Expanded composition - ratings badge removed
 
-[2560 × 1440 PNG](reconstructed/02-chaos-cubed/expanded-composition-rating-removed-2560x1440.png) · AI reconstruction
+[2560 × 1440 PNG](artwork/02-chaos-cubed/expanded-composition-rating-removed-2560x1440.png) · AI reconstruction
 
 Creator: Derived from Mojang Studios artwork.
 
@@ -72,7 +72,7 @@ Creator: Mojang Studios.
 
 ### R05: Complete scene - no title
 
-[2275 × 1440 PNG](reconstructed/03-tiny-takeover/complete-scene-no-title-2275x1440.png) · AI reconstruction
+[2275 × 1440 PNG](artwork/03-tiny-takeover/complete-scene-no-title-2275x1440.png) · AI reconstruction
 
 Creator: Derived from Mojang Studios artwork.
 
@@ -82,7 +82,7 @@ Source asset IDs: P04, P05.
 
 ### R04: Complete scene - original title treatment
 
-[2275 × 1440 PNG](reconstructed/03-tiny-takeover/complete-scene-with-title-2275x1440.png) · AI reconstruction
+[2275 × 1440 PNG](artwork/03-tiny-takeover/complete-scene-with-title-2275x1440.png) · AI reconstruction
 
 Creator: Derived from Mojang Studios artwork.
 
@@ -168,7 +168,7 @@ Creator: Mojang Studios.
 
 ### R12: Complete scene with reconstructed corners
 
-[3430 × 2048 PNG](reconstructed/07-spring-to-life/complete-scene-3430x2048.png) · AI reconstruction
+[3430 × 2048 PNG](artwork/07-spring-to-life/complete-scene-3430x2048.png) · AI reconstruction
 
 Creator: Derived from Mojang Studios artwork.
 
@@ -240,7 +240,7 @@ Creator: Mojang Studios.
 
 ### R17: Expanded clean scene
 
-[2198 × 1440 PNG](reconstructed/10-tricky-trials/expanded-clean-scene-2198x1440.png) · AI reconstruction
+[2198 × 1440 PNG](artwork/10-tricky-trials/expanded-clean-scene-2198x1440.png) · AI reconstruction
 
 Creator: Derived from Mojang Studios artwork.
 
@@ -250,7 +250,7 @@ Source asset IDs: P16, P17.
 
 ### R16: Titled scene with alternate Breeze placement
 
-[2196 × 1235 PNG](reconstructed/10-tricky-trials/titled-breeze-variant-2196x1235.png) · AI reconstruction
+[2196 × 1235 PNG](artwork/10-tricky-trials/titled-breeze-variant-2196x1235.png) · AI reconstruction
 
 Creator: Derived from Mojang Studios artwork.
 
@@ -318,7 +318,7 @@ Separate promotional panorama, not a continuation of the main key art. Source ha
 
 ### R21: Titled scene with alternate Sniffer placement
 
-[2058 × 1158 PNG](reconstructed/13-trails-tales/titled-alternate-sniffer-2058x1158.png) · Source composite
+[2058 × 1158 PNG](artwork/13-trails-tales/titled-alternate-sniffer-2058x1158.png) · Source composite
 
 Creator: Derived from Mojang Studios artwork.
 
@@ -328,7 +328,7 @@ Source asset IDs: P21, P22.
 
 ### R23: Promotional panorama with separator repair
 
-[4080 × 1350 PNG](reconstructed/13-trails-tales/promotional-panorama-seams-repaired-4080x1350.png) · Source repair
+[4080 × 1350 PNG](artwork/13-trails-tales/promotional-panorama-seams-repaired-4080x1350.png) · Source repair
 
 Creator: Derived from Mojang Studios artwork.
 
@@ -370,7 +370,7 @@ Creator: Mojang Studios.
 
 ### R25: Titled landscape from clean source
 
-[2560 × 1440 PNG](reconstructed/14-the-wild-update/titled-landscape-2560x1440.png) · Source composite
+[2560 × 1440 PNG](artwork/14-the-wild-update/titled-landscape-2560x1440.png) · Source composite
 
 Creator: Derived from Mojang Studios artwork.
 
@@ -380,7 +380,7 @@ Source asset IDs: P24, P25.
 
 ### R26: Square composition with higher-detail source centre
 
-[2560 × 2560 PNG](reconstructed/14-the-wild-update/square-with-clean-source-centre-2560x2560.png) · Source composite
+[2560 × 2560 PNG](artwork/14-the-wild-update/square-with-clean-source-centre-2560x2560.png) · Source composite
 
 Creator: Derived from Mojang Studios artwork.
 
@@ -412,7 +412,7 @@ Creator: Mojang Studios.
 
 ### R28: Clean scene with official Part II title
 
-[2560 × 1440 PNG](reconstructed/15-caves-cliffs-part-ii/official-title-composite-2560x1440.png) · Source composite
+[2560 × 1440 PNG](artwork/15-caves-cliffs-part-ii/official-title-composite-2560x1440.png) · Source composite
 
 Creator: Derived from Mojang Studios artwork.
 
@@ -454,7 +454,7 @@ Creator: Mojang Studios.
 
 ### R30: Clean scene with official Part I title
 
-[2560 × 1440 PNG](reconstructed/16-caves-cliffs-part-i/official-title-composite-2560x1440.png) · Source composite
+[2560 × 1440 PNG](artwork/16-caves-cliffs-part-i/official-title-composite-2560x1440.png) · Source composite
 
 Creator: Derived from Mojang Studios artwork.
 
@@ -486,7 +486,7 @@ Creator: Mojang Studios.
 
 ### R34: Custom titled scene
 
-[2560 × 1440 PNG](reconstructed/17-nether-update/custom-title-placement-2560x1440.png) · Custom title placement
+[2560 × 1440 PNG](artwork/17-nether-update/custom-title-placement-2560x1440.png) · Custom title placement
 
 Creator: Derived from Mojang Studios artwork.
 
@@ -518,7 +518,7 @@ Creator: Mojang Studios.
 
 ### R37: Larger Alex variant on clean scene
 
-[2560 × 1440 PNG](reconstructed/18-buzzy-bees/larger-alex-variant-2560x1440.png) · AI reconstruction
+[2560 × 1440 PNG](artwork/18-buzzy-bees/larger-alex-variant-2560x1440.png) · AI reconstruction
 
 Creator: Derived from Mojang Studios artwork.
 
@@ -550,7 +550,7 @@ Creator: Mojang Studios.
 
 ### R38: Clean scene with reference title placement
 
-[2560 × 1440 PNG](reconstructed/19-village-pillage/clean-scene-with-reference-title-placement-2560x1440.png) · Source composite
+[2560 × 1440 PNG](artwork/19-village-pillage/clean-scene-with-reference-title-placement-2560x1440.png) · Source composite
 
 Creator: Derived from Mojang Studios artwork.
 
@@ -582,7 +582,7 @@ Creator: Mojang Studios.
 
 ### R40A: Expanded banner without title
 
-[4320 × 1440 PNG](reconstructed/20-update-aquatic/expanded-banner-no-title-4320x1440.png) · AI reconstruction
+[4320 × 1440 PNG](artwork/20-update-aquatic/expanded-banner-no-title-4320x1440.png) · AI reconstruction
 
 Creator: Derived from Mojang Studios artwork.
 
@@ -592,7 +592,7 @@ Source asset IDs: P40, P41.
 
 ### R40B: Expanded banner with custom title placement
 
-[4320 × 1440 PNG](reconstructed/20-update-aquatic/expanded-banner-with-title-4320x1440.png) · AI reconstruction and custom title placement
+[4320 × 1440 PNG](artwork/20-update-aquatic/expanded-banner-with-title-4320x1440.png) · AI reconstruction and custom title placement
 
 Creator: Derived from Mojang Studios artwork.
 
@@ -602,7 +602,7 @@ Source asset IDs: P40, P41.
 
 ### R41: Clean scene with custom title placement
 
-[2560 × 1440 PNG](reconstructed/20-update-aquatic/custom-titled-scene-2560x1440.png) · Custom title placement
+[2560 × 1440 PNG](artwork/20-update-aquatic/custom-titled-scene-2560x1440.png) · Custom title placement
 
 Creator: Derived from Mojang Studios artwork.
 
@@ -652,7 +652,7 @@ Creator: Mojang Studios.
 
 ### R52: Trailer title composition reconstructed from the full original
 
-[6000 × 3375 PNG](reconstructed/22-exploration-update/trailer-title-reconstruction-6000x3375.png) · AI reconstruction
+[6000 × 3375 PNG](artwork/22-exploration-update/trailer-title-reconstruction-6000x3375.png) · AI reconstruction
 
 Creator: Derived from Mojang Studios artwork.
 
@@ -694,7 +694,7 @@ Creator: Mojang Studios.
 
 ### R49: Combat Update - AI-enhanced and resampled 5K
 
-[5120 × 2880 PNG](reconstructed/24-combat-update/combat-enhanced-and-resampled-5120x2880.png) · AI enhancement and resampling
+[5120 × 2880 PNG](artwork/24-combat-update/combat-enhanced-and-resampled-5120x2880.png) · AI enhancement and resampling
 
 Creator: Derived from Mojang Studios artwork.
 

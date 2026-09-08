@@ -20,13 +20,13 @@ def verify():
         if a.get('derived_from'):
             assert all(n in ids for n in a['derived_from']),a['id']
             assert a.get('origin')=='reconstructed' and not a.get('primary'),a['id']
-    actual={p.relative_to(ROOT).as_posix() for directory in ['artwork','reconstructed'] for p in (ROOT/directory).rglob('*') if p.is_file()}
+    actual={p.relative_to(ROOT).as_posix() for directory in ['artwork','reconstructed'] for p in (ROOT/directory).rglob('*') if p.is_file() and p.name!='README.md'}
     assert files==actual,(files-actual,actual-files)
     page=(ROOT/'index.html').read_text(encoding='utf-8')
     assert page.count('<article ')==len(assets)
     for target in re.findall(r'(?:href|src)="([^"]+)"',page):
         if not target.startswith(('http:','https:','#')):assert (ROOT/unquote(target)).is_file(),target
-    for p in [ROOT/'README.md',ROOT/'SOURCES.md',ROOT/'ASSET-MAP.md',ROOT/'RECONSTRUCTION.md',*list((ROOT/'reconstruction').glob('*.md'))]:
+    for p in [ROOT/'README.md',ROOT/'SOURCES.md',ROOT/'ASSET-MAP.md',ROOT/'RECONSTRUCTION.md',*list((ROOT/'reconstruction').glob('*.md')),*list((ROOT/'artwork').glob('*/README.md'))]:
         for target in re.findall(r'\]\(([^)]+)\)',p.read_text(encoding='utf-8')):
             if not target.startswith(('http:','https:','#')):assert (p.parent/unquote(target)).exists(),(p,target)
     print(json.dumps({'assets':len(assets),'hashes_dimensions_links':'verified','derived':sum(a.get('origin')=='reconstructed' for a in assets)}))

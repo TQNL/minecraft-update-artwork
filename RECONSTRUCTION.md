@@ -14,7 +14,7 @@ The [PDF asset mapping](ASSET-MAP.md) preserves the review's original numbers. R
 
 ## Derived artwork
 
-Source artwork stays separate from reconstructions. Derivative entries identify source IDs, the work performed and limitations. Custom title placement remains unofficial, even where it uses official lettering. Synthesized or enhanced pixels do not establish the existence of a higher-resolution original.
+Each update uses the same folder as the default branch. Added variants sit alongside source images in `artwork/`, with a short folder README explaining the additions. Derivative entries identify source IDs, the work performed and limitations. Custom title placement remains unofficial, even where it uses official lettering. Synthesized or enhanced pixels do not establish the existence of a higher-resolution original.
 
 Work proceeds newest to oldest, one update at a time. Direct registration and source pixels are preferred wherever they suffice. AI edits are restricted to the requested reconstruction or enhancement. Every result is checked at full view and in detail for seams, duplicated subjects, distorted geometry, changed lettering and lost content.
 

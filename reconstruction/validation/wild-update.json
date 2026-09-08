@@ -60,12 +60,12 @@
   "outputs": [
     {
       "id": "R25",
-      "file": "reconstructed/14-the-wild-update/titled-landscape-2560x1440.png",
+      "file": "artwork/14-the-wild-update/titled-landscape-2560x1440.png",
       "sha256": "d689aa4d21579c34c58698547fa399cdeec46ef765b8acbe09df8e988701ea33"
     },
     {
       "id": "R26",
-      "file": "reconstructed/14-the-wild-update/square-with-clean-source-centre-2560x2560.png",
+      "file": "artwork/14-the-wild-update/square-with-clean-source-centre-2560x2560.png",
       "sha256": "00e7beb9de293258c50852e2cd93fc3c7db56c17cb7400efc56bf215bca6b51d"
     }
   ]
