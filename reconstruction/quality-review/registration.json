@@ -1,0 +1,254 @@
+{
+  "tricky-left": {
+    "generation_dimensions": [
+      753,
+      2087
+    ],
+    "registration_inliers": 472,
+    "registration_matches": 938,
+    "matrix": [
+      [
+        1.0266729724787527,
+        -0.0015680839959058702,
+        3.3116555412735473
+      ],
+      [
+        0.0015680839959058702,
+        1.0266729724787527,
+        -5.860585425396112
+      ]
+    ],
+    "color_matching_sigma": 60
+  },
+  "tricky-right": {
+    "generation_dimensions": [
+      755,
+      2083
+    ],
+    "registration_inliers": 424,
+    "registration_matches": 587,
+    "matrix": [
+      [
+        1.023886006625699,
+        -0.0017443008709357847,
+        1.3356173384668018
+      ],
+      [
+        0.0017443008709357847,
+        1.023886006625699,
+        -1.1179153393288945
+      ]
+    ],
+    "color_matching_sigma": 60
+  },
+  "aquatic-left": {
+    "generation_dimensions": [
+      1145,
+      1373
+    ],
+    "registration_inliers": 324,
+    "registration_matches": 682,
+    "matrix": [
+      [
+        1.0011842579824992,
+        -5.944421322497478e-06,
+        -1.1443824897856667
+      ],
+      [
+        5.944421322497478e-06,
+        1.0011842579824992,
+        -0.8235123399951911
+      ]
+    ],
+    "color_matching_sigma": 60
+  },
+  "aquatic-right": {
+    "generation_dimensions": [
+      1145,
+      1373
+    ],
+    "registration_inliers": 656,
+    "registration_matches": 1006,
+    "matrix": [
+      [
+        1.0006209425867065,
+        2.2502939897299343e-05,
+        0.15604243325868358
+      ],
+      [
+        -2.2502939897299343e-05,
+        1.0006209425867065,
+        -0.5078175998896376
+      ]
+    ],
+    "color_matching_sigma": 60
+  },
+  "panorama-left": {
+    "generation_dimensions": [
+      1322,
+      1190
+    ],
+    "registration_inliers": 1006,
+    "registration_matches": 1348,
+    "matrix": [
+      [
+        0.9999791231142335,
+        9.342012503039325e-05,
+        0.20861221189199525
+      ],
+      [
+        -9.342012503039325e-05,
+        0.9999791231142335,
+        -0.26394079398802256
+      ]
+    ],
+    "color_matching_sigma": 90
+  },
+  "panorama-centre": {
+    "generation_dimensions": [
+      1322,
+      1190
+    ],
+    "registration_inliers": 1084,
+    "registration_matches": 1241,
+    "matrix": [
+      [
+        0.9993476485829459,
+        9.031778326046095e-05,
+        0.5619843896478088
+      ],
+      [
+        -9.031778326046095e-05,
+        0.9993476485829459,
+        -0.4799424999027434
+      ]
+    ],
+    "color_matching_sigma": 90
+  },
+  "panorama-right": {
+    "generation_dimensions": [
+      1322,
+      1190
+    ],
+    "registration_inliers": 1111,
+    "registration_matches": 1284,
+    "matrix": [
+      [
+        0.9956063346473031,
+        9.160717062906737e-05,
+        -0.9413854600653964
+      ],
+      [
+        -9.160717062906737e-05,
+        0.9956063346473031,
+        -0.33785957977049025
+      ]
+    ],
+    "color_matching_sigma": 90
+  },
+  "nether-title": {
+    "generation_dimensions": [
+      2063,
+      762
+    ],
+    "registration_inliers": 319,
+    "registration_matches": 355,
+    "matrix": [
+      [
+        0.9993953907422163,
+        -0.0002293777288759778,
+        0.3309091796993791
+      ],
+      [
+        0.0002293777288759778,
+        0.9993953907422163,
+        -0.9191902981240565
+      ]
+    ],
+    "color_matching_sigma": 60
+  },
+  "aquatic-title": {
+    "generation_dimensions": [
+      1983,
+      793
+    ],
+    "registration_inliers": 347,
+    "registration_matches": 394,
+    "matrix": [
+      [
+        1.0002228504303508,
+        0.0001333426356959435,
+        -0.09217153112808257
+      ],
+      [
+        -0.0001333426356959435,
+        1.0002228504303508,
+        -0.005282746202689467
+      ]
+    ],
+    "color_matching_sigma": 60
+  },
+  "combat-alex": {
+    "generation_dimensions": [
+      1306,
+      1204
+    ],
+    "registration_inliers": 74,
+    "registration_matches": 269,
+    "matrix": [
+      [
+        0.9924635552957904,
+        -0.0008133056114504243,
+        2.8872365510787845
+      ],
+      [
+        0.0008133056114504243,
+        0.9924635552957904,
+        6.539550472004623
+      ]
+    ],
+    "color_matching_sigma": 60
+  },
+  "combat-steve": {
+    "generation_dimensions": [
+      1334,
+      1179
+    ],
+    "registration_inliers": 241,
+    "registration_matches": 337,
+    "matrix": [
+      [
+        0.9985107083236018,
+        7.071560822334973e-05,
+        0.3579721579924887
+      ],
+      [
+        -7.071560822334973e-05,
+        0.9985107083236018,
+        0.013051015125735652
+      ]
+    ],
+    "color_matching_sigma": 60
+  },
+  "combat-title": {
+    "generation_dimensions": [
+      2123,
+      741
+    ],
+    "registration_inliers": 392,
+    "registration_matches": 639,
+    "matrix": [
+      [
+        1.0016032386058087,
+        9.704209564757567e-05,
+        -1.1159584293565241
+      ],
+      [
+        -9.704209564757567e-05,
+        1.0016032386058087,
+        10.552019085543987
+      ]
+    ],
+    "color_matching_sigma": 60
+  }
+}

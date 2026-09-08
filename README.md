@@ -16,6 +16,8 @@ The default branch contains collected source artwork. The **[ai-reconstruction b
 
 The update folders follow the default branch layout. Added images sit beside their source images in `artwork/`; each affected folder has a short README explaining its additions. See **[results, quality limits and excluded files](reconstruction/RESULTS.md)** and **[progress and validation](reconstruction/progress.json)**.
 
+**[Latest 20-image quality review and scores](reconstruction/quality-review/README.md)**
+
 ## Browse the collection
 
 | Update | Files | Primary source |

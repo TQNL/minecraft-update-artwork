@@ -1,0 +1,199 @@
+{
+  "round": 1,
+  "assets": [
+    {
+      "id": "R03",
+      "score": 9,
+      "findings": [
+        "Full composition and native inspected regions are crisp and coherent; former rating region does not show a conspicuous patch."
+      ],
+      "repair": [],
+      "pass": true
+    },
+    {
+      "id": "R05",
+      "score": 7,
+      "findings": [
+        "Stray dark horizontal double-line on pink foreground petal at x95-198, y1344-1349. It cuts across the flat petal surface independently of its geometry and is clear in native inspection.",
+        "Rest of composition, corner transitions and character geometry look coherent."
+      ],
+      "repair": [
+        "Remove the approximately 104x6 pixel streak using adjacent matching pink petal color/gradient; preserve the legitimate petal boundaries. Inspect x80-215, y1328-1363 afterward."
+      ],
+      "pass": false
+    },
+    {
+      "id": "R04",
+      "score": 7,
+      "findings": [
+        "Same stray dark horizontal double-line on pink foreground petal at x95-198, y1344-1349 as R05.",
+        "Main logo and Tiny Takeover lettering are complete and readable."
+      ],
+      "repair": [
+        "Apply the matching localized R05 petal repair to x80-215, y1328-1363; retain the title and other artwork."
+      ],
+      "pass": false
+    },
+    {
+      "id": "R12",
+      "score": 8,
+      "findings": [
+        "Coherent full scene and corner joins. Native edge halos and limited peripheral source detail remain minor; no conspicuous hard transition found."
+      ],
+      "repair": [],
+      "pass": true
+    },
+    {
+      "id": "R17",
+      "score": 8,
+      "findings": [
+        "Restored sides retain coherent architecture, skeleton and spider silhouettes. No conspicuous color or sharpness seam in inspected full/native views."
+      ],
+      "repair": [],
+      "pass": true
+    },
+    {
+      "id": "R16",
+      "score": 8,
+      "findings": [
+        "Titled variant is readable and side strips integrate coherently. Breeze geometry and its transparent wind elements remain legible."
+      ],
+      "repair": [],
+      "pass": true
+    },
+    {
+      "id": "R21",
+      "score": 9,
+      "findings": [
+        "Crisp title, intact sniffer and lectern geometry, coherent deliberate split-scene composition."
+      ],
+      "repair": [],
+      "pass": true
+    },
+    {
+      "id": "R23",
+      "score": 8,
+      "findings": [
+        "Full panorama and extra full-height strips spanning x1100-1550 and x2500-2950 show no conspicuous join.",
+        "Restored textures are somewhat processed at native size, but scene is coherent. Raft character pose matches the source."
+      ],
+      "repair": [],
+      "pass": true
+    },
+    {
+      "id": "R25",
+      "score": 8,
+      "findings": [
+        "Horizontal resolution transitions do not read as conspicuous bands. Title is readable; modest softness and source limitations are acceptable."
+      ],
+      "repair": [],
+      "pass": true
+    },
+    {
+      "id": "R26",
+      "score": 8,
+      "findings": [
+        "Square scene maintains coherent terrain and cloud geometry across inspected upper/lower transitions. Some native texture softness remains, without an obvious compositing boundary."
+      ],
+      "repair": [],
+      "pass": true
+    },
+    {
+      "id": "R28",
+      "score": 9,
+      "findings": [
+        "Title edges and Part II lettering are complete; cave geometry and lighting integrate cleanly."
+      ],
+      "repair": [],
+      "pass": true
+    },
+    {
+      "id": "R30",
+      "score": 9,
+      "findings": [
+        "Title is crisp, complete and coherent with the scene. Part I has slightly softer source detail but remains clean and readable."
+      ],
+      "repair": [],
+      "pass": true
+    },
+    {
+      "id": "R34",
+      "score": 8,
+      "findings": [
+        "Nether title restoration is legible and integrated; small edge irregularities remain minor. Scene architecture and characters are coherent."
+      ],
+      "repair": [],
+      "pass": true
+    },
+    {
+      "id": "R37",
+      "score": 9,
+      "findings": [
+        "Extra native top-left inspection and direct P37 comparison confirm larger Alex pose, face, legs and hive contact are coherent with the deliberate variant. No conspicuous local blur or pasted boundary found."
+      ],
+      "repair": [],
+      "pass": true
+    },
+    {
+      "id": "R38",
+      "score": 8,
+      "findings": [
+        "Full title and additional complete-logo crop are readable and coherent. Fine pale edging around parts of the logo is a minor remaining limitation."
+      ],
+      "repair": [],
+      "pass": true
+    },
+    {
+      "id": "R40A",
+      "score": 8,
+      "findings": [
+        "Banner sides, bubbles, coral and dolphins integrate without a conspicuous join in inspected regions; modest restored texture softness remains."
+      ],
+      "repair": [],
+      "pass": true
+    },
+    {
+      "id": "R40B",
+      "score": 7,
+      "findings": [
+        "Extra complete-logo inspection at x130-990, y35-340 reveals a conspicuous cyan/blue 5-15 pixel fringe around the black title silhouette and carried blue background beneath it.",
+        "Direct P40 source-logo comparison confirms this is not an intentional cyan outline: P40 has a black silhouette adjoining its blue scene. The displaced title carries blue source background into the darker coral area."
+      ],
+      "repair": [
+        "Rebuild the title alpha tightly around the true black silhouette, preserving antialiasing but removing the cyan/blue exterior fringe and source-background patch. Composite onto the identical clean R40A banner beneath x130-990, y35-340. Check especially the left M edge, left UPDATE edge, and full bottom subtitle outline."
+      ],
+      "pass": false
+    },
+    {
+      "id": "R41",
+      "score": 8,
+      "findings": [
+        "Aquatic title restoration is readable with complete characters. Dolphin, trident and surrounding scene remain coherent."
+      ],
+      "repair": [],
+      "pass": true
+    },
+    {
+      "id": "R52",
+      "score": 7,
+      "findings": [
+        "In the MINECRAFT C opening, x4717-4826, y351-397, a bright gray beveled rectangular object appears. Extra native crop makes this conspicuous and artificial.",
+        "Direct S52 trailer comparison shows dark blue scene/background in this opening, not the bright gray button. Full composition otherwise remains coherent."
+      ],
+      "repair": [
+        "Repair the C interior aperture/matte around x4710-4835, y340-410 using the correctly registered underlying scene; preserve genuine dark letter extrusion. Do not leave an invented beveled gray rectangle. Verify the entire logo at native size afterward."
+      ],
+      "pass": false
+    },
+    {
+      "id": "R49",
+      "score": 8,
+      "findings": [
+        "Alex and Steve faces are clean and coherent, and title is readable. Terrain remains softer than the restored focal elements, but without a conspicuous rectangular boundary in inspected regions."
+      ],
+      "repair": [],
+      "pass": true
+    }
+  ],
+  "summary": "20/20 assets visually reviewed using full-composition/native-crop boards; targeted extra native crops and source comparisons were used for suspected defects. 16 pass (score >=8), 4 fail: R04, R05, R40B, R52. Tiny Takeover files share a stray foreground streak; the titled Aquatic banner has a carried blue-background fringe; Exploration has an invented gray rectangle in the logo C aperture. R40B was rechecked against P40 after the root reviewer flagged its full-logo crop. No artwork edited."
+}

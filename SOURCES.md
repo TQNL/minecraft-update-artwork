@@ -76,7 +76,7 @@ Creator: Mojang Studios.
 
 Creator: Derived from Mojang Studios artwork.
 
-P05 clean scene extended with P04 side coverage. Four missing corners are synthesized; other scene pixels come from the source composite.
+P05 clean scene extended with P04 side coverage and synthesized missing corners. Source transitions are blended gradually; a boundary streak was removed using clean petal pixels. Original source files remain separate.
 
 Source asset IDs: P04, P05.
 
@@ -86,7 +86,7 @@ Source asset IDs: P04, P05.
 
 Creator: Derived from Mojang Studios artwork.
 
-Complete scene with original P04 lettering transferred from source pixels. Corner content is synthesized; added sides retain the smaller source detail limit.
+Complete scene with original P04 lettering and synthesized corners. Source transitions are blended gradually; a boundary streak was removed using clean petal pixels. Added sides retain the smaller source detail limit.
 
 Source asset IDs: P04, P05.
 
@@ -172,7 +172,7 @@ Creator: Mojang Studios.
 
 Creator: Derived from Mojang Studios artwork.
 
-P12 centre with P11 sides. Missing corners synthesized with a narrow blend; source pixels retained elsewhere.
+P12 centre with P11 sides and synthesized missing corners. The joins now use gradual source blending; peripheral JPEG detail is still limited.
 
 Source asset IDs: P11, P12.
 
@@ -244,7 +244,7 @@ Creator: Mojang Studios.
 
 Creator: Derived from Mojang Studios artwork.
 
-P17 base with P16 side information. Small corner fills and source joins reconstructed.
+P17 base with P16 side information and reconstructed corners. Local AI restoration brings the soft outer strips closer to the central scene; fine masonry and surface texture in those strips are inferred.
 
 Source asset IDs: P16, P17.
 
@@ -254,7 +254,7 @@ Source asset IDs: P16, P17.
 
 Creator: Derived from Mojang Studios artwork.
 
-P17 base with P16 side information. Original P16 lettering retained; alternate foreground Breeze enhanced in a restricted region. Widescreen P16 framing retained.
+Widescreen P16 framing, original lettering and alternate foreground Breeze retained. Matching side-strip repairs from R17 reduce abrupt softness; AI-enhanced edge and Breeze details remain inferred.
 
 Source asset IDs: P16, P17.
 
@@ -326,13 +326,13 @@ Direct source-pixel reconstruction; no AI generation. P22 scene with original P2
 
 Source asset IDs: P21, P22.
 
-### R23: Promotional panorama with separator repair
+### R23: Promotional panorama with restored detail and seams
 
-[4080 × 1350 PNG](artwork/13-trails-tales/promotional-panorama-seams-repaired-4080x1350.png) · Source repair
+[4080 × 1350 PNG](artwork/13-trails-tales/promotional-panorama-seams-repaired-4080x1350.png) · AI restoration
 
 Creator: Derived from Mojang Studios artwork.
 
-Direct source-pixel reconstruction; no AI generation. Narrow internal separator and right export border repaired from adjacent pixels. Retained separately from key art.
+P23 promotional panorama with separator repair and three overlapping AI-restored tiles. Registration and broad color matching retain the scene layout and lighting; fine restored textures are inferred. Kept separate from key art.
 
 Source asset IDs: P23.
 
@@ -374,7 +374,7 @@ Creator: Mojang Studios.
 
 Creator: Derived from Mojang Studios artwork.
 
-Aligned P24 scene pixels with target-only frame content preserved. Original P25 lettering retained.
+Aligned P24 scene with original P25 lettering and target-only frame content. Horizontal source transitions are now blended over 150 pixels to reduce visible resolution bands.
 
 Source asset IDs: P24, P25.
 
@@ -384,7 +384,7 @@ Source asset IDs: P24, P25.
 
 Creator: Derived from Mojang Studios artwork.
 
-Aligned P24 scene pixels with target-only frame content preserved. Square-only sky, red parrot and cavern retained from P26; those regions retain their source detail limit.
+P24 detail in the shared centre, with P26 square-only sky, red parrot and cavern retained. Horizontal transitions are now blended over 150 pixels; unique frame regions retain their source detail limit.
 
 Source asset IDs: P24, P26.
 
@@ -416,9 +416,9 @@ Creator: Mojang Studios.
 
 Creator: Derived from Mojang Studios artwork.
 
-P29 scene with original P28 title and PART II pixels. No AI generation.
+P29 scene with the larger official P32 Minecraft / Caves & Cliffs logo and original P28 PART II lettering. Direct source compositing; no AI generation.
 
-Source asset IDs: P28, P29.
+Source asset IDs: P28, P29, P32.
 
 ## Caves & Cliffs Part I
 
@@ -458,9 +458,9 @@ Creator: Mojang Studios.
 
 Creator: Derived from Mojang Studios artwork.
 
-P31 scene with original P30 title and PART I pixels. No AI generation.
+P31 scene with the larger official P32 Minecraft / Caves & Cliffs logo and original P30 PART I lettering. Direct source compositing; no AI generation.
 
-Source asset IDs: P30, P31.
+Source asset IDs: P30, P31, P32.
 
 ## Nether Update
 
@@ -486,11 +486,11 @@ Creator: Mojang Studios.
 
 ### R34: Custom titled scene
 
-[2560 × 1440 PNG](artwork/17-nether-update/custom-title-placement-2560x1440.png) · Custom title placement
+[2560 × 1440 PNG](artwork/17-nether-update/custom-title-placement-2560x1440.png) · AI restoration and custom title placement
 
 Creator: Derived from Mojang Studios artwork.
 
-Unofficial placement of the original update logo on P34. Scene pixels unchanged outside the title.
+Custom, unofficial placement of the P35 title on P34. Local AI restoration improves the small logo crop; fine lettering texture is inferred. Scene outside that crop is retained.
 
 Source asset IDs: P34, P35.
 
@@ -586,7 +586,7 @@ Creator: Mojang Studios.
 
 Creator: Derived from Mojang Studios artwork.
 
-P41 centre with P40 outer reefs. A small AI water patch removes a clipped title fragment. Untitled derived composition.
+P41 centre with expanded P40 outer reefs. Local AI restoration reduces low/high-resolution borders, clipped bubble/fish fragments and outer-strip blotches. Reconstructed reef and water detail is inferred.
 
 Source asset IDs: P40, P41.
 
@@ -596,17 +596,17 @@ Source asset IDs: P40, P41.
 
 Creator: Derived from Mojang Studios artwork.
 
-P41 centre with P40 outer reefs. A small AI water patch removes a clipped title fragment. Title placement is custom and unofficial.
+Restored R40A banner scene with a locally AI-restored title and a tightened silhouette matte. Title placement is custom and unofficial; outer reef and fine lettering details are inferred.
 
 Source asset IDs: P40, P41.
 
 ### R41: Clean scene with custom title placement
 
-[2560 × 1440 PNG](artwork/20-update-aquatic/custom-titled-scene-2560x1440.png) · Custom title placement
+[2560 × 1440 PNG](artwork/20-update-aquatic/custom-titled-scene-2560x1440.png) · AI restoration and custom title placement
 
 Creator: Derived from Mojang Studios artwork.
 
-P41 scene pixels retained beneath a resampled original logo. Title placement is custom and unofficial.
+P41 scene with a locally AI-restored title based on P40. Placement is custom and unofficial; fine lettering detail is inferred, with the scene retained outside the title crop.
 
 Source asset IDs: P40, P41.
 
@@ -656,7 +656,7 @@ Creator: Mojang Studios.
 
 Creator: Derived from Mojang Studios artwork.
 
-6000 x 3375 reconstruction of the official trailer framing. Original P45 scene and relocated Vex pixels; AI reconstructs the small S52 title and wall exposed by moving the Vex. This is a derivative, not an original high-resolution titled release.
+6000 x 3375 reconstruction of the trailer framing using P45 scene and relocated Vex pixels. AI reconstructs the S52 title and exposed wall. Title matte pinholes and the C aperture were repaired using the registered scene beneath. This is a derivative, not an original high-resolution titled release.
 
 Source asset IDs: P45, S52.
 
@@ -698,7 +698,7 @@ Creator: Mojang Studios.
 
 Creator: Derived from Mojang Studios artwork.
 
-5120 x 2880 derivative from the 1280 x 720 source. AI working resolution was 1672 x 941, followed by registration and Lanczos resampling. Original lettering, facial designs and small Enderman restored. Not native 5K artwork; generated edge detail is inferred.
+5120 x 2880 derivative from P49 at 1280 x 720. An initial 1672 x 941 AI result was registered and resampled; localized AI restoration now also improves the title and Alex/Steve detail crops. Fine facial, lettering and scene detail is inferred; this is not native 5K source artwork.
 
 Source asset IDs: P49.
 

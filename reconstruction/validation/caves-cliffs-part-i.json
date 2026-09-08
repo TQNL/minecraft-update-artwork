@@ -1,44 +1,74 @@
 {
-  "method": "Original clean scene with aligned original title and part lettering pixels extracted through a difference mask.",
-  "no_ai_generation": true,
-  "clean_scene_unchanged_outside_lettering_mask": true,
-  "lettering_mask_fraction": 0.06616881426526097,
-  "source_geometry": {
-    "source_ids": [
-      "P30",
-      "P31"
-    ],
-    "canvas": [
-      2561,
-      1440
-    ],
-    "base_offset_xy": [
-      0,
-      0
-    ],
-    "matrix_a_to_canvas": [
-      [
-        1.9996990221393536,
-        -0.0001690457303879711,
-        0.7441084434227632
-      ],
-      [
-        0.0001689384678686894,
-        1.9984301775821585,
-        0.6432231349280755
-      ]
-    ],
-    "missing_source_fraction": 0.0003904724716907458
-  },
-  "visual_review": [
-    "Full composition and both lettering treatments inspected: correct title, PART I and original scene retained."
+  "source_ids": [
+    "P30",
+    "P31",
+    "P32"
   ],
   "source_collection_unchanged": true,
   "outputs": [
     {
       "id": "R30",
       "file": "artwork/16-caves-cliffs-part-i/official-title-composite-2560x1440.png",
-      "sha256": "92a63299aeae1bf33c8f8ad54de13459bcc73634ab7d6baee26b2e7bd41de4e3"
+      "sha256": "6f85409f8d55a0b76f34afed25bc1826564466cd7173b25f30ca4035b0cdaf22"
     }
-  ]
+  ],
+  "current_quality_review": {
+    "report": "reconstruction/quality-review/README.md",
+    "data": "reconstruction/quality-review/final.json",
+    "round": 2,
+    "scores": {
+      "R30": 9
+    }
+  },
+  "current_methods": {
+    "R30": "P31 scene with the larger official P32 Minecraft / Caves & Cliffs logo and original P30 PART I lettering. Direct source compositing; no AI generation."
+  },
+  "limitations": [
+    "Main logo uses the larger official P32 source; PART I retains P30 detail."
+  ],
+  "initial_reconstruction_evidence_scope": "The record below describes the initial output hashes and methods before this quality revision. Its pixel-preservation assertions do not apply to the revised outputs above.",
+  "initial_reconstruction": {
+    "method": "Original clean scene with aligned original title and part lettering pixels extracted through a difference mask.",
+    "no_ai_generation": true,
+    "clean_scene_unchanged_outside_lettering_mask": true,
+    "lettering_mask_fraction": 0.06616881426526097,
+    "source_geometry": {
+      "source_ids": [
+        "P30",
+        "P31"
+      ],
+      "canvas": [
+        2561,
+        1440
+      ],
+      "base_offset_xy": [
+        0,
+        0
+      ],
+      "matrix_a_to_canvas": [
+        [
+          1.9996990221393536,
+          -0.0001690457303879711,
+          0.7441084434227632
+        ],
+        [
+          0.0001689384678686894,
+          1.9984301775821585,
+          0.6432231349280755
+        ]
+      ],
+      "missing_source_fraction": 0.0003904724716907458
+    },
+    "visual_review": [
+      "Full composition and both lettering treatments inspected: correct title, PART I and original scene retained."
+    ],
+    "source_collection_unchanged": true,
+    "outputs": [
+      {
+        "id": "R30",
+        "file": "artwork/16-caves-cliffs-part-i/official-title-composite-2560x1440.png",
+        "sha256": "92a63299aeae1bf33c8f8ad54de13459bcc73634ab7d6baee26b2e7bd41de4e3"
+      }
+    ]
+  }
 }

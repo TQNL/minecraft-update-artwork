@@ -24,7 +24,14 @@
       ],
       "limitations": [
         "The wall behind the ratings badge is synthesized; no uncovered original is available."
-      ]
+      ],
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "scores": {
+          "R03": 9
+        }
+      }
     },
     {
       "update": "Tiny Takeover",
@@ -40,7 +47,15 @@
       "limitations": [
         "Corner content is synthesized.",
         "Added sides retain the detail limit of the smaller JPEG source."
-      ]
+      ],
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "scores": {
+          "R05": 9,
+          "R04": 9
+        }
+      }
     },
     {
       "update": "Mounts of Mayhem",
@@ -85,7 +100,14 @@
       "limitations": [
         "Missing corners are synthesized.",
         "Landscape sides retain their source compression and are resampled to the square image scale."
-      ]
+      ],
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "scores": {
+          "R12": 8
+        }
+      }
     },
     {
       "update": "The Garden Awakens",
@@ -119,10 +141,17 @@
         "reconstruction/validation/tricky-trials.json"
       ],
       "limitations": [
-        "Corner masonry is inferred, with approximate fine patterns.",
-        "P16 lettering and side strips retain lower source detail.",
-        "The enhanced foreground Breeze contains synthesized detail."
-      ]
+        "Corner masonry and restored side-strip textures are inferred.",
+        "Original P16 lettering retains its source detail; the enhanced foreground Breeze contains synthesized detail."
+      ],
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "scores": {
+          "R17": 9,
+          "R16": 9
+        }
+      }
     },
     {
       "update": "Armored Paws",
@@ -160,9 +189,17 @@
         "reconstruction/validation/trails-tales.json"
       ],
       "limitations": [
-        "The original title and alternate Sniffer retain P21 source detail.",
-        "The panorama retains its original softness away from the repaired narrow lines."
-      ]
+        "R21 retains the original P21 title and alternate Sniffer detail.",
+        "R23 uses overlapping AI restoration; fine textures are inferred and may look processed at native size."
+      ],
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "scores": {
+          "R21": 9,
+          "R23": 9
+        }
+      }
     },
     {
       "update": "The Wild Update",
@@ -178,7 +215,15 @@
       "limitations": [
         "The square gains P24 detail in its shared 56 percent; P26-only regions retain their original detail limit.",
         "P25 title pixels retain the original 1920-pixel-wide source detail."
-      ]
+      ],
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "scores": {
+          "R25": 8,
+          "R26": 9
+        }
+      }
     },
     {
       "update": "Caves & Cliffs Part II",
@@ -191,8 +236,15 @@
         "reconstruction/validation/caves-cliffs-part-ii.json"
       ],
       "limitations": [
-        "Lettering retains P28 source detail."
-      ]
+        "Main logo uses the larger official P32 source; PART II retains P28 detail."
+      ],
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "scores": {
+          "R28": 9
+        }
+      }
     },
     {
       "update": "Caves & Cliffs Part I",
@@ -205,8 +257,15 @@
         "reconstruction/validation/caves-cliffs-part-i.json"
       ],
       "limitations": [
-        "Lettering retains P30 source detail."
-      ]
+        "Main logo uses the larger official P32 source; PART I retains P30 detail."
+      ],
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "scores": {
+          "R30": 9
+        }
+      }
     },
     {
       "update": "Nether Update",
@@ -220,8 +279,15 @@
       ],
       "limitations": [
         "Custom title placement is unofficial.",
-        "The original 388-pixel logo is resampled; no claim of recovered logo detail."
-      ]
+        "Fine lettering texture is inferred by local AI restoration of the small original logo."
+      ],
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "scores": {
+          "R34": 9
+        }
+      }
     },
     {
       "update": "Buzzy Bees",
@@ -235,7 +301,14 @@
       ],
       "limitations": [
         "Alex enhancement contains synthesized edge and surface detail."
-      ]
+      ],
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "scores": {
+          "R37": 9
+        }
+      }
     },
     {
       "update": "Village & Pillage",
@@ -249,7 +322,14 @@
       ],
       "limitations": [
         "Derived composition combines official scene and lettering; this exact combination is not an original official release."
-      ]
+      ],
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "scores": {
+          "R38": 8
+        }
+      }
     },
     {
       "update": "Update Aquatic",
@@ -264,10 +344,18 @@
         "reconstruction/validation/update-aquatic.json"
       ],
       "limitations": [
-        "Outer P40 reefs and bubble particles retain the smaller source detail and may look softer than the P41 centre.",
-        "Water behind the clipped title fragment is synthesized.",
-        "Title placements are custom and unofficial; lettering retains its source resolution."
-      ]
+        "Outer reefs, water and fine bubble details are locally AI-restored interpretations.",
+        "Title placements are custom and unofficial; restored logo texture is inferred."
+      ],
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "scores": {
+          "R40A": 9,
+          "R40B": 9,
+          "R41": 9
+        }
+      }
     },
     {
       "update": "World of Color Update",
@@ -292,7 +380,14 @@
       "limitations": [
         "The title is an AI reconstruction of the small trailer reference, not the original high-resolution logo; fine cracks and shading are inferred.",
         "The wall behind the relocated Vex is locally reconstructed; fine concealed geometry cannot be confirmed from the sources."
-      ]
+      ],
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "scores": {
+          "R52": 8
+        }
+      }
     },
     {
       "update": "Frostburn Update",
@@ -318,9 +413,16 @@
       ],
       "limitations": [
         "This is an AI-enhanced and resampled derivative, not native 5K source artwork.",
-        "AI working resolution is only 1672 x 941; the final 5K dimensions do not demonstrate recovered original detail.",
-        "Fine edges in buildings and wings are inferred; the original remains available for strict source fidelity."
-      ]
+        "The initial generation was 1672 x 941, followed by separate detail-crop restorations and resampling.",
+        "Fine scene, facial and lettering detail is inferred; the original remains available for strict source fidelity."
+      ],
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "scores": {
+          "R49": 8
+        }
+      }
     }
   ],
   "status": "complete_with_documented_quality_limits",

@@ -1,0 +1,206 @@
+{
+  "round": 2,
+  "assets": [
+    {
+      "id": "R03",
+      "sha256": "7a291ea7046352a1cdd38867ce1097bc7c32de53338777aafefd622e39d50706",
+      "score": 9,
+      "pass": true,
+      "findings": [
+        "Expanded composition remains crisp and geometrically consistent. The right-hand repaired rating area continues the red wall, floor, projectile and foreground shapes without a visible patch or seam."
+      ],
+      "repair": []
+    },
+    {
+      "id": "R05",
+      "sha256": "f6646058620d725893cb49cc39e7d0d431f7d63c9269a8f148ee14c7e4f334ee",
+      "score": 9,
+      "pass": true,
+      "findings": [
+        "The entire lower-left petal was inspected at native scale and compared with baseline. Its diagonal edges and pink checker pattern are continuous; the prior thin horizontal pink streak is absent. Corner foliage, chick silhouettes and central faces are coherent."
+      ],
+      "repair": []
+    },
+    {
+      "id": "R04",
+      "sha256": "78ee927bab2d0aace7c3d3d7c67a76d60392999387fa1d3489037a4e5c1df059",
+      "score": 9,
+      "pass": true,
+      "findings": [
+        "The repaired lower-left petal matches the clean untitled treatment, with no horizontal streak. Both title treatments remain readable with clean surrounding scene content; no visible composite boundary at the sampled corners."
+      ],
+      "repair": []
+    },
+    {
+      "id": "R12",
+      "sha256": "e1103099d54222a75b3ee350c04543f66a177f4b05a541f1b14a5238d3ddcafe",
+      "score": 8,
+      "pass": true,
+      "findings": [
+        "Composition and character geometry are coherent. Birch and foreground foliage edges have mild outlining/edge emphasis at native scale, but it is broadly consistent rather than a localized blurry/high-resolution join. No visible blotch or broken block face found."
+      ],
+      "repair": []
+    },
+    {
+      "id": "R17",
+      "sha256": "c9b6e9fad852e01526738b32ac56302048ec51ef552c0ec90095826d1dbe57a2",
+      "score": 9,
+      "pass": true,
+      "findings": [
+        "Expanded corner masonry, hanging skeleton, spider and foreground blocks remain aligned. Lighting and transparency of the breeze effects are coherent, with no visible composite seam."
+      ],
+      "repair": []
+    },
+    {
+      "id": "R16",
+      "sha256": "416552eb5861fdba051de459aa4ab813a99a82423646b6418c9eaa0dd63be142",
+      "score": 9,
+      "pass": true,
+      "findings": [
+        "Title and breeze variant read cleanly. Native corner and central breeze inspections show intact block edges, face and transparent wind geometry; no patch boundary found."
+      ],
+      "repair": []
+    },
+    {
+      "id": "R21",
+      "sha256": "7b142a6c9c07d7eb828d34ecfea1b1078130af87cdca813574656a909b93bd44",
+      "score": 9,
+      "pass": true,
+      "findings": [
+        "Logo, sky and cherry trees are coherent. The alternate lower sniffer, armor stand and lectern have intact geometry and matching scene edges, without an obvious inserted-content boundary."
+      ],
+      "repair": []
+    },
+    {
+      "id": "R23",
+      "sha256": "6035dd8a2b5133ba777bf2522ffa9d10fd7b7cbc576c5b282b88966e5f8a9306",
+      "score": 9,
+      "pass": true,
+      "findings": [
+        "Both joins at x1290 and x2580 were additionally inspected in full-height native strips. Sky gradients, clouds, water, bamboo, shoreline and block edges remain continuous. No residual straight seam or blurred repair strip found."
+      ],
+      "repair": []
+    },
+    {
+      "id": "R25",
+      "sha256": "ae1015cc3c1db50a21720010ee8c76ba4ef49e3995b815adc164191179541db5",
+      "score": 8,
+      "pass": true,
+      "findings": [
+        "The title is somewhat softer and rougher along its black silhouette than the clean underlying scene at native scale, but remains fully legible and does not carry a visible background rectangle. Landscape, cave and character edges are coherent."
+      ],
+      "repair": []
+    },
+    {
+      "id": "R26",
+      "sha256": "bd376185ad709204612e18ef5e58c7aa1fb01228cce4ae738645f0b282b34ca8",
+      "score": 9,
+      "pass": true,
+      "findings": [
+        "The square extension reads as one continuous scene. Upper tree/water and lower cave boundary crops show matching block geometry and no abrupt sharpness transition or blend smear."
+      ],
+      "repair": []
+    },
+    {
+      "id": "R28",
+      "sha256": "a11090af50180c71d3a9cc0af4de8106ff93a2dd828f66e276a33bd4341511aa",
+      "score": 9,
+      "pass": true,
+      "findings": [
+        "The main logo and PART II caption are intact, with background visible through open letter regions. Cave lighting, crystals and nearby geometry show no visible cutout halo or local patch."
+      ],
+      "repair": []
+    },
+    {
+      "id": "R30",
+      "sha256": "6f85409f8d55a0b76f34afed25bc1826564466cd7173b25f30ca4035b0cdaf22",
+      "score": 9,
+      "pass": true,
+      "findings": [
+        "The main logo and PART I caption are clear. Sky and grass continue cleanly around the title elements, and the surrounding mobs retain coherent silhouettes and faces."
+      ],
+      "repair": []
+    },
+    {
+      "id": "R34",
+      "sha256": "69f43b75f867f57d6e117b289b0f2ee2d20c0b2b61c6c7e84dc1ab22fc9114aa",
+      "score": 9,
+      "pass": true,
+      "findings": [
+        "The placed title follows a clean silhouette against the dark ceiling. Portal, lava, foreground fire and creatures retain aligned scene geometry; no visible title-background remnant found."
+      ],
+      "repair": []
+    },
+    {
+      "id": "R37",
+      "sha256": "0a26ce0ed94e47e054179bdf635001878fb9c5181cde1e8a7a1566554bd496a0",
+      "score": 9,
+      "pass": true,
+      "findings": [
+        "Native crops explicitly cover the larger Alex at upper left, including bottle, head, torso, arms and boots. Comparison with P37 supports the intended size and pose. No double outline, face distortion or boundary smear found; the central Steve is also clean."
+      ],
+      "repair": []
+    },
+    {
+      "id": "R38",
+      "sha256": "2cdd0bd97d440781635926ea891267f4c61494e3c5a4fa9b0d346ebf62b2c4e8",
+      "score": 8,
+      "pass": true,
+      "findings": [
+        "The title silhouette and subtitle have mild jaggedness/softness at native scale relative to the surrounding clean scene. All text is readable and the placement is coherent. The adjacent character faces and overlapping crowd geometry show no visible damage."
+      ],
+      "repair": []
+    },
+    {
+      "id": "R40A",
+      "sha256": "03988f7e1c97e1135a552a274af4f646a55b32da45bb311bf0e871abc843bf9f",
+      "score": 9,
+      "pass": true,
+      "findings": [
+        "Wide underwater scene is continuous across the checked outer/central regions. Bubble columns, shipwreck, coral and dolphin edges retain coherent detail, with no localized blur patch or hard reconstruction boundary."
+      ],
+      "repair": []
+    },
+    {
+      "id": "R40B",
+      "sha256": "9ca2e873ad2d0e548ee5116b8e55f2a77f74bfdcabb37ea46800bfff8e89bda5",
+      "score": 9,
+      "pass": true,
+      "findings": [
+        "The entire repaired logo was inspected at native scale, including both ends and the subtitle. Its black silhouette now meets the existing coral/water background cleanly; the previous blue background halo is absent. The surrounding banner remains continuous."
+      ],
+      "repair": []
+    },
+    {
+      "id": "R41",
+      "sha256": "76deb8e39c33450d6e8614e41305794d62b1c549ea40f73a010250d984f4b6d2",
+      "score": 9,
+      "pass": true,
+      "findings": [
+        "Upper-right custom title remains readable and cleanly integrated. Dolphin, nearby fish and central trident geometry are intact, without a title halo or obvious background patch."
+      ],
+      "repair": []
+    },
+    {
+      "id": "R52",
+      "sha256": "470d39d7366f9145503e9c1bfa03dbe1ebda470e2b8e7da0c2bdc8313bd0b447",
+      "score": 8,
+      "pass": true,
+      "findings": [
+        "All of the large logo was inspected in overlapping native tiles. The C opening at approximately x4717-4826,y351-397 now contains the diagonal blue scene background; the former flat gray rectangle is absent. Some reconstructed bevel edges and fine cracks remain slightly irregular at native scale, but no additional missing letter shape, scene patch or broken silhouette was found. Comparison with S52 supports the overall title and composition."
+      ],
+      "repair": []
+    },
+    {
+      "id": "R49",
+      "sha256": "2d8e0872578a7e06ce64127c9a24c8f1d8f195b982df2f562ec6a0d2c61b6b8a",
+      "score": 8,
+      "pass": true,
+      "findings": [
+        "Faces and title remain coherent against the original P49 artwork. Distant island/terrain edges are visibly soft at native 5120-pixel scale, consistently with the low-resolution source; there is no abrupt local change in sharpness or new face/text distortion."
+      ],
+      "repair": []
+    }
+  ],
+  "summary": "All 20 candidates pass the >=8/10 threshold after independent visual inspection of every full-view/native-crop board. Additional native crops cover both repaired petals, the complete Aquatic logo, the complete Exploration logo, and full-height panorama joins at x1290 and x2580. Baseline petal and official source comparisons were used for suspicious detail. All three round-1 defect classes are resolved; no required repair remains. Five assets score 8/10 for mild edge emphasis, lettering roughness or coherent source-scale softness; these observations are retained rather than treated as perfect results."
+}

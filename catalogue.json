@@ -88,7 +88,12 @@
       "derived_from": [
         "P03"
       ],
-      "validation": "reconstruction/validation/chaos-cubed.json"
+      "validation": "reconstruction/validation/chaos-cubed.json",
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "score": 9
+      }
     },
     {
       "update": "Tiny Takeover",
@@ -140,13 +145,13 @@
         "P04",
         "P05"
       ],
-      "note": "P05 clean scene extended with P04 side coverage. Four missing corners are synthesized; other scene pixels come from the source composite.",
+      "note": "P05 clean scene extended with P04 side coverage and synthesized missing corners. Source transitions are blended gradually; a boundary streak was removed using clean petal pixels. Original source files remain separate.",
       "update": "Tiny Takeover",
       "width": 2275,
       "height": 1440,
       "format": "PNG",
-      "bytes": 3034601,
-      "sha256": "b45da234d720657506039100d2f3066ff0d9da540ebf3a3879e532d51a76b43e",
+      "bytes": 3093049,
+      "sha256": "f6646058620d725893cb49cc39e7d0d431f7d63c9269a8f148ee14c7e4f334ee",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -156,7 +161,12 @@
       "role": "key-art",
       "validation": "reconstruction/validation/tiny-takeover.json",
       "classification": "AI reconstruction",
-      "preview": ".catalogue/previews/R05.jpg"
+      "preview": ".catalogue/previews/R05.jpg",
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "score": 9
+      }
     },
     {
       "id": "R04",
@@ -166,13 +176,13 @@
         "P04",
         "P05"
       ],
-      "note": "Complete scene with original P04 lettering transferred from source pixels. Corner content is synthesized; added sides retain the smaller source detail limit.",
+      "note": "Complete scene with original P04 lettering and synthesized corners. Source transitions are blended gradually; a boundary streak was removed using clean petal pixels. Added sides retain the smaller source detail limit.",
       "update": "Tiny Takeover",
       "width": 2275,
       "height": 1440,
       "format": "PNG",
-      "bytes": 3135451,
-      "sha256": "f709baf9308ec1b527839dcd0ce28925d3d471ed8f4cda1903d4f658a7210489",
+      "bytes": 3192533,
+      "sha256": "78ee927bab2d0aace7c3d3d7c67a76d60392999387fa1d3489037a4e5c1df059",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -182,7 +192,12 @@
       "role": "key-art",
       "validation": "reconstruction/validation/tiny-takeover.json",
       "classification": "AI reconstruction",
-      "preview": ".catalogue/previews/R04.jpg"
+      "preview": ".catalogue/previews/R04.jpg",
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "score": 9
+      }
     },
     {
       "update": "Mounts of Mayhem",
@@ -339,13 +354,13 @@
         "P11",
         "P12"
       ],
-      "note": "P12 centre with P11 sides. Missing corners synthesized with a narrow blend; source pixels retained elsewhere.",
+      "note": "P12 centre with P11 sides and synthesized missing corners. The joins now use gradual source blending; peripheral JPEG detail is still limited.",
       "update": "Spring to Life",
       "width": 3430,
       "height": 2048,
       "format": "PNG",
-      "bytes": 5923983,
-      "sha256": "0d7f035a0a07750f99fc9059b50a0dc0e14dbe2c40627bbd418a126bc12b6104",
+      "bytes": 5883086,
+      "sha256": "e1103099d54222a75b3ee350c04543f66a177f4b05a541f1b14a5238d3ddcafe",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -355,7 +370,12 @@
       "role": "key-art",
       "validation": "reconstruction/validation/spring-to-life.json",
       "classification": "AI reconstruction",
-      "preview": ".catalogue/previews/R12.jpg"
+      "preview": ".catalogue/previews/R12.jpg",
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "score": 8
+      }
     },
     {
       "update": "The Garden Awakens",
@@ -491,13 +511,13 @@
         "P16",
         "P17"
       ],
-      "note": "P17 base with P16 side information. Small corner fills and source joins reconstructed.",
+      "note": "P17 base with P16 side information and reconstructed corners. Local AI restoration brings the soft outer strips closer to the central scene; fine masonry and surface texture in those strips are inferred.",
       "update": "Tricky Trials",
       "width": 2198,
       "height": 1440,
       "format": "PNG",
-      "bytes": 3755837,
-      "sha256": "b65805dffa28f72eec29bc4412ac07194ff3f5dfab10775439a289519035f194",
+      "bytes": 3869943,
+      "sha256": "c9b6e9fad852e01526738b32ac56302048ec51ef552c0ec90095826d1dbe57a2",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -507,7 +527,12 @@
       "role": "key-art",
       "validation": "reconstruction/validation/tricky-trials.json",
       "classification": "AI reconstruction",
-      "preview": ".catalogue/previews/R17.jpg"
+      "preview": ".catalogue/previews/R17.jpg",
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "score": 9
+      }
     },
     {
       "id": "R16",
@@ -517,13 +542,13 @@
         "P16",
         "P17"
       ],
-      "note": "P17 base with P16 side information. Original P16 lettering retained; alternate foreground Breeze enhanced in a restricted region. Widescreen P16 framing retained.",
+      "note": "Widescreen P16 framing, original lettering and alternate foreground Breeze retained. Matching side-strip repairs from R17 reduce abrupt softness; AI-enhanced edge and Breeze details remain inferred.",
       "update": "Tricky Trials",
       "width": 2196,
       "height": 1235,
       "format": "PNG",
-      "bytes": 3506520,
-      "sha256": "5def78d2b5c379eaac5d7a6da74b0fee5f7692eb9ee6cd7bd386937d745ed9cb",
+      "bytes": 3600138,
+      "sha256": "416552eb5861fdba051de459aa4ab813a99a82423646b6418c9eaa0dd63be142",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -533,7 +558,12 @@
       "role": "key-art",
       "validation": "reconstruction/validation/tricky-trials.json",
       "classification": "AI reconstruction",
-      "preview": ".catalogue/previews/R16.jpg"
+      "preview": ".catalogue/previews/R16.jpg",
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "score": 9
+      }
     },
     {
       "update": "Armored Paws",
@@ -664,24 +694,29 @@
       "source_image": null,
       "creator": "Derived from Mojang Studios artwork",
       "validation": "reconstruction/validation/trails-tales.json",
-      "preview": ".catalogue/previews/R21.jpg"
+      "preview": ".catalogue/previews/R21.jpg",
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "score": 9
+      }
     },
     {
       "id": "R23",
-      "title": "Promotional panorama with separator repair",
+      "title": "Promotional panorama with restored detail and seams",
       "file": "artwork/13-trails-tales/promotional-panorama-seams-repaired-4080x1350.png",
       "derived_from": [
         "P23"
       ],
-      "classification": "Source repair",
+      "classification": "AI restoration",
       "role": "promotional-panorama",
-      "note": "Direct source-pixel reconstruction; no AI generation. Narrow internal separator and right export border repaired from adjacent pixels. Retained separately from key art.",
+      "note": "P23 promotional panorama with separator repair and three overlapping AI-restored tiles. Registration and broad color matching retain the scene layout and lighting; fine restored textures are inferred. Kept separate from key art.",
       "update": "Trails & Tales",
       "width": 4080,
       "height": 1350,
       "format": "PNG",
-      "bytes": 4452976,
-      "sha256": "30034d2d51802877726bf9bbbc2436059e49917256aadbafe7ce12a651eb5d03",
+      "bytes": 6311124,
+      "sha256": "6035dd8a2b5133ba777bf2522ffa9d10fd7b7cbc576c5b282b88966e5f8a9306",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -689,7 +724,12 @@
       "source_image": null,
       "creator": "Derived from Mojang Studios artwork",
       "validation": "reconstruction/validation/trails-tales.json",
-      "preview": ".catalogue/previews/R23.jpg"
+      "preview": ".catalogue/previews/R23.jpg",
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "score": 9
+      }
     },
     {
       "update": "The Wild Update",
@@ -763,13 +803,13 @@
         "P25"
       ],
       "classification": "Source composite",
-      "note": "Aligned P24 scene pixels with target-only frame content preserved. Original P25 lettering retained.",
+      "note": "Aligned P24 scene with original P25 lettering and target-only frame content. Horizontal source transitions are now blended over 150 pixels to reduce visible resolution bands.",
       "update": "The Wild Update",
       "width": 2560,
       "height": 1440,
       "format": "PNG",
-      "bytes": 4342657,
-      "sha256": "d689aa4d21579c34c58698547fa399cdeec46ef765b8acbe09df8e988701ea33",
+      "bytes": 4367991,
+      "sha256": "ae1015cc3c1db50a21720010ee8c76ba4ef49e3995b815adc164191179541db5",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -778,7 +818,12 @@
       "creator": "Derived from Mojang Studios artwork",
       "role": "key-art",
       "validation": "reconstruction/validation/wild-update.json",
-      "preview": ".catalogue/previews/R25.jpg"
+      "preview": ".catalogue/previews/R25.jpg",
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "score": 8
+      }
     },
     {
       "id": "R26",
@@ -789,13 +834,13 @@
         "P26"
       ],
       "classification": "Source composite",
-      "note": "Aligned P24 scene pixels with target-only frame content preserved. Square-only sky, red parrot and cavern retained from P26; those regions retain their source detail limit.",
+      "note": "P24 detail in the shared centre, with P26 square-only sky, red parrot and cavern retained. Horizontal transitions are now blended over 150 pixels; unique frame regions retain their source detail limit.",
       "update": "The Wild Update",
       "width": 2560,
       "height": 2560,
       "format": "PNG",
-      "bytes": 6107975,
-      "sha256": "00e7beb9de293258c50852e2cd93fc3c7db56c17cb7400efc56bf215bca6b51d",
+      "bytes": 6102583,
+      "sha256": "bd376185ad709204612e18ef5e58c7aa1fb01228cce4ae738645f0b282b34ca8",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -804,7 +849,12 @@
       "creator": "Derived from Mojang Studios artwork",
       "role": "key-art",
       "validation": "reconstruction/validation/wild-update.json",
-      "preview": ".catalogue/previews/R26.jpg"
+      "preview": ".catalogue/previews/R26.jpg",
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "score": 9
+      }
     },
     {
       "update": "Caves & Cliffs Part II",
@@ -854,16 +904,17 @@
       "file": "artwork/15-caves-cliffs-part-ii/official-title-composite-2560x1440.png",
       "derived_from": [
         "P28",
-        "P29"
+        "P29",
+        "P32"
       ],
       "classification": "Source composite",
-      "note": "P29 scene with original P28 title and PART II pixels. No AI generation.",
+      "note": "P29 scene with the larger official P32 Minecraft / Caves & Cliffs logo and original P28 PART II lettering. Direct source compositing; no AI generation.",
       "update": "Caves & Cliffs Part II",
       "width": 2560,
       "height": 1440,
       "format": "PNG",
-      "bytes": 4040909,
-      "sha256": "7b133723e4c020232c36064e7d76dd0aad4070f654ef1f6392619356cd7d774c",
+      "bytes": 3973662,
+      "sha256": "a11090af50180c71d3a9cc0af4de8106ff93a2dd828f66e276a33bd4341511aa",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -872,7 +923,12 @@
       "creator": "Derived from Mojang Studios artwork",
       "role": "key-art",
       "validation": "reconstruction/validation/caves-cliffs-part-ii.json",
-      "preview": ".catalogue/previews/R28.jpg"
+      "preview": ".catalogue/previews/R28.jpg",
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "score": 9
+      }
     },
     {
       "update": "Caves & Cliffs Part I",
@@ -943,16 +999,17 @@
       "file": "artwork/16-caves-cliffs-part-i/official-title-composite-2560x1440.png",
       "derived_from": [
         "P30",
-        "P31"
+        "P31",
+        "P32"
       ],
       "classification": "Source composite",
-      "note": "P31 scene with original P30 title and PART I pixels. No AI generation.",
+      "note": "P31 scene with the larger official P32 Minecraft / Caves & Cliffs logo and original P30 PART I lettering. Direct source compositing; no AI generation.",
       "update": "Caves & Cliffs Part I",
       "width": 2560,
       "height": 1440,
       "format": "PNG",
-      "bytes": 2519515,
-      "sha256": "92a63299aeae1bf33c8f8ad54de13459bcc73634ab7d6baee26b2e7bd41de4e3",
+      "bytes": 2609940,
+      "sha256": "6f85409f8d55a0b76f34afed25bc1826564466cd7173b25f30ca4035b0cdaf22",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -961,7 +1018,12 @@
       "creator": "Derived from Mojang Studios artwork",
       "role": "key-art",
       "validation": "reconstruction/validation/caves-cliffs-part-i.json",
-      "preview": ".catalogue/previews/R30.jpg"
+      "preview": ".catalogue/previews/R30.jpg",
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "score": 9
+      }
     },
     {
       "update": "Nether Update",
@@ -1013,14 +1075,14 @@
         "P34",
         "P35"
       ],
-      "classification": "Custom title placement",
-      "note": "Unofficial placement of the original update logo on P34. Scene pixels unchanged outside the title.",
+      "classification": "AI restoration and custom title placement",
+      "note": "Custom, unofficial placement of the P35 title on P34. Local AI restoration improves the small logo crop; fine lettering texture is inferred. Scene outside that crop is retained.",
       "update": "Nether Update",
       "width": 2560,
       "height": 1440,
       "format": "PNG",
-      "bytes": 3454019,
-      "sha256": "12d8509fcd3615dd1b2333dfe3836b27d2d2aafd4786ca5ad86adce89bf16086",
+      "bytes": 3577383,
+      "sha256": "69f43b75f867f57d6e117b289b0f2ee2d20c0b2b61c6c7e84dc1ab22fc9114aa",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -1029,7 +1091,12 @@
       "creator": "Derived from Mojang Studios artwork",
       "role": "key-art",
       "validation": "reconstruction/validation/nether-update.json",
-      "preview": ".catalogue/previews/R34.jpg"
+      "preview": ".catalogue/previews/R34.jpg",
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "score": 9
+      }
     },
     {
       "update": "Buzzy Bees",
@@ -1097,7 +1164,12 @@
       "role": "key-art",
       "validation": "reconstruction/validation/buzzy-bees.json",
       "classification": "AI reconstruction",
-      "preview": ".catalogue/previews/R37.jpg"
+      "preview": ".catalogue/previews/R37.jpg",
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "score": 9
+      }
     },
     {
       "update": "Village & Pillage",
@@ -1165,7 +1237,12 @@
       "creator": "Derived from Mojang Studios artwork",
       "role": "key-art",
       "validation": "reconstruction/validation/village-pillage.json",
-      "preview": ".catalogue/previews/R38.jpg"
+      "preview": ".catalogue/previews/R38.jpg",
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "score": 8
+      }
     },
     {
       "update": "Update Aquatic",
@@ -1219,13 +1296,13 @@
       ],
       "classification": "AI reconstruction",
       "role": "promotional-panorama",
-      "note": "P41 centre with P40 outer reefs. A small AI water patch removes a clipped title fragment. Untitled derived composition.",
+      "note": "P41 centre with expanded P40 outer reefs. Local AI restoration reduces low/high-resolution borders, clipped bubble/fish fragments and outer-strip blotches. Reconstructed reef and water detail is inferred.",
       "update": "Update Aquatic",
       "width": 4320,
       "height": 1440,
       "format": "PNG",
-      "bytes": 5177760,
-      "sha256": "8840659687c7bf84416bc2e85d66a1b1463d78295da4353942d3c5aa66c45dd1",
+      "bytes": 6411261,
+      "sha256": "03988f7e1c97e1135a552a274af4f646a55b32da45bb311bf0e871abc843bf9f",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -1233,7 +1310,12 @@
       "source_image": null,
       "creator": "Derived from Mojang Studios artwork",
       "validation": "reconstruction/validation/update-aquatic.json",
-      "preview": ".catalogue/previews/R40A.jpg"
+      "preview": ".catalogue/previews/R40A.jpg",
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "score": 9
+      }
     },
     {
       "id": "R40B",
@@ -1245,13 +1327,13 @@
       ],
       "classification": "AI reconstruction and custom title placement",
       "role": "promotional-panorama",
-      "note": "P41 centre with P40 outer reefs. A small AI water patch removes a clipped title fragment. Title placement is custom and unofficial.",
+      "note": "Restored R40A banner scene with a locally AI-restored title and a tightened silhouette matte. Title placement is custom and unofficial; outer reef and fine lettering details are inferred.",
       "update": "Update Aquatic",
       "width": 4320,
       "height": 1440,
       "format": "PNG",
-      "bytes": 5311810,
-      "sha256": "f0d9e82bfe1f9f114762682ab7677e899b8f211d4b1e948f472cb285dd2d1143",
+      "bytes": 6444938,
+      "sha256": "9ca2e873ad2d0e548ee5116b8e55f2a77f74bfdcabb37ea46800bfff8e89bda5",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -1259,7 +1341,12 @@
       "source_image": null,
       "creator": "Derived from Mojang Studios artwork",
       "validation": "reconstruction/validation/update-aquatic.json",
-      "preview": ".catalogue/previews/R40B.jpg"
+      "preview": ".catalogue/previews/R40B.jpg",
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "score": 9
+      }
     },
     {
       "id": "R41",
@@ -1269,15 +1356,15 @@
         "P40",
         "P41"
       ],
-      "classification": "Custom title placement",
+      "classification": "AI restoration and custom title placement",
       "role": "key-art",
-      "note": "P41 scene pixels retained beneath a resampled original logo. Title placement is custom and unofficial.",
+      "note": "P41 scene with a locally AI-restored title based on P40. Placement is custom and unofficial; fine lettering detail is inferred, with the scene retained outside the title crop.",
       "update": "Update Aquatic",
       "width": 2560,
       "height": 1440,
       "format": "PNG",
-      "bytes": 2816304,
-      "sha256": "655deec30d480941a8c46894430415d6543725ee07f19a65f3694d05a9b5973d",
+      "bytes": 2847004,
+      "sha256": "76deb8e39c33450d6e8614e41305794d62b1c549ea40f73a010250d984f4b6d2",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -1285,7 +1372,12 @@
       "source_image": null,
       "creator": "Derived from Mojang Studios artwork",
       "validation": "reconstruction/validation/update-aquatic.json",
-      "preview": ".catalogue/previews/R41.jpg"
+      "preview": ".catalogue/previews/R41.jpg",
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "score": 9
+      }
     },
     {
       "update": "World of Color Update",
@@ -1383,13 +1475,13 @@
         "P45",
         "S52"
       ],
-      "note": "6000 x 3375 reconstruction of the official trailer framing. Original P45 scene and relocated Vex pixels; AI reconstructs the small S52 title and wall exposed by moving the Vex. This is a derivative, not an original high-resolution titled release.",
+      "note": "6000 x 3375 reconstruction of the trailer framing using P45 scene and relocated Vex pixels. AI reconstructs the S52 title and exposed wall. Title matte pinholes and the C aperture were repaired using the registered scene beneath. This is a derivative, not an original high-resolution titled release.",
       "update": "Exploration Update",
       "width": 6000,
       "height": 3375,
       "format": "PNG",
-      "bytes": 12261263,
-      "sha256": "8ea01f39ed8fd585793c94872072edbd86098d1feb75f25e465984c037464cd1",
+      "bytes": 12268201,
+      "sha256": "470d39d7366f9145503e9c1bfa03dbe1ebda470e2b8e7da0c2bdc8313bd0b447",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -1399,7 +1491,12 @@
       "role": "key-art",
       "validation": "reconstruction/validation/exploration-update.json",
       "classification": "AI reconstruction",
-      "preview": ".catalogue/previews/R52.jpg"
+      "preview": ".catalogue/previews/R52.jpg",
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "score": 8
+      }
     },
     {
       "update": "Frostburn Update",
@@ -1472,13 +1569,13 @@
         "P49"
       ],
       "classification": "AI enhancement and resampling",
-      "note": "5120 x 2880 derivative from the 1280 x 720 source. AI working resolution was 1672 x 941, followed by registration and Lanczos resampling. Original lettering, facial designs and small Enderman restored. Not native 5K artwork; generated edge detail is inferred.",
+      "note": "5120 x 2880 derivative from P49 at 1280 x 720. An initial 1672 x 941 AI result was registered and resampled; localized AI restoration now also improves the title and Alex/Steve detail crops. Fine facial, lettering and scene detail is inferred; this is not native 5K source artwork.",
       "update": "Combat Update",
       "width": 5120,
       "height": 2880,
       "format": "PNG",
-      "bytes": 7602944,
-      "sha256": "afe7634e509d99f91c98749d546e528cfe3d172001f6fcad7a862797a73391f3",
+      "bytes": 9049150,
+      "sha256": "2d8e0872578a7e06ce64127c9a24c8f1d8f195b982df2f562ec6a0d2c61b6b8a",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -1487,7 +1584,12 @@
       "creator": "Derived from Mojang Studios artwork",
       "role": "key-art",
       "validation": "reconstruction/validation/combat-update.json",
-      "preview": ".catalogue/previews/R49.jpg"
+      "preview": ".catalogue/previews/R49.jpg",
+      "quality_review": {
+        "report": "reconstruction/quality-review/README.md",
+        "round": 2,
+        "score": 8
+      }
     },
     {
       "update": "Bountiful Update",

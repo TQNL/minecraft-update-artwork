@@ -59,6 +59,7 @@ The default branch contains collected source artwork. The **[ai-reconstruction b
 This is an independent archive. Artwork and trademarks belong to their respective creators; inclusion does not grant a new licence.
 '''
     if reconstruction:readme=readme.replace('## Browse the collection','The update folders follow the default branch layout. Added images sit beside their source images in `artwork/`; each affected folder has a short README explaining its additions. See **[results, quality limits and excluded files](reconstruction/RESULTS.md)** and **[progress and validation](reconstruction/progress.json)**.\n\n## Browse the collection')
+    if reconstruction:readme=readme.replace('## Browse the collection','**[Latest 20-image quality review and scores](reconstruction/quality-review/README.md)**\n\n## Browse the collection')
     (ROOT/'README.md').write_text(readme,encoding='utf-8')
     source='# Sources and resolution notes\n\nSource references and stored dimensions are recorded below. Older attribution gaps remain explicit. Promotional panoramas are separate from key-art scenes.\n\nDirect wallpaper ZIPs for six recent updates were unavailable during collection; they may contain additional variants.\n\n'
     kinds=list(dict.fromkeys(a['classification'] for a in assets))
@@ -87,7 +88,9 @@ This is an independent archive. Artwork and trademarks belong to their respectiv
             page.append('</div></div></article>')
         page.append('</div></section>')
     page.append(f'<p id="empty" hidden>No artwork matches. Try another update or clear the filters.</p></main><footer>Independent archive · Artwork belongs to its respective creators · Updated {data["updated"]}</footer><script src=".catalogue/filter.js"></script></body></html>')
-    (ROOT/'index.html').write_text('\n'.join(page),encoding='utf-8')
+    markup='\n'.join(page)
+    if reconstruction:markup=markup.replace('</nav>','<a href="'+branch_link+'/reconstruction/quality-review/README.md">Quality review &amp; scores</a></nav>',1)
+    (ROOT/'index.html').write_text(markup,encoding='utf-8')
     (ROOT/'SOURCES.md').write_text(source,encoding='utf-8')
     if reconstruction:
         import runpy

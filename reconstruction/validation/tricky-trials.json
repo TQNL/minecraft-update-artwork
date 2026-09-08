@@ -3,90 +3,127 @@
     "P16",
     "P17"
   ],
-  "canvas": [
-    2198,
-    1440
-  ],
-  "base_offset_xy": [
-    58,
-    0
-  ],
-  "matrix_a_to_canvas": [
-    [
-      1.7161310166266526,
-      -3.117281492539047e-05,
-      0.46585338113136743
-    ],
-    [
-      3.115983166219789e-05,
-      1.7154162598517144,
-      114.54943182695624
-    ]
-  ],
-  "missing_source_fraction": 0.009457777272267718,
-  "generation_alignment_matrix": [
-    [
-      0.9999897624853226,
-      0.00031711987926025687,
-      -0.3231056121382366
-    ],
-    [
-      -0.00031711987926025687,
-      0.9999897624853226,
-      0.487614368988827
-    ]
-  ],
-  "registration_inliers": 1033,
-  "registration_matches": 1260,
-  "ai_patch_fraction_including_blend": 0.014961833990496411,
-  "source_composite_unchanged_outside_corner_mask": false,
-  "corner_correction": "Local tan ceiling patch with overlap illumination matching; first whole-scene corner attempt discarded in this region.",
-  "source_join_blend_width": 48,
-  "source_changes_limited_to": "corner masks and 48-pixel source overlap joins",
-  "breeze_registration_matrix": [
-    [
-      1.0007833974996716,
-      0.005212827777214846,
-      -0.08072881593657939
-    ],
-    [
-      -0.005212827777214846,
-      1.0007833974996716,
-      0.8958423706843135
-    ]
-  ],
-  "breeze_registration_inliers": 258,
-  "breeze_registration_matches": 390,
-  "breeze_patch_rectangle": [
-    760,
-    830,
-    1410,
-    1342
-  ],
-  "title_source": "P16 original lettering pixels, aligned and masked",
-  "titled_frame_crop": [
-    1,
-    115,
-    2197,
-    1350
-  ],
-  "visual_review": [
-    "Full expanded and titled frames inspected.",
-    "Foreground Breeze enhancement and title lettering inspected; no duplicate Breeze or spelling change.",
-    "Corner close-ups prompted a local ceiling correction and source join blend."
-  ],
-  "P18_untouched": true,
   "source_collection_unchanged": true,
   "outputs": [
     {
       "id": "R17",
       "file": "artwork/10-tricky-trials/expanded-clean-scene-2198x1440.png",
-      "sha256": "b65805dffa28f72eec29bc4412ac07194ff3f5dfab10775439a289519035f194"
+      "sha256": "c9b6e9fad852e01526738b32ac56302048ec51ef552c0ec90095826d1dbe57a2"
     },
     {
       "id": "R16",
       "file": "artwork/10-tricky-trials/titled-breeze-variant-2196x1235.png",
-      "sha256": "5def78d2b5c379eaac5d7a6da74b0fee5f7692eb9ee6cd7bd386937d745ed9cb"
+      "sha256": "416552eb5861fdba051de459aa4ab813a99a82423646b6418c9eaa0dd63be142"
     }
-  ]
+  ],
+  "current_quality_review": {
+    "report": "reconstruction/quality-review/README.md",
+    "data": "reconstruction/quality-review/final.json",
+    "round": 2,
+    "scores": {
+      "R17": 9,
+      "R16": 9
+    }
+  },
+  "current_methods": {
+    "R17": "P17 base with P16 side information and reconstructed corners. Local AI restoration brings the soft outer strips closer to the central scene; fine masonry and surface texture in those strips are inferred.",
+    "R16": "Widescreen P16 framing, original lettering and alternate foreground Breeze retained. Matching side-strip repairs from R17 reduce abrupt softness; AI-enhanced edge and Breeze details remain inferred."
+  },
+  "limitations": [
+    "Corner masonry and restored side-strip textures are inferred.",
+    "Original P16 lettering retains its source detail; the enhanced foreground Breeze contains synthesized detail."
+  ],
+  "initial_reconstruction_evidence_scope": "The record below describes the initial output hashes and methods before this quality revision. Its pixel-preservation assertions do not apply to the revised outputs above.",
+  "initial_reconstruction": {
+    "source_ids": [
+      "P16",
+      "P17"
+    ],
+    "canvas": [
+      2198,
+      1440
+    ],
+    "base_offset_xy": [
+      58,
+      0
+    ],
+    "matrix_a_to_canvas": [
+      [
+        1.7161310166266526,
+        -3.117281492539047e-05,
+        0.46585338113136743
+      ],
+      [
+        3.115983166219789e-05,
+        1.7154162598517144,
+        114.54943182695624
+      ]
+    ],
+    "missing_source_fraction": 0.009457777272267718,
+    "generation_alignment_matrix": [
+      [
+        0.9999897624853226,
+        0.00031711987926025687,
+        -0.3231056121382366
+      ],
+      [
+        -0.00031711987926025687,
+        0.9999897624853226,
+        0.487614368988827
+      ]
+    ],
+    "registration_inliers": 1033,
+    "registration_matches": 1260,
+    "ai_patch_fraction_including_blend": 0.014961833990496411,
+    "source_composite_unchanged_outside_corner_mask": false,
+    "corner_correction": "Local tan ceiling patch with overlap illumination matching; first whole-scene corner attempt discarded in this region.",
+    "source_join_blend_width": 48,
+    "source_changes_limited_to": "corner masks and 48-pixel source overlap joins",
+    "breeze_registration_matrix": [
+      [
+        1.0007833974996716,
+        0.005212827777214846,
+        -0.08072881593657939
+      ],
+      [
+        -0.005212827777214846,
+        1.0007833974996716,
+        0.8958423706843135
+      ]
+    ],
+    "breeze_registration_inliers": 258,
+    "breeze_registration_matches": 390,
+    "breeze_patch_rectangle": [
+      760,
+      830,
+      1410,
+      1342
+    ],
+    "title_source": "P16 original lettering pixels, aligned and masked",
+    "titled_frame_crop": [
+      1,
+      115,
+      2197,
+      1350
+    ],
+    "visual_review": [
+      "Full expanded and titled frames inspected.",
+      "Foreground Breeze enhancement and title lettering inspected; no duplicate Breeze or spelling change.",
+      "Corner close-ups prompted a local ceiling correction and source join blend."
+    ],
+    "P18_untouched": true,
+    "source_collection_unchanged": true,
+    "outputs": [
+      {
+        "id": "R17",
+        "file": "artwork/10-tricky-trials/expanded-clean-scene-2198x1440.png",
+        "sha256": "b65805dffa28f72eec29bc4412ac07194ff3f5dfab10775439a289519035f194"
+      },
+      {
+        "id": "R16",
+        "file": "artwork/10-tricky-trials/titled-breeze-variant-2196x1235.png",
+        "sha256": "5def78d2b5c379eaac5d7a6da74b0fee5f7692eb9ee6cd7bd386937d745ed9cb"
+      }
+    ]
+  }
 }

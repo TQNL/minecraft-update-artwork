@@ -3,23 +3,6 @@
     "P38",
     "P39"
   ],
-  "method": "Extract original P39 lettering through its connected dark outer outline; resample and place at matching normalized frame coordinates on untouched P38.",
-  "logo_position": [
-    897,
-    533
-  ],
-  "logo_size": [
-    702,
-    197
-  ],
-  "no_ai_generation": true,
-  "foreground_choice": "P38 only; conflicting P39 scene objects are not transferred.",
-  "outline_refinement": "Restricted connected outline to title silhouette to exclude touching background.",
-  "visual_review": [
-    "Full scene and title cutout inspected.",
-    "Original wording and P39 placement retained; no P39 foreground transferred.",
-    "Touching background excluded from the title outline."
-  ],
   "source_collection_unchanged": true,
   "outputs": [
     {
@@ -27,5 +10,51 @@
       "file": "artwork/19-village-pillage/clean-scene-with-reference-title-placement-2560x1440.png",
       "sha256": "2cdd0bd97d440781635926ea891267f4c61494e3c5a4fa9b0d346ebf62b2c4e8"
     }
-  ]
+  ],
+  "current_quality_review": {
+    "report": "reconstruction/quality-review/README.md",
+    "data": "reconstruction/quality-review/final.json",
+    "round": 2,
+    "scores": {
+      "R38": 8
+    }
+  },
+  "current_methods": {
+    "R38": "P38 scene with original P39 lettering at matching normalized coordinates. Derived composition; scene layout remains P38."
+  },
+  "limitations": [
+    "Derived composition combines official scene and lettering; this exact combination is not an original official release."
+  ],
+  "initial_reconstruction_evidence_scope": "The record below describes the initial output hashes and methods before this quality revision. Its pixel-preservation assertions do not apply to the revised outputs above.",
+  "initial_reconstruction": {
+    "source_ids": [
+      "P38",
+      "P39"
+    ],
+    "method": "Extract original P39 lettering through its connected dark outer outline; resample and place at matching normalized frame coordinates on untouched P38.",
+    "logo_position": [
+      897,
+      533
+    ],
+    "logo_size": [
+      702,
+      197
+    ],
+    "no_ai_generation": true,
+    "foreground_choice": "P38 only; conflicting P39 scene objects are not transferred.",
+    "outline_refinement": "Restricted connected outline to title silhouette to exclude touching background.",
+    "visual_review": [
+      "Full scene and title cutout inspected.",
+      "Original wording and P39 placement retained; no P39 foreground transferred.",
+      "Touching background excluded from the title outline."
+    ],
+    "source_collection_unchanged": true,
+    "outputs": [
+      {
+        "id": "R38",
+        "file": "artwork/19-village-pillage/clean-scene-with-reference-title-placement-2560x1440.png",
+        "sha256": "2cdd0bd97d440781635926ea891267f4c61494e3c5a4fa9b0d346ebf62b2c4e8"
+      }
+    ]
+  }
 }
