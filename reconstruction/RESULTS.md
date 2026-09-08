@@ -1,3 +1,5 @@
+> Historical report for the previous reconstruction branch. See [F-stage branch review](F-QUALITY.md) for this branch. Prior scores do not apply to changed files.
+
 # Reconstruction results
 
 All 24 update families through Combat Update (1.9) have been assessed. The branch contains 20 derived images alongside 48 preserved source assets. The two older standalone title families remain in the source collection.

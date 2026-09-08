@@ -586,7 +586,7 @@ Creator: Mojang Studios.
 
 Creator: Derived from Mojang Studios artwork.
 
-P41 centre with expanded P40 outer reefs. Original registered coral, kelp and sand surfaces restore voxel geometry. The coherent AI-restored water/bubble field is retained around those solids; inferred water detail and smaller-source reef softness remain.
+Saved F-stage source composite: P40 expanded sides and P41 native centre, with mild source sharpening, adjusted source joins and the earlier small AI water fill that removed clipped lettering. Mixed source resolution and bubble treatments remain visible.
 
 Source asset IDs: P40, P41.
 
@@ -596,7 +596,7 @@ Source asset IDs: P40, P41.
 
 Creator: Derived from Mojang Studios artwork.
 
-Same source-restored coral, kelp and sand geometry as R40A, with coherent AI-restored water/bubbles and the reviewed title matte retained. The title placement is custom and unofficial; water and fine logo details remain inferred.
+Saved F-stage source composite: P40 expanded sides and P41 native centre, with mild source sharpening, adjusted source joins and the earlier small AI water fill that removed clipped lettering. Mixed source resolution and bubble treatments remain visible. The existing custom title is overlaid on that exact F scene.
 
 Source asset IDs: P40, P41.
 

@@ -1,3 +1,5 @@
+> Historical report for the previous reconstruction branch. See [F-stage branch review](../F-QUALITY.md) for this branch. Prior scores do not apply to changed files.
+
 # Reconstruction quality review
 
 All **20 current derivatives pass at 8/10 or higher after three independent critic rounds**. The latest round includes a source-geometry correction prompted by AI changes to the Minecraft voxel style. Nine files were corrected in this revision, following the earlier 16-image quality pass. All 48 originals remain unchanged beside the derivatives.
