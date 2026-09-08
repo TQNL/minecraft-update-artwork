@@ -1,3 +1,5 @@
+> Historical source-geometry inspection. Current image methods and hashes are listed in the [quality review](README.md).
+
 # Source geometry correction
 
 The earlier AI restoration changed some source block textures, silhouettes and surface details. This revision checks all 20 derivatives against available source regions and corrects nine files. No new images were generated for this correction.

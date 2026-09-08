@@ -8,26 +8,21 @@
     {
       "id": "R17",
       "file": "artwork/10-tricky-trials/expanded-clean-scene-2198x1440.png",
-      "sha256": "b65805dffa28f72eec29bc4412ac07194ff3f5dfab10775439a289519035f194"
+      "sha256": "7007b130f280db4967b0cff837fa04d1bc97b21ec23fb544236706f4662899cc"
     },
     {
       "id": "R16",
       "file": "artwork/10-tricky-trials/titled-breeze-variant-2196x1235.png",
-      "sha256": "20e9d30d30e7aa5853d87677466ce9cc02445ebff9dca50478bcf1253b114fb5"
+      "sha256": "eb12590f20d2d482dea88c643b41a5d571271e3b67a8686b00034a41692673a6"
     }
   ],
   "current_quality_review": {
     "report": "reconstruction/quality-review/README.md",
-    "data": "reconstruction/quality-review/final.json",
-    "round": 3,
-    "scores": {
-      "R17": 8.6,
-      "R16": 8.4
-    }
+    "status": "accepted"
   },
   "current_methods": {
-    "R17": "P17 centre with registered P16 side coverage and small synthesized missing corners. Original source masonry and textures replace the broad AI side restoration; smaller-source side detail is retained.",
-    "R16": "P16 widescreen framing, original lettering and alternate Breeze placement over P17. Registered source pixels restore side-strip masonry and the Breeze-region geometry; small corner fills and narrow transition pixels remain reconstructed."
+    "R17": "P17 centre with registered P16 side coverage and small synthesized missing corners. Original source masonry and textures are retained, with restrained luminance sharpening in the softer outer source strips, feathered into the native centre.",
+    "R16": "P16 widescreen framing, original lettering and alternate Breeze placement over P17. Registered source pixels restore side-strip masonry and Breeze geometry. Restrained luminance sharpening improves the softer strips and Breeze region; small corner fills and narrow transition pixels remain reconstructed."
   },
   "limitations": [
     "Source masonry and Breeze geometry restored; smaller P16 side/lettering detail remains.",
@@ -126,7 +121,7 @@
       }
     ]
   },
-  "source_geometry_comparison": {
+  "historical_source_geometry_comparison": {
     "R17": "P16 side strips compared to generated restoration: repeated masonry and edge patterns had shifted. Restored earlier source composite.",
     "R16": "P16 side strips and full alternate Breeze crop compared. Replaced regenerated masonry/wind shapes with registered source pixels."
   }

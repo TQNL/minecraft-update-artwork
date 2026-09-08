@@ -34,7 +34,7 @@ def render():
             page.append(f'<div class="links"><a href="{file}">View full size ↗</a><a href="{file}" download>Download ↓</a></div></div></article>')
         page.append('</div></section>')
     page.append('<p id="empty" hidden>No artwork matches. Try another update or clear the filters.</p></main><footer>Independent archive · Artwork belongs to its respective creators · Added variants are clearly labelled; enlarged dimensions do not establish native detail. <a href="index.html">Browse every version</a></footer><script src=".catalogue/filter.js"></script></body></html>')
-    markup='\n'.join(page).replace('</nav>','<a href="'+BRANCH+'reconstruction/quality-review/README.md">Quality review &amp; scores</a></nav>',1)
+    markup='\n'.join(page).replace('</nav>','<a href="'+BRANCH+'reconstruction/quality-review/README.md">Quality review &amp; methods</a></nav>',1)
     (ROOT/'showcase.html').write_text(markup,encoding='utf-8')
     print(json.dumps({'showcase_images':len(selected),'preferred_variants':len(preferred),'update_groups':len(groups)}))
 

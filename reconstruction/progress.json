@@ -27,10 +27,7 @@
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R03": 9
-        }
+        "status": "accepted"
       }
     },
     {
@@ -50,11 +47,7 @@
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R05": 8.8,
-          "R04": 8.8
-        }
+        "status": "accepted"
       }
     },
     {
@@ -103,10 +96,7 @@
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R12": 8.7
-        }
+        "status": "accepted"
       }
     },
     {
@@ -146,11 +136,7 @@
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R17": 8.6,
-          "R16": 8.4
-        }
+        "status": "accepted"
       }
     },
     {
@@ -194,11 +180,7 @@
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R21": 9.2,
-          "R23": 8.5
-        }
+        "status": "accepted"
       }
     },
     {
@@ -218,11 +200,7 @@
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R25": 9.1,
-          "R26": 9.1
-        }
+        "status": "accepted"
       }
     },
     {
@@ -240,10 +218,7 @@
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R28": 9
-        }
+        "status": "accepted"
       }
     },
     {
@@ -261,10 +236,7 @@
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R30": 9
-        }
+        "status": "accepted"
       }
     },
     {
@@ -283,10 +255,7 @@
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R34": 8.6
-        }
+        "status": "accepted"
       }
     },
     {
@@ -304,10 +273,7 @@
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R37": 8.8
-        }
+        "status": "accepted"
       }
     },
     {
@@ -325,10 +291,7 @@
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R38": 9.1
-        }
+        "status": "accepted"
       }
     },
     {
@@ -344,17 +307,12 @@
         "reconstruction/validation/update-aquatic.json"
       ],
       "limitations": [
-        "Original coral, kelp and sand shapes retain the smaller source resolution in outer regions.",
-        "Water and bubble detail remains locally AI-restored. Title placements remain custom and unofficial, with inferred fine lettering detail."
+        "Expanded banners combine original P40 sides and P41 centre with restrained detail adjustments. Source-specific bubble styles, mixed source resolution and softer outer reefs remain.",
+        "A small AI water fill removes clipped lettering; custom title treatment remains unofficial and inherited fine detail is inferred. No new generation in the latest detail refinement."
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R40A": 8.1,
-          "R40B": 8.1,
-          "R41": 8.7
-        }
+        "status": "accepted"
       }
     },
     {
@@ -383,10 +341,7 @@
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R52": 8.5
-        }
+        "status": "accepted"
       }
     },
     {
@@ -417,10 +372,7 @@
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "scores": {
-          "R49": 8.8
-        }
+        "status": "accepted"
       }
     }
   ],

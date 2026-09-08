@@ -12,11 +12,7 @@
   ],
   "current_quality_review": {
     "report": "reconstruction/quality-review/README.md",
-    "data": "reconstruction/quality-review/final.json",
-    "round": 3,
-    "scores": {
-      "R49": 8.8
-    }
+    "status": "accepted"
   },
   "current_methods": {
     "R49": "5120 x 2880 derivative rebuilt from the original 1280 x 720 P49 using bounded sharpening and Lanczos resampling only. Original block, terrain, wing, face and lettering shapes are retained; no generated scene detail remains. Stored 5K dimensions do not establish native 5K detail."
@@ -77,7 +73,7 @@
       }
     ]
   },
-  "source_geometry_comparison": {
+  "historical_source_geometry_comparison": {
     "R49": "P49 source compared at terrain, roofs, wings, faces and title. AI added bevels and changed small shapes across the scene. Rebuilt through non-generative sharpening/resampling from P49."
   }
 }

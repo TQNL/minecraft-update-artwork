@@ -13,11 +13,7 @@
   ],
   "current_quality_review": {
     "report": "reconstruction/quality-review/README.md",
-    "data": "reconstruction/quality-review/final.json",
-    "round": 3,
-    "scores": {
-      "R34": 8.6
-    }
+    "status": "accepted"
   },
   "current_methods": {
     "R34": "Custom, unofficial placement of the P35 title on P34. Local AI restoration improves the small logo crop; fine lettering texture is inferred. Scene outside that crop is retained."
@@ -57,7 +53,7 @@
       }
     ]
   },
-  "source_geometry_comparison": {
+  "historical_source_geometry_comparison": {
     "R34": "Full AI-restored logo compared with original P35 treatment. Letter contours remain coherent; fine cracks are inferred. Retained."
   }
 }

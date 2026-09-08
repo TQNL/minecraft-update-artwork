@@ -13,11 +13,7 @@
   ],
   "current_quality_review": {
     "report": "reconstruction/quality-review/README.md",
-    "data": "reconstruction/quality-review/final.json",
-    "round": 3,
-    "scores": {
-      "R52": 8.5
-    }
+    "status": "accepted"
   },
   "current_methods": {
     "R52": "6000 x 3375 reconstruction of the trailer framing using P45 scene and relocated Vex pixels. AI reconstructs the S52 title and exposed wall. Title matte pinholes and the C aperture were repaired using the registered scene beneath. This is a derivative, not an original high-resolution titled release."
@@ -100,7 +96,7 @@
       }
     ]
   },
-  "source_geometry_comparison": {
+  "historical_source_geometry_comparison": {
     "R52": "Trailer S52 and original P45 scene checked: source Vex remains cubic and local wall fill has straight planar edges. Exact hidden wall and fine logo details cannot be verified."
   }
 }

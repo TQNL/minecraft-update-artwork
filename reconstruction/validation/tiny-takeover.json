@@ -18,12 +18,7 @@
   ],
   "current_quality_review": {
     "report": "reconstruction/quality-review/README.md",
-    "data": "reconstruction/quality-review/final.json",
-    "round": 3,
-    "scores": {
-      "R05": 8.8,
-      "R04": 8.8
-    }
+    "status": "accepted"
   },
   "current_methods": {
     "R05": "P05 clean scene extended with P04 side coverage and synthesized missing corners. Source transitions are blended gradually; a boundary streak was removed using clean petal pixels. Original source files remain separate. The remaining upper sampling-boundary streak was removed using clean existing sky/scene pixels.",
@@ -84,7 +79,7 @@
       }
     ]
   },
-  "source_geometry_comparison": {
+  "historical_source_geometry_comparison": {
     "R05": "P04/P05 registered source coverage and inferred corner joins checked. Sampling-boundary line corrected; unsourced corner shapes remain an interpretation.",
     "R04": "P04/P05 registered source coverage and inferred corner joins checked. Sampling-boundary line corrected; unsourced corner shapes remain an interpretation."
   }

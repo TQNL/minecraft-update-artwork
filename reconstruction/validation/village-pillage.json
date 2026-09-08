@@ -13,11 +13,7 @@
   ],
   "current_quality_review": {
     "report": "reconstruction/quality-review/README.md",
-    "data": "reconstruction/quality-review/final.json",
-    "round": 3,
-    "scores": {
-      "R38": 9.1
-    }
+    "status": "accepted"
   },
   "current_methods": {
     "R38": "P38 scene with original P39 lettering at matching normalized coordinates. Derived composition; scene layout remains P38."
@@ -57,7 +53,7 @@
       }
     ]
   },
-  "source_geometry_comparison": {
+  "historical_source_geometry_comparison": {
     "R38": "Source P38/P39 lettering/scene composite; no generated geometry. Retained."
   }
 }

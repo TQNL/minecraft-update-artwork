@@ -244,7 +244,7 @@ Creator: Mojang Studios.
 
 Creator: Derived from Mojang Studios artwork.
 
-P17 centre with registered P16 side coverage and small synthesized missing corners. Original source masonry and textures replace the broad AI side restoration; smaller-source side detail is retained.
+P17 centre with registered P16 side coverage and small synthesized missing corners. Original source masonry and textures are retained, with restrained luminance sharpening in the softer outer source strips, feathered into the native centre.
 
 Source asset IDs: P16, P17.
 
@@ -254,7 +254,7 @@ Source asset IDs: P16, P17.
 
 Creator: Derived from Mojang Studios artwork.
 
-P16 widescreen framing, original lettering and alternate Breeze placement over P17. Registered source pixels restore side-strip masonry and the Breeze-region geometry; small corner fills and narrow transition pixels remain reconstructed.
+P16 widescreen framing, original lettering and alternate Breeze placement over P17. Registered source pixels restore side-strip masonry and Breeze geometry. Restrained luminance sharpening improves the softer strips and Breeze region; small corner fills and narrow transition pixels remain reconstructed.
 
 Source asset IDs: P16, P17.
 
@@ -332,7 +332,7 @@ Source asset IDs: P21, P22.
 
 Creator: Derived from Mojang Studios artwork.
 
-Original P23 geometry and textures with bounded source sharpening. Only a 66-pixel-wide strip of the earlier AI result remains at the damaged separator, blended to adjacent source gradients. Separator detail is inferred; original source softness remains elsewhere. Kept separate from key art.
+Original P23 geometry and textures with restrained luminance sharpening and a noise threshold. A 66-pixel-wide strip of the earlier AI result remains at the damaged separator, blended to adjacent source gradients. Separator detail is inferred; source softness and haze remain elsewhere. Kept separate from key art.
 
 Source asset IDs: P23.
 
@@ -582,21 +582,21 @@ Creator: Mojang Studios.
 
 ### R40A: Expanded banner without title
 
-[4320 × 1440 PNG](artwork/20-update-aquatic/expanded-banner-no-title-4320x1440.png) · AI reconstruction
+[4320 × 1440 PNG](artwork/20-update-aquatic/expanded-banner-no-title-4320x1440.png) · Source composite with localized AI repair
 
 Creator: Derived from Mojang Studios artwork.
 
-P41 centre with expanded P40 outer reefs. Original registered coral, kelp and sand surfaces restore voxel geometry. The coherent AI-restored water/bubble field is retained around those solids; inferred water detail and smaller-source reef softness remain.
+P41 native centre with registered P40 expanded sides, adjusted source joins and a small inherited AI water fill that removes clipped lettering. Enlarged side regions have restrained luminance sharpening and gently feathered smoothing at the source sharpness transitions. Original bubble positions and coral shapes are retained; source-specific bubble styles, mixed resolution and softer outer reefs remain.
 
 Source asset IDs: P40, P41.
 
 ### R40B: Expanded banner with custom title placement
 
-[4320 × 1440 PNG](artwork/20-update-aquatic/expanded-banner-with-title-4320x1440.png) · AI reconstruction and custom title placement
+[4320 × 1440 PNG](artwork/20-update-aquatic/expanded-banner-with-title-4320x1440.png) · Source composite with custom title
 
 Creator: Derived from Mojang Studios artwork.
 
-Same source-restored coral, kelp and sand geometry as R40A, with coherent AI-restored water/bubbles and the reviewed title matte retained. The title placement is custom and unofficial; water and fine logo details remain inferred.
+Same source-composite scene and detail adjustments as R40A, with the existing custom title overlay preserved. Title placement is unofficial; fine title detail and the small inherited AI water fill are inferred. Original bubble positions and coral shapes are retained, with mixed source resolution and source-specific bubble styles still visible.
 
 Source asset IDs: P40, P41.
 

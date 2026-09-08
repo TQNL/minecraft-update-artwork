@@ -70,18 +70,28 @@ def audit():
     result={'date':'2026-09-08','status':'passed','updates_checked':24,'source_assets_preserved':48,'derived_assets':20,'total_assets':68,'stable_pdf_mapping':'all 51 original IDs retained, including removal records','required_removals':['P27','P33','P44','P46'],'replacement':'S52','required_primary_sources':['P14','P17','P41'],'source_hashes':'unchanged from main','catalogue_hashes_dimensions_lineage_and_links':'verified','public_identity_scan':'passed','image_descriptive_metadata':'absent','git_author_and_committer_identity':'anonymous archive identity','source_branch_ancestry':'verified','remote_branches':'verified against local commits at audit time','visual_review':'Each derivative reviewed at full view and targeted close-ups; see per-update validation. Gallery opened locally and displayed all 68 entries.','quality_limits':'Completion means requested variants have been delivered and reviewed; it does not claim native high-resolution detail in resized source areas or exact recovery of hidden content.'}
     result['folder_layout']='All 20 added images share their update folders with source artwork; 14 folder READMEs explain the additions.'
     quality=json.loads((ROOT/'reconstruction/quality-review/final.json').read_text())
-    assert quality['status']=='passed' and quality['reviewed_assets']==20
-    assert 1<=quality['review_rounds']<=3
+    assert quality['status']=='accepted' and quality['reviewed_assets']==20
+    assert quality['review_type']=='source-composite detail refinement'
+    assert quality['historical_critic_rounds']==3 and quality['independent_critic_rounds_this_revision']==0
     assert {a['id'] for a in quality['assets']}==derived
     for a in quality['assets']:
-        assert a['pass'] and a['score']>=8
         assert a['sha256']==assets[a['id']]['sha256']
-    critic=json.loads((ROOT/f'reconstruction/quality-review/round-{quality["review_rounds"]}.json').read_text())
+    critic=json.loads((ROOT/'reconstruction/quality-review/round-3.json').read_text())
     assert {a['id'] for a in critic['assets']}==derived
     for a in critic['assets']:
-        assert a['sha256']==assets[a['id']]['sha256'] and a['score']>=8 and a['pass']
-    result['visual_review']='All 20 final derivatives passed independent critic review at 8/10 or above; reviewed SHA-256 hashes match the published files.'
-    result['quality_review_rounds']=quality['review_rounds']
+        assert a['score']>=8 and a['pass']
+    historical={a['id']:a for a in critic['assets']}
+    for a in quality['assets']:
+        assert a['before_sha256']==historical[a['id']]['sha256']
+        assert a['changed']==(a['before_sha256']!=a['sha256'])
+    assert sum(a['changed'] for a in quality['assets'])==quality['replaced_assets']==5
+    assert not (ROOT/'review.html').exists() and not (ROOT/'.catalogue/f-review').exists()
+    for name in tracked:
+        p=ROOT/name
+        if p.suffix.lower() in {'.html','.md','.json','.css','.js'}:
+            assert not re.search(r'f-quality|f-stage|f-branch|f-review|pages-gallery',p.read_text(encoding='utf-8'),re.I),name
+    result['visual_review']='All 20 adopted derivatives were visually inspected; five refined images were accepted by the user. Current hashes verified. Earlier independent scores remain historical.'
+    result['historical_quality_review_rounds']=quality['historical_critic_rounds']
     result['quality_replaced_files']=quality['replaced_assets']
     print(json.dumps(result,indent=2))
     return result

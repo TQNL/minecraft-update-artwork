@@ -14,21 +14,16 @@
     {
       "id": "R23",
       "file": "artwork/13-trails-tales/promotional-panorama-seams-repaired-4080x1350.png",
-      "sha256": "977113e0e21ac9d81e8a074d9f0a01e1cdee56532789f348637a692a578fbf94"
+      "sha256": "e29e1329a257f78f325647980a9fa85f2b25d022eda97bc202e995426d4703a6"
     }
   ],
   "current_quality_review": {
     "report": "reconstruction/quality-review/README.md",
-    "data": "reconstruction/quality-review/final.json",
-    "round": 3,
-    "scores": {
-      "R21": 9.2,
-      "R23": 8.5
-    }
+    "status": "accepted"
   },
   "current_methods": {
     "R21": "Direct source-pixel reconstruction; no AI generation. P22 scene with original P21 title and alternate Sniffer placement.",
-    "R23": "Original P23 geometry and textures with bounded source sharpening. Only a 66-pixel-wide strip of the earlier AI result remains at the damaged separator, blended to adjacent source gradients. Separator detail is inferred; original source softness remains elsewhere. Kept separate from key art."
+    "R23": "Original P23 geometry and textures with restrained luminance sharpening and a noise threshold. A 66-pixel-wide strip of the earlier AI result remains at the damaged separator, blended to adjacent source gradients. Separator detail is inferred; source softness and haze remain elsewhere. Kept separate from key art."
   },
   "limitations": [
     "R21 retains P21 title/Sniffer detail.",
@@ -95,7 +90,7 @@
       }
     ]
   },
-  "source_geometry_comparison": {
+  "historical_source_geometry_comparison": {
     "R21": "Direct P21/P22 source composite; no generated geometry. Retained.",
     "R23": "P23 compared across camel ground, distant trees and Sniffer. Broad AI surface changes were replaced with source geometry. The damaged separator retains a 66-pixel-wide strip from the earlier AI result after gradient-domain blending; exact hidden separator detail remains inferred."
   }

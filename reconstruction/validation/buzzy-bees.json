@@ -13,11 +13,7 @@
   ],
   "current_quality_review": {
     "report": "reconstruction/quality-review/README.md",
-    "data": "reconstruction/quality-review/final.json",
-    "round": 3,
-    "scores": {
-      "R37": 8.8
-    }
+    "status": "accepted"
   },
   "current_methods": {
     "R37": "P36 source retained outside a local AI-enhanced Alex patch matching P37 larger placement."
@@ -144,7 +140,7 @@
       }
     ]
   },
-  "source_geometry_comparison": {
+  "historical_source_geometry_comparison": {
     "R37": "Larger Alex compared directly with P37 crop: body silhouette, square facial pixels, hand, bottle and leg shapes remain coherent. Retained."
   }
 }

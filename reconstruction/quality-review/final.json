@@ -1,15 +1,15 @@
 {
   "date": "2026-09-08",
-  "status": "passed",
-  "review_rounds": 3,
-  "maximum_review_rounds": 3,
-  "pass_threshold": 8,
+  "status": "accepted",
+  "review_type": "source-composite detail refinement",
   "reviewed_assets": 20,
-  "passed_assets": 20,
-  "replaced_assets": 9,
-  "replaced_assets_scope": "Latest source-geometry correction, following 16 replacements in the earlier quality pass.",
+  "replaced_assets": 5,
   "source_assets_preserved": 48,
-  "review_method": "Source comparisons followed by a fresh third critic review of full views and native details. Scores assess visual coherence and source shape fidelity, not recovery of unavailable native detail.",
+  "new_AI_generation": false,
+  "independent_critic_rounds_this_revision": 0,
+  "historical_critic_rounds": 3,
+  "historical_scores": "The three critic rounds apply to their recorded historical hashes. No new independent score is claimed for changed files.",
+  "review_method": "All 20 compositions and targeted native details visually inspected; adjusted outputs compared against their starting pixels. User requested adoption of the resulting images.",
   "assets": [
     {
       "id": "R03",
@@ -19,87 +19,63 @@
       "sha256": "7a291ea7046352a1cdd38867ce1097bc7c32de53338777aafefd622e39d50706",
       "changed": false,
       "methods": [
-        "Retained after source-geometry comparison."
-      ],
-      "source_comparison": "Covered rating wall checked against adjacent P03 wall pattern and P02 composition. Pixel steps and flat block surfaces remain coherent. Hidden exact pixels cannot be verified.",
-      "score": 9,
-      "pass": true,
-      "round": 3
+        "The covered wall was reconstructed with a localized AI patch. All pixels outside the repair bounds are identical to P03; both source compositions are preserved separately."
+      ]
     },
     {
       "id": "R05",
       "file": "artwork/03-tiny-takeover/complete-scene-no-title-2275x1440.png",
       "update": "Tiny Takeover",
-      "before_sha256": "f6646058620d725893cb49cc39e7d0d431f7d63c9269a8f148ee14c7e4f334ee",
+      "before_sha256": "3fd5bde8c639f097aac195c36a28ee4a5bcab1148f882086e6db04bbb2483fe9",
       "sha256": "3fd5bde8c639f097aac195c36a28ee4a5bcab1148f882086e6db04bbb2483fe9",
-      "changed": true,
+      "changed": false,
       "methods": [
-        "Removed sampling-boundary streaks using the clean earlier petal/sky pixels; retained source shapes and existing corner fills."
-      ],
-      "source_comparison": "P04/P05 registered source coverage and inferred corner joins checked. Sampling-boundary line corrected; unsourced corner shapes remain an interpretation.",
-      "score": 8.8,
-      "pass": true,
-      "round": 3
+        "P05 clean scene extended with P04 side coverage and synthesized missing corners. Source transitions are blended gradually; a boundary streak was removed using clean petal pixels. Original source files remain separate. The remaining upper sampling-boundary streak was removed using clean existing sky/scene pixels."
+      ]
     },
     {
       "id": "R04",
       "file": "artwork/03-tiny-takeover/complete-scene-with-title-2275x1440.png",
       "update": "Tiny Takeover",
-      "before_sha256": "78ee927bab2d0aace7c3d3d7c67a76d60392999387fa1d3489037a4e5c1df059",
+      "before_sha256": "6603157e55828d3e569ad5cb2dc8c79b941c4e3669ec687a1c7c166e36fb9772",
       "sha256": "6603157e55828d3e569ad5cb2dc8c79b941c4e3669ec687a1c7c166e36fb9772",
-      "changed": true,
+      "changed": false,
       "methods": [
-        "Removed sampling-boundary streaks using the clean earlier petal/sky pixels; retained source shapes and existing corner fills."
-      ],
-      "source_comparison": "P04/P05 registered source coverage and inferred corner joins checked. Sampling-boundary line corrected; unsourced corner shapes remain an interpretation.",
-      "score": 8.8,
-      "pass": true,
-      "round": 3
+        "Complete scene with original P04 lettering and synthesized corners. Source transitions are blended gradually; a boundary streak was removed using clean petal pixels. Added sides retain the smaller source detail limit. The remaining upper sampling-boundary streak was removed using clean existing sky/scene pixels."
+      ]
     },
     {
       "id": "R12",
       "file": "artwork/07-spring-to-life/complete-scene-3430x2048.png",
       "update": "Spring to Life",
-      "before_sha256": "e1103099d54222a75b3ee350c04543f66a177f4b05a541f1b14a5238d3ddcafe",
+      "before_sha256": "492998c69c30aada47d1c27c7785a5c75e0ff4e67a27f5c0aa00c0f393d58962",
       "sha256": "492998c69c30aada47d1c27c7785a5c75e0ff4e67a27f5c0aa00c0f393d58962",
-      "changed": true,
+      "changed": false,
       "methods": [
-        "Removed sampling-boundary streaks from the source blend, including the upper-left birch trunk; retained existing block geometry and corner fills."
-      ],
-      "source_comparison": "P11/P12 source/composite and all four missing corners checked. Synthesized blocks follow adjoining straight faces; no additional deformation found. Exact missing corner content is unavailable. Critic native inspection found an upper birch sampling streak; it was removed using clean existing source-composite pixels.",
-      "score": 8.7,
-      "pass": true,
-      "round": 3
+        "P12 centre with P11 sides and synthesized missing corners. The joins now use gradual source blending; peripheral JPEG detail is still limited. Sampling-boundary streaks on both upper birch transitions were removed using clean existing source-composite pixels."
+      ]
     },
     {
       "id": "R17",
       "file": "artwork/10-tricky-trials/expanded-clean-scene-2198x1440.png",
       "update": "Tricky Trials",
-      "before_sha256": "c9b6e9fad852e01526738b32ac56302048ec51ef552c0ec90095826d1dbe57a2",
-      "sha256": "b65805dffa28f72eec29bc4412ac07194ff3f5dfab10775439a289519035f194",
+      "before_sha256": "b65805dffa28f72eec29bc4412ac07194ff3f5dfab10775439a289519035f194",
+      "sha256": "7007b130f280db4967b0cff837fa04d1bc97b21ec23fb544236706f4662899cc",
       "changed": true,
       "methods": [
-        "Restored registered P16 side geometry and P17 centre from the source composite; retained only the pre-existing unsourced corner fills."
-      ],
-      "source_comparison": "P16 side strips compared to generated restoration: repeated masonry and edge patterns had shifted. Restored earlier source composite.",
-      "score": 8.6,
-      "pass": true,
-      "round": 3
+        "P17 centre with registered P16 side coverage and small synthesized missing corners. Original source masonry and textures are retained, with restrained luminance sharpening in the softer outer source strips, feathered into the native centre."
+      ]
     },
     {
       "id": "R16",
       "file": "artwork/10-tricky-trials/titled-breeze-variant-2196x1235.png",
       "update": "Tricky Trials",
-      "before_sha256": "416552eb5861fdba051de459aa4ab813a99a82423646b6418c9eaa0dd63be142",
-      "sha256": "20e9d30d30e7aa5853d87677466ce9cc02445ebff9dca50478bcf1253b114fb5",
+      "before_sha256": "20e9d30d30e7aa5853d87677466ce9cc02445ebff9dca50478bcf1253b114fb5",
+      "sha256": "eb12590f20d2d482dea88c643b41a5d571271e3b67a8686b00034a41692673a6",
       "changed": true,
       "methods": [
-        "Restored source side strips and the original P16 Breeze-region masonry, wind and character shapes using a registered source crop with an 18-pixel edge blend."
-      ],
-      "source_comparison": "P16 side strips and full alternate Breeze crop compared. Replaced regenerated masonry/wind shapes with registered source pixels.",
-      "score": 8.4,
-      "pass": true,
-      "round": 3
+        "P16 widescreen framing, original lettering and alternate Breeze placement over P17. Registered source pixels restore side-strip masonry and Breeze geometry. Restrained luminance sharpening improves the softer strips and Breeze region; small corner fills and narrow transition pixels remain reconstructed."
+      ]
     },
     {
       "id": "R21",
@@ -109,27 +85,19 @@
       "sha256": "7b142a6c9c07d7eb828d34ecfea1b1078130af87cdca813574656a909b93bd44",
       "changed": false,
       "methods": [
-        "Retained after source-geometry comparison."
-      ],
-      "source_comparison": "Direct P21/P22 source composite; no generated geometry. Retained.",
-      "score": 9.2,
-      "pass": true,
-      "round": 3
+        "Direct source-pixel reconstruction; no AI generation. P22 scene with original P21 title and alternate Sniffer placement."
+      ]
     },
     {
       "id": "R23",
       "file": "artwork/13-trails-tales/promotional-panorama-seams-repaired-4080x1350.png",
       "update": "Trails & Tales",
-      "before_sha256": "6035dd8a2b5133ba777bf2522ffa9d10fd7b7cbc576c5b282b88966e5f8a9306",
-      "sha256": "977113e0e21ac9d81e8a074d9f0a01e1cdee56532789f348637a692a578fbf94",
+      "before_sha256": "977113e0e21ac9d81e8a074d9f0a01e1cdee56532789f348637a692a578fbf94",
+      "sha256": "e29e1329a257f78f325647980a9fa85f2b25d022eda97bc202e995426d4703a6",
       "changed": true,
       "methods": [
-        "Restored original P23 geometry and textures with bounded source sharpening. Retained only a 66-pixel-wide strip of the earlier AI result at the damaged separator, blended through gradient-domain compositing to remove the tonal stripe without affecting adjacent source silhouettes."
-      ],
-      "source_comparison": "P23 compared across camel ground, distant trees and Sniffer. Broad AI surface changes were replaced with source geometry. The damaged separator retains a 66-pixel-wide strip from the earlier AI result after gradient-domain blending; exact hidden separator detail remains inferred.",
-      "score": 8.5,
-      "pass": true,
-      "round": 3
+        "Original P23 geometry and textures with restrained luminance sharpening and a noise threshold. A 66-pixel-wide strip of the earlier AI result remains at the damaged separator, blended to adjacent source gradients. Separator detail is inferred; source softness and haze remain elsewhere. Kept separate from key art."
+      ]
     },
     {
       "id": "R25",
@@ -139,12 +107,8 @@
       "sha256": "ae1015cc3c1db50a21720010ee8c76ba4ef49e3995b815adc164191179541db5",
       "changed": false,
       "methods": [
-        "Retained after source-geometry comparison."
-      ],
-      "source_comparison": "Direct P24/P25 aligned source composite; no generated geometry. Retained.",
-      "score": 9.1,
-      "pass": true,
-      "round": 3
+        "Aligned P24 scene with original P25 lettering and target-only frame content. Horizontal source transitions are now blended over 150 pixels to reduce visible resolution bands."
+      ]
     },
     {
       "id": "R26",
@@ -154,12 +118,8 @@
       "sha256": "bd376185ad709204612e18ef5e58c7aa1fb01228cce4ae738645f0b282b34ca8",
       "changed": false,
       "methods": [
-        "Retained after source-geometry comparison."
-      ],
-      "source_comparison": "Direct P24/P26 source composite; no generated geometry. Retained.",
-      "score": 9.1,
-      "pass": true,
-      "round": 3
+        "P24 detail in the shared centre, with P26 square-only sky, red parrot and cavern retained. Horizontal transitions are now blended over 150 pixels; unique frame regions retain their source detail limit."
+      ]
     },
     {
       "id": "R28",
@@ -169,12 +129,8 @@
       "sha256": "a11090af50180c71d3a9cc0af4de8106ff93a2dd828f66e276a33bd4341511aa",
       "changed": false,
       "methods": [
-        "Retained after source-geometry comparison."
-      ],
-      "source_comparison": "Official P32 logo, P28 part lettering and P29 scene; no generated geometry. Retained.",
-      "score": 9,
-      "pass": true,
-      "round": 3
+        "P29 scene with the larger official P32 Minecraft / Caves & Cliffs logo and original P28 PART II lettering. Direct source compositing; no AI generation."
+      ]
     },
     {
       "id": "R30",
@@ -184,12 +140,8 @@
       "sha256": "6f85409f8d55a0b76f34afed25bc1826564466cd7173b25f30ca4035b0cdaf22",
       "changed": false,
       "methods": [
-        "Retained after source-geometry comparison."
-      ],
-      "source_comparison": "Official P32 logo, P30 part lettering and P31 scene; no generated geometry. Retained.",
-      "score": 9,
-      "pass": true,
-      "round": 3
+        "P31 scene with the larger official P32 Minecraft / Caves & Cliffs logo and original P30 PART I lettering. Direct source compositing; no AI generation."
+      ]
     },
     {
       "id": "R34",
@@ -199,12 +151,8 @@
       "sha256": "69f43b75f867f57d6e117b289b0f2ee2d20c0b2b61c6c7e84dc1ab22fc9114aa",
       "changed": false,
       "methods": [
-        "Retained after source-geometry comparison."
-      ],
-      "source_comparison": "Full AI-restored logo compared with original P35 treatment. Letter contours remain coherent; fine cracks are inferred. Retained.",
-      "score": 8.6,
-      "pass": true,
-      "round": 3
+        "Custom, unofficial placement of the P35 title on P34. Local AI restoration improves the small logo crop; fine lettering texture is inferred. Scene outside that crop is retained."
+      ]
     },
     {
       "id": "R37",
@@ -214,12 +162,8 @@
       "sha256": "0a26ce0ed94e47e054179bdf635001878fb9c5181cde1e8a7a1566554bd496a0",
       "changed": false,
       "methods": [
-        "Retained after source-geometry comparison."
-      ],
-      "source_comparison": "Larger Alex compared directly with P37 crop: body silhouette, square facial pixels, hand, bottle and leg shapes remain coherent. Retained.",
-      "score": 8.8,
-      "pass": true,
-      "round": 3
+        "P36 source retained outside a local AI-enhanced Alex patch matching P37 larger placement."
+      ]
     },
     {
       "id": "R38",
@@ -229,42 +173,30 @@
       "sha256": "2cdd0bd97d440781635926ea891267f4c61494e3c5a4fa9b0d346ebf62b2c4e8",
       "changed": false,
       "methods": [
-        "Retained after source-geometry comparison."
-      ],
-      "source_comparison": "Source P38/P39 lettering/scene composite; no generated geometry. Retained.",
-      "score": 9.1,
-      "pass": true,
-      "round": 3
+        "P38 scene with original P39 lettering at matching normalized coordinates. Derived composition; scene layout remains P38."
+      ]
     },
     {
       "id": "R40A",
       "file": "artwork/20-update-aquatic/expanded-banner-no-title-4320x1440.png",
       "update": "Update Aquatic",
-      "before_sha256": "03988f7e1c97e1135a552a274af4f646a55b32da45bb311bf0e871abc843bf9f",
-      "sha256": "b78fd3a32af7bd29305d2d7af49cb7884e3edc8c5ada835625ea3fc1652e90ca",
+      "before_sha256": "b78fd3a32af7bd29305d2d7af49cb7884e3edc8c5ada835625ea3fc1652e90ca",
+      "sha256": "1055ed479ee97f1854b21b1b64f3c6780281f5e8673bf28b1f3f4bf795373f69",
       "changed": true,
       "methods": [
-        "Restored registered original coral, kelp and sand surfaces through a solid-region mask, retaining coherent restored water/bubbles to avoid reintroducing the conflicting source backgrounds. Fine water detail remains inferred."
-      ],
-      "source_comparison": "P40 registered outer reefs compared with AI crop: coral textures, kelp edges and sand details had changed. Original solid geometry restored selectively; inferred water/bubbles retained to avoid conflicting source backgrounds.",
-      "score": 8.1,
-      "pass": true,
-      "round": 3
+        "P41 native centre with registered P40 expanded sides, adjusted source joins and a small inherited AI water fill that removes clipped lettering. Enlarged side regions have restrained luminance sharpening and gently feathered smoothing at the source sharpness transitions. Original bubble positions and coral shapes are retained; source-specific bubble styles, mixed resolution and softer outer reefs remain."
+      ]
     },
     {
       "id": "R40B",
       "file": "artwork/20-update-aquatic/expanded-banner-with-title-4320x1440.png",
       "update": "Update Aquatic",
-      "before_sha256": "9ca2e873ad2d0e548ee5116b8e55f2a77f74bfdcabb37ea46800bfff8e89bda5",
-      "sha256": "197df7a8e18d1dbedf3f8f2a3ddca0817c82040d387297add676b5a00e9c780c",
+      "before_sha256": "197df7a8e18d1dbedf3f8f2a3ddca0817c82040d387297add676b5a00e9c780c",
+      "sha256": "f9149ce3832ab61512f037f3fa0321d5adef32f7543b1e821ea5a1a6524f243c",
       "changed": true,
       "methods": [
-        "Shared source-restored coral, kelp and sand geometry from R40A; retained its reviewed water/bubble field and custom title matte."
-      ],
-      "source_comparison": "Same reef correction as R40A. Title compared to P40 reference and existing clean matte retained.",
-      "score": 8.1,
-      "pass": true,
-      "round": 3
+        "Same source-composite scene and detail adjustments as R40A, with the existing custom title overlay preserved. Title placement is unofficial; fine title detail and the small inherited AI water fill are inferred. Original bubble positions and coral shapes are retained, with mixed source resolution and source-specific bubble styles still visible."
+      ]
     },
     {
       "id": "R41",
@@ -274,12 +206,8 @@
       "sha256": "76deb8e39c33450d6e8614e41305794d62b1c549ea40f73a010250d984f4b6d2",
       "changed": false,
       "methods": [
-        "Retained after source-geometry comparison."
-      ],
-      "source_comparison": "Full restored title compared with original P40 logo treatment; overall letter contours remain coherent. Scene is P41 outside title crop. Retained.",
-      "score": 8.7,
-      "pass": true,
-      "round": 3
+        "P41 scene with a locally AI-restored title based on P40. Placement is custom and unofficial; fine lettering detail is inferred, with the scene retained outside the title crop."
+      ]
     },
     {
       "id": "R52",
@@ -289,27 +217,19 @@
       "sha256": "470d39d7366f9145503e9c1bfa03dbe1ebda470e2b8e7da0c2bdc8313bd0b447",
       "changed": false,
       "methods": [
-        "Retained after source-geometry comparison."
-      ],
-      "source_comparison": "Trailer S52 and original P45 scene checked: source Vex remains cubic and local wall fill has straight planar edges. Exact hidden wall and fine logo details cannot be verified.",
-      "score": 8.5,
-      "pass": true,
-      "round": 3
+        "6000 x 3375 reconstruction of the trailer framing using P45 scene and relocated Vex pixels. AI reconstructs the S52 title and exposed wall. Title matte pinholes and the C aperture were repaired using the registered scene beneath. This is a derivative, not an original high-resolution titled release."
+      ]
     },
     {
       "id": "R49",
       "file": "artwork/24-combat-update/combat-enhanced-and-resampled-5120x2880.png",
       "update": "Combat Update",
-      "before_sha256": "2d8e0872578a7e06ce64127c9a24c8f1d8f195b982df2f562ec6a0d2c61b6b8a",
+      "before_sha256": "8a89c7933fee836494f7a5d7196b775bdd487d9eb97c70eb326d4c630a57499c",
       "sha256": "8a89c7933fee836494f7a5d7196b775bdd487d9eb97c70eb326d4c630a57499c",
-      "changed": true,
+      "changed": false,
       "methods": [
-        "Rebuilt from P49 using bounded source sharpening and Lanczos resampling only. Restored original terrain, wings, swords, character and title geometry; no generated scene detail remains."
-      ],
-      "source_comparison": "P49 source compared at terrain, roofs, wings, faces and title. AI added bevels and changed small shapes across the scene. Rebuilt through non-generative sharpening/resampling from P49.",
-      "score": 8.8,
-      "pass": true,
-      "round": 3
+        "5120 x 2880 derivative rebuilt from the original 1280 x 720 P49 using bounded sharpening and Lanczos resampling only. Original block, terrain, wing, face and lettering shapes are retained; no generated scene detail remains. Stored 5K dimensions do not establish native 5K detail."
+      ]
     }
   ]
 }

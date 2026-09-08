@@ -91,8 +91,8 @@
       "validation": "reconstruction/validation/chaos-cubed.json",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 9
+        "status": "accepted",
+        "method": "visual inspection and source-composite detail refinement"
       }
     },
     {
@@ -164,8 +164,8 @@
       "preview": ".catalogue/previews/R05.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.8
+        "status": "accepted",
+        "method": "visual inspection and source-composite detail refinement"
       }
     },
     {
@@ -195,8 +195,8 @@
       "preview": ".catalogue/previews/R04.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.8
+        "status": "accepted",
+        "method": "visual inspection and source-composite detail refinement"
       }
     },
     {
@@ -373,8 +373,8 @@
       "preview": ".catalogue/previews/R12.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.7
+        "status": "accepted",
+        "method": "visual inspection and source-composite detail refinement"
       }
     },
     {
@@ -511,13 +511,13 @@
         "P16",
         "P17"
       ],
-      "note": "P17 centre with registered P16 side coverage and small synthesized missing corners. Original source masonry and textures replace the broad AI side restoration; smaller-source side detail is retained.",
+      "note": "P17 centre with registered P16 side coverage and small synthesized missing corners. Original source masonry and textures are retained, with restrained luminance sharpening in the softer outer source strips, feathered into the native centre.",
       "update": "Tricky Trials",
       "width": 2198,
       "height": 1440,
       "format": "PNG",
-      "bytes": 3755837,
-      "sha256": "b65805dffa28f72eec29bc4412ac07194ff3f5dfab10775439a289519035f194",
+      "bytes": 3760366,
+      "sha256": "7007b130f280db4967b0cff837fa04d1bc97b21ec23fb544236706f4662899cc",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -530,8 +530,8 @@
       "preview": ".catalogue/previews/R17.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.6
+        "status": "accepted",
+        "method": "visual inspection and source-composite detail refinement"
       }
     },
     {
@@ -542,13 +542,13 @@
         "P16",
         "P17"
       ],
-      "note": "P16 widescreen framing, original lettering and alternate Breeze placement over P17. Registered source pixels restore side-strip masonry and the Breeze-region geometry; small corner fills and narrow transition pixels remain reconstructed.",
+      "note": "P16 widescreen framing, original lettering and alternate Breeze placement over P17. Registered source pixels restore side-strip masonry and Breeze geometry. Restrained luminance sharpening improves the softer strips and Breeze region; small corner fills and narrow transition pixels remain reconstructed.",
       "update": "Tricky Trials",
       "width": 2196,
       "height": 1235,
       "format": "PNG",
-      "bytes": 3500856,
-      "sha256": "20e9d30d30e7aa5853d87677466ce9cc02445ebff9dca50478bcf1253b114fb5",
+      "bytes": 3510228,
+      "sha256": "eb12590f20d2d482dea88c643b41a5d571271e3b67a8686b00034a41692673a6",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -561,8 +561,8 @@
       "preview": ".catalogue/previews/R16.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.4
+        "status": "accepted",
+        "method": "visual inspection and source-composite detail refinement"
       }
     },
     {
@@ -697,8 +697,8 @@
       "preview": ".catalogue/previews/R21.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 9.2
+        "status": "accepted",
+        "method": "visual inspection and source-composite detail refinement"
       }
     },
     {
@@ -710,13 +710,13 @@
       ],
       "classification": "Source repair with localized AI reconstruction",
       "role": "promotional-panorama",
-      "note": "Original P23 geometry and textures with bounded source sharpening. Only a 66-pixel-wide strip of the earlier AI result remains at the damaged separator, blended to adjacent source gradients. Separator detail is inferred; original source softness remains elsewhere. Kept separate from key art.",
+      "note": "Original P23 geometry and textures with restrained luminance sharpening and a noise threshold. A 66-pixel-wide strip of the earlier AI result remains at the damaged separator, blended to adjacent source gradients. Separator detail is inferred; source softness and haze remain elsewhere. Kept separate from key art.",
       "update": "Trails & Tales",
       "width": 4080,
       "height": 1350,
       "format": "PNG",
-      "bytes": 4812439,
-      "sha256": "977113e0e21ac9d81e8a074d9f0a01e1cdee56532789f348637a692a578fbf94",
+      "bytes": 4865946,
+      "sha256": "e29e1329a257f78f325647980a9fa85f2b25d022eda97bc202e995426d4703a6",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -727,8 +727,8 @@
       "preview": ".catalogue/previews/R23.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.5
+        "status": "accepted",
+        "method": "visual inspection and source-composite detail refinement"
       }
     },
     {
@@ -821,8 +821,8 @@
       "preview": ".catalogue/previews/R25.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 9.1
+        "status": "accepted",
+        "method": "visual inspection and source-composite detail refinement"
       }
     },
     {
@@ -852,8 +852,8 @@
       "preview": ".catalogue/previews/R26.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 9.1
+        "status": "accepted",
+        "method": "visual inspection and source-composite detail refinement"
       }
     },
     {
@@ -926,8 +926,8 @@
       "preview": ".catalogue/previews/R28.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 9
+        "status": "accepted",
+        "method": "visual inspection and source-composite detail refinement"
       }
     },
     {
@@ -1021,8 +1021,8 @@
       "preview": ".catalogue/previews/R30.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 9
+        "status": "accepted",
+        "method": "visual inspection and source-composite detail refinement"
       }
     },
     {
@@ -1094,8 +1094,8 @@
       "preview": ".catalogue/previews/R34.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.6
+        "status": "accepted",
+        "method": "visual inspection and source-composite detail refinement"
       }
     },
     {
@@ -1167,8 +1167,8 @@
       "preview": ".catalogue/previews/R37.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.8
+        "status": "accepted",
+        "method": "visual inspection and source-composite detail refinement"
       }
     },
     {
@@ -1240,8 +1240,8 @@
       "preview": ".catalogue/previews/R38.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 9.1
+        "status": "accepted",
+        "method": "visual inspection and source-composite detail refinement"
       }
     },
     {
@@ -1294,15 +1294,15 @@
         "P40",
         "P41"
       ],
-      "classification": "AI reconstruction",
+      "classification": "Source composite with localized AI repair",
       "role": "promotional-panorama",
-      "note": "P41 centre with expanded P40 outer reefs. Original registered coral, kelp and sand surfaces restore voxel geometry. The coherent AI-restored water/bubble field is retained around those solids; inferred water detail and smaller-source reef softness remain.",
+      "note": "P41 native centre with registered P40 expanded sides, adjusted source joins and a small inherited AI water fill that removes clipped lettering. Enlarged side regions have restrained luminance sharpening and gently feathered smoothing at the source sharpness transitions. Original bubble positions and coral shapes are retained; source-specific bubble styles, mixed resolution and softer outer reefs remain.",
       "update": "Update Aquatic",
       "width": 4320,
       "height": 1440,
       "format": "PNG",
-      "bytes": 5906460,
-      "sha256": "b78fd3a32af7bd29305d2d7af49cb7884e3edc8c5ada835625ea3fc1652e90ca",
+      "bytes": 5386119,
+      "sha256": "1055ed479ee97f1854b21b1b64f3c6780281f5e8673bf28b1f3f4bf795373f69",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -1313,8 +1313,8 @@
       "preview": ".catalogue/previews/R40A.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.1
+        "status": "accepted",
+        "method": "visual inspection and source-composite detail refinement"
       }
     },
     {
@@ -1325,15 +1325,15 @@
         "P40",
         "P41"
       ],
-      "classification": "AI reconstruction and custom title placement",
+      "classification": "Source composite with custom title",
       "role": "promotional-panorama",
-      "note": "Same source-restored coral, kelp and sand geometry as R40A, with coherent AI-restored water/bubbles and the reviewed title matte retained. The title placement is custom and unofficial; water and fine logo details remain inferred.",
+      "note": "Same source-composite scene and detail adjustments as R40A, with the existing custom title overlay preserved. Title placement is unofficial; fine title detail and the small inherited AI water fill are inferred. Original bubble positions and coral shapes are retained, with mixed source resolution and source-specific bubble styles still visible.",
       "update": "Update Aquatic",
       "width": 4320,
       "height": 1440,
       "format": "PNG",
-      "bytes": 5956698,
-      "sha256": "197df7a8e18d1dbedf3f8f2a3ddca0817c82040d387297add676b5a00e9c780c",
+      "bytes": 5485692,
+      "sha256": "f9149ce3832ab61512f037f3fa0321d5adef32f7543b1e821ea5a1a6524f243c",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -1344,8 +1344,8 @@
       "preview": ".catalogue/previews/R40B.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.1
+        "status": "accepted",
+        "method": "visual inspection and source-composite detail refinement"
       }
     },
     {
@@ -1375,8 +1375,8 @@
       "preview": ".catalogue/previews/R41.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.7
+        "status": "accepted",
+        "method": "visual inspection and source-composite detail refinement"
       }
     },
     {
@@ -1494,8 +1494,8 @@
       "preview": ".catalogue/previews/R52.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.5
+        "status": "accepted",
+        "method": "visual inspection and source-composite detail refinement"
       }
     },
     {
@@ -1587,8 +1587,8 @@
       "preview": ".catalogue/previews/R49.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 3,
-        "score": 8.8
+        "status": "accepted",
+        "method": "visual inspection and source-composite detail refinement"
       }
     },
     {

@@ -2,7 +2,9 @@
 
 All 24 update families through Combat Update (1.9) have been assessed. The branch contains 20 derived images alongside 48 preserved source assets. The two older standalone title families remain in the source collection.
 
-Completion records the requested variants and review decisions. Resampling cannot recover original detail, and synthesized hidden content remains an interpretation. The quality pass repairs resolution transitions and title mattes; the subsequent source-geometry correction restores altered voxel shapes and textures. Fine restored details remain inferred; some source softness remains. See the [20-image quality review](quality-review/README.md) for all scores and repairs.
+Completion records the requested variants and review decisions. Resampling cannot recover original detail, and synthesized hidden content remains an interpretation. The quality pass repairs resolution transitions and title mattes; the subsequent source-geometry correction restores altered voxel shapes and textures. Fine restored details remain inferred; some source softness remains. See the [quality review](quality-review/README.md) for current methods, limits and historical review records.
+
+The latest adopted refinement updates five images with source-composite and restrained detail adjustments; no new generation was used.
 
 All image variants live together in their update folder under `artwork/`. Each folder with additions includes a short README; detailed validation remains here.
 
@@ -29,7 +31,7 @@ All image variants live together in their update folder under `artwork/`. Each f
 | Nether Update | [R34](../artwork/17-nether-update/custom-title-placement-2560x1440.png) (2560 x 1440) | Custom title placement is unofficial. Fine lettering texture is inferred by local AI restoration of the small original logo. |
 | Buzzy Bees | [R37](../artwork/18-buzzy-bees/larger-alex-variant-2560x1440.png) (2560 x 1440) | Alex enhancement contains synthesized edge and surface detail. |
 | Village & Pillage | [R38](../artwork/19-village-pillage/clean-scene-with-reference-title-placement-2560x1440.png) (2560 x 1440) | Derived composition combines official scene and lettering; this exact combination is not an original official release. |
-| Update Aquatic | [R40A](../artwork/20-update-aquatic/expanded-banner-no-title-4320x1440.png) (4320 x 1440); [R40B](../artwork/20-update-aquatic/expanded-banner-with-title-4320x1440.png) (4320 x 1440); [R41](../artwork/20-update-aquatic/custom-titled-scene-2560x1440.png) (2560 x 1440) | Original coral, kelp and sand shapes retain the smaller source resolution in outer regions. Water and bubble detail remains locally AI-restored. Title placements remain custom and unofficial, with inferred fine lettering detail. |
+| Update Aquatic | [R40A](../artwork/20-update-aquatic/expanded-banner-no-title-4320x1440.png) (4320 x 1440); [R40B](../artwork/20-update-aquatic/expanded-banner-with-title-4320x1440.png) (4320 x 1440); [R41](../artwork/20-update-aquatic/custom-titled-scene-2560x1440.png) (2560 x 1440) | Expanded banners use original source sides and native centre with mild sharpening and transition smoothing. Source-specific bubble styles and mixed resolution remain; a small inherited AI water fill and custom title details are inferred. |
 | World of Color Update | Sources retained; no derivative requested | No additional reconstruction limitation. |
 | Exploration Update | [R52](../artwork/22-exploration-update/trailer-title-reconstruction-6000x3375.png) (6000 x 3375) | The title is an AI reconstruction of the small trailer reference, not the original high-resolution logo; fine cracks and shading are inferred. The wall behind the relocated Vex is locally reconstructed; fine concealed geometry cannot be confirmed from the sources. |
 | Frostburn Update | Sources retained; no derivative requested | Only a 1280 x 720 scene is collected; the separate fan title does not supply additional scene detail. |
