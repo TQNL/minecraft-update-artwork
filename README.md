@@ -6,7 +6,7 @@ A visual archive of Minecraft update artwork, from **Wilderness Bound** to the *
 
 **68 images · 26 updates**
 
-Open **[index.html](index.html)** for the searchable offline gallery. Primary labels identify the archive's preferred source scene; they do not assert an official publisher ranking.
+Browse online: **[Key art showcase](https://tqnl.github.io/minecraft-update-artwork/showcase.html)** · **[Complete gallery](https://tqnl.github.io/minecraft-update-artwork/index.html)**. No download is needed. You can also open [showcase.html](showcase.html) or [index.html](index.html) locally. Primary labels identify the archive's preferred source scene; they do not assert an official publisher ranking.
 
 ## Source collection and reconstructions
 

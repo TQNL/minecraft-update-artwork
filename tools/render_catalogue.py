@@ -30,7 +30,7 @@ A visual archive of Minecraft update artwork, from **Wilderness Bound** to the *
 
 **{len(assets)} images · {len(groups)} updates**
 
-Open **[index.html](index.html)** for the searchable offline gallery. Primary labels identify the archive's preferred source scene; they do not assert an official publisher ranking.
+Browse online: **[Key art showcase](https://tqnl.github.io/minecraft-update-artwork/showcase.html)** · **[Complete gallery](https://tqnl.github.io/minecraft-update-artwork/index.html)**. No download is needed. You can also open [showcase.html](showcase.html) or [index.html](index.html) locally. Primary labels identify the archive's preferred source scene; they do not assert an official publisher ranking.
 
 ## Source collection and reconstructions
 
@@ -65,7 +65,7 @@ This is an independent archive. Artwork and trademarks belong to their respectiv
     page=['<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Minecraft Update Artwork</title><link rel="stylesheet" href=".catalogue/style.css"></head><body>',
           '<header><p class="eyebrow">THE UPDATE COLLECTION</p><h1>Minecraft<br>Update Artwork<span>.</span></h1><p class="intro">Source artwork and clearly identified variants, newest first.</p>',
           f'<p class="stats">{len(assets)} images <span>/</span> {len(groups)} updates <span>/</span> '+('Reconstruction branch' if reconstruction else 'Source collection')+'</p>',
-          '<nav aria-label="Collection resources"><a href="README.md">Collection guide</a><a href="SOURCES.md">Sources</a><a href="RECONSTRUCTION.md">Reconstructions</a><a href="ASSET-MAP.md">PDF asset mapping</a></nav>',
+          '<nav aria-label="Collection resources"><a href="showcase.html">Key art showcase</a><a href="index.html" aria-current="page">Complete gallery</a><a href="'+branch_link+'/SOURCES.md">Sources</a><a href="'+branch_link+'/reconstruction/RESULTS.md">Methods &amp; quality notes</a></nav>',
           '<div class="filters"><label for="search">Find artwork</label><input id="search" type="search" placeholder="Search an update, ID or variant"><label for="type">Artwork type</label><select id="type"><option value="">All types</option>'+''.join(f'<option>{esc(k)}</option>' for k in kinds)+'</select></div><p id="count" role="status" aria-live="polite"></p></header><main>']
     for n,group in enumerate(groups,1):
         source+=f'## {group}\n\n'
@@ -89,5 +89,8 @@ This is an independent archive. Artwork and trademarks belong to their respectiv
     page.append(f'<p id="empty" hidden>No artwork matches. Try another update or clear the filters.</p></main><footer>Independent archive · Artwork belongs to its respective creators · Updated {data["updated"]}</footer><script src=".catalogue/filter.js"></script></body></html>')
     (ROOT/'index.html').write_text('\n'.join(page),encoding='utf-8')
     (ROOT/'SOURCES.md').write_text(source,encoding='utf-8')
+    if reconstruction:
+        import runpy
+        runpy.run_path(str(ROOT/'tools/render_showcase.py'),run_name='__main__')
 
 if __name__=='__main__':render()

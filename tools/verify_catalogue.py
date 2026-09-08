@@ -24,6 +24,14 @@ def verify():
     assert files==actual,(files-actual,actual-files)
     page=(ROOT/'index.html').read_text(encoding='utf-8')
     assert page.count('<article ')==len(assets)
+    showcase=ROOT/'showcase.html'
+    if showcase.exists():
+        selection=json.loads((ROOT/'.catalogue/showcase.json').read_text())
+        chosen=set(selection['preferred_variants'])|set(selection['title_only_references'])|{a['id'] for a in assets if a.get('primary')}
+        assert chosen<=ids
+        curated=showcase.read_text(encoding='utf-8')
+        assert curated.count('<article ')==len(chosen)
+        page+='\n'+curated
     for target in re.findall(r'(?:href|src)="([^"]+)"',page):
         if not target.startswith(('http:','https:','#')):assert (ROOT/unquote(target)).is_file(),target
     for p in [ROOT/'README.md',ROOT/'SOURCES.md',ROOT/'ASSET-MAP.md',ROOT/'RECONSTRUCTION.md',*list((ROOT/'reconstruction').glob('*.md')),*list((ROOT/'artwork').glob('*/README.md'))]:
