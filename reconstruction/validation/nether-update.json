@@ -14,9 +14,9 @@
   "current_quality_review": {
     "report": "reconstruction/quality-review/README.md",
     "data": "reconstruction/quality-review/final.json",
-    "round": 2,
+    "round": 3,
     "scores": {
-      "R34": 9
+      "R34": 8.6
     }
   },
   "current_methods": {
@@ -56,5 +56,8 @@
         "sha256": "12d8509fcd3615dd1b2333dfe3836b27d2d2aafd4786ca5ad86adce89bf16086"
       }
     ]
+  },
+  "source_geometry_comparison": {
+    "R34": "Full AI-restored logo compared with original P35 treatment. Letter contours remain coherent; fine cracks are inferred. Retained."
   }
 }

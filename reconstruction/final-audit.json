@@ -28,6 +28,6 @@
   "visual_review": "All 20 final derivatives passed independent critic review at 8/10 or above; reviewed SHA-256 hashes match the published files.",
   "quality_limits": "Completion means requested variants have been delivered and reviewed; it does not claim native high-resolution detail in resized source areas or exact recovery of hidden content.",
   "folder_layout": "All 20 added images share their update folders with source artwork; 14 folder READMEs explain the additions.",
-  "quality_review_rounds": 2,
-  "quality_replaced_files": 16
+  "quality_review_rounds": 3,
+  "quality_replaced_files": 9
 }

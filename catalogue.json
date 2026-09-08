@@ -91,7 +91,7 @@
       "validation": "reconstruction/validation/chaos-cubed.json",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
+        "round": 3,
         "score": 9
       }
     },
@@ -145,13 +145,13 @@
         "P04",
         "P05"
       ],
-      "note": "P05 clean scene extended with P04 side coverage and synthesized missing corners. Source transitions are blended gradually; a boundary streak was removed using clean petal pixels. Original source files remain separate.",
+      "note": "P05 clean scene extended with P04 side coverage and synthesized missing corners. Source transitions are blended gradually; a boundary streak was removed using clean petal pixels. Original source files remain separate. The remaining upper sampling-boundary streak was removed using clean existing sky/scene pixels.",
       "update": "Tiny Takeover",
       "width": 2275,
       "height": 1440,
       "format": "PNG",
-      "bytes": 3093049,
-      "sha256": "f6646058620d725893cb49cc39e7d0d431f7d63c9269a8f148ee14c7e4f334ee",
+      "bytes": 3092552,
+      "sha256": "3fd5bde8c639f097aac195c36a28ee4a5bcab1148f882086e6db04bbb2483fe9",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -164,8 +164,8 @@
       "preview": ".catalogue/previews/R05.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
-        "score": 9
+        "round": 3,
+        "score": 8.8
       }
     },
     {
@@ -176,13 +176,13 @@
         "P04",
         "P05"
       ],
-      "note": "Complete scene with original P04 lettering and synthesized corners. Source transitions are blended gradually; a boundary streak was removed using clean petal pixels. Added sides retain the smaller source detail limit.",
+      "note": "Complete scene with original P04 lettering and synthesized corners. Source transitions are blended gradually; a boundary streak was removed using clean petal pixels. Added sides retain the smaller source detail limit. The remaining upper sampling-boundary streak was removed using clean existing sky/scene pixels.",
       "update": "Tiny Takeover",
       "width": 2275,
       "height": 1440,
       "format": "PNG",
-      "bytes": 3192533,
-      "sha256": "78ee927bab2d0aace7c3d3d7c67a76d60392999387fa1d3489037a4e5c1df059",
+      "bytes": 3192073,
+      "sha256": "6603157e55828d3e569ad5cb2dc8c79b941c4e3669ec687a1c7c166e36fb9772",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -195,8 +195,8 @@
       "preview": ".catalogue/previews/R04.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
-        "score": 9
+        "round": 3,
+        "score": 8.8
       }
     },
     {
@@ -354,13 +354,13 @@
         "P11",
         "P12"
       ],
-      "note": "P12 centre with P11 sides and synthesized missing corners. The joins now use gradual source blending; peripheral JPEG detail is still limited.",
+      "note": "P12 centre with P11 sides and synthesized missing corners. The joins now use gradual source blending; peripheral JPEG detail is still limited. Sampling-boundary streaks on both upper birch transitions were removed using clean existing source-composite pixels.",
       "update": "Spring to Life",
       "width": 3430,
       "height": 2048,
       "format": "PNG",
-      "bytes": 5883086,
-      "sha256": "e1103099d54222a75b3ee350c04543f66a177f4b05a541f1b14a5238d3ddcafe",
+      "bytes": 5883104,
+      "sha256": "492998c69c30aada47d1c27c7785a5c75e0ff4e67a27f5c0aa00c0f393d58962",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -373,8 +373,8 @@
       "preview": ".catalogue/previews/R12.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
-        "score": 8
+        "round": 3,
+        "score": 8.7
       }
     },
     {
@@ -511,13 +511,13 @@
         "P16",
         "P17"
       ],
-      "note": "P17 base with P16 side information and reconstructed corners. Local AI restoration brings the soft outer strips closer to the central scene; fine masonry and surface texture in those strips are inferred.",
+      "note": "P17 centre with registered P16 side coverage and small synthesized missing corners. Original source masonry and textures replace the broad AI side restoration; smaller-source side detail is retained.",
       "update": "Tricky Trials",
       "width": 2198,
       "height": 1440,
       "format": "PNG",
-      "bytes": 3869943,
-      "sha256": "c9b6e9fad852e01526738b32ac56302048ec51ef552c0ec90095826d1dbe57a2",
+      "bytes": 3755837,
+      "sha256": "b65805dffa28f72eec29bc4412ac07194ff3f5dfab10775439a289519035f194",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -530,8 +530,8 @@
       "preview": ".catalogue/previews/R17.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
-        "score": 9
+        "round": 3,
+        "score": 8.6
       }
     },
     {
@@ -542,13 +542,13 @@
         "P16",
         "P17"
       ],
-      "note": "Widescreen P16 framing, original lettering and alternate foreground Breeze retained. Matching side-strip repairs from R17 reduce abrupt softness; AI-enhanced edge and Breeze details remain inferred.",
+      "note": "P16 widescreen framing, original lettering and alternate Breeze placement over P17. Registered source pixels restore side-strip masonry and the Breeze-region geometry; small corner fills and narrow transition pixels remain reconstructed.",
       "update": "Tricky Trials",
       "width": 2196,
       "height": 1235,
       "format": "PNG",
-      "bytes": 3600138,
-      "sha256": "416552eb5861fdba051de459aa4ab813a99a82423646b6418c9eaa0dd63be142",
+      "bytes": 3500856,
+      "sha256": "20e9d30d30e7aa5853d87677466ce9cc02445ebff9dca50478bcf1253b114fb5",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -561,8 +561,8 @@
       "preview": ".catalogue/previews/R16.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
-        "score": 9
+        "round": 3,
+        "score": 8.4
       }
     },
     {
@@ -697,26 +697,26 @@
       "preview": ".catalogue/previews/R21.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
-        "score": 9
+        "round": 3,
+        "score": 9.2
       }
     },
     {
       "id": "R23",
-      "title": "Promotional panorama with restored detail and seams",
+      "title": "Promotional panorama with source geometry and repaired seams",
       "file": "artwork/13-trails-tales/promotional-panorama-seams-repaired-4080x1350.png",
       "derived_from": [
         "P23"
       ],
-      "classification": "AI restoration",
+      "classification": "Source repair with localized AI reconstruction",
       "role": "promotional-panorama",
-      "note": "P23 promotional panorama with separator repair and three overlapping AI-restored tiles. Registration and broad color matching retain the scene layout and lighting; fine restored textures are inferred. Kept separate from key art.",
+      "note": "Original P23 geometry and textures with bounded source sharpening. Only a 66-pixel-wide strip of the earlier AI result remains at the damaged separator, blended to adjacent source gradients. Separator detail is inferred; original source softness remains elsewhere. Kept separate from key art.",
       "update": "Trails & Tales",
       "width": 4080,
       "height": 1350,
       "format": "PNG",
-      "bytes": 6311124,
-      "sha256": "6035dd8a2b5133ba777bf2522ffa9d10fd7b7cbc576c5b282b88966e5f8a9306",
+      "bytes": 4812439,
+      "sha256": "977113e0e21ac9d81e8a074d9f0a01e1cdee56532789f348637a692a578fbf94",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -727,8 +727,8 @@
       "preview": ".catalogue/previews/R23.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
-        "score": 9
+        "round": 3,
+        "score": 8.5
       }
     },
     {
@@ -821,8 +821,8 @@
       "preview": ".catalogue/previews/R25.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
-        "score": 8
+        "round": 3,
+        "score": 9.1
       }
     },
     {
@@ -852,8 +852,8 @@
       "preview": ".catalogue/previews/R26.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
-        "score": 9
+        "round": 3,
+        "score": 9.1
       }
     },
     {
@@ -926,7 +926,7 @@
       "preview": ".catalogue/previews/R28.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
+        "round": 3,
         "score": 9
       }
     },
@@ -1021,7 +1021,7 @@
       "preview": ".catalogue/previews/R30.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
+        "round": 3,
         "score": 9
       }
     },
@@ -1094,8 +1094,8 @@
       "preview": ".catalogue/previews/R34.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
-        "score": 9
+        "round": 3,
+        "score": 8.6
       }
     },
     {
@@ -1167,8 +1167,8 @@
       "preview": ".catalogue/previews/R37.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
-        "score": 9
+        "round": 3,
+        "score": 8.8
       }
     },
     {
@@ -1240,8 +1240,8 @@
       "preview": ".catalogue/previews/R38.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
-        "score": 8
+        "round": 3,
+        "score": 9.1
       }
     },
     {
@@ -1296,13 +1296,13 @@
       ],
       "classification": "AI reconstruction",
       "role": "promotional-panorama",
-      "note": "P41 centre with expanded P40 outer reefs. Local AI restoration reduces low/high-resolution borders, clipped bubble/fish fragments and outer-strip blotches. Reconstructed reef and water detail is inferred.",
+      "note": "P41 centre with expanded P40 outer reefs. Original registered coral, kelp and sand surfaces restore voxel geometry. The coherent AI-restored water/bubble field is retained around those solids; inferred water detail and smaller-source reef softness remain.",
       "update": "Update Aquatic",
       "width": 4320,
       "height": 1440,
       "format": "PNG",
-      "bytes": 6411261,
-      "sha256": "03988f7e1c97e1135a552a274af4f646a55b32da45bb311bf0e871abc843bf9f",
+      "bytes": 5906460,
+      "sha256": "b78fd3a32af7bd29305d2d7af49cb7884e3edc8c5ada835625ea3fc1652e90ca",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -1313,8 +1313,8 @@
       "preview": ".catalogue/previews/R40A.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
-        "score": 9
+        "round": 3,
+        "score": 8.1
       }
     },
     {
@@ -1327,13 +1327,13 @@
       ],
       "classification": "AI reconstruction and custom title placement",
       "role": "promotional-panorama",
-      "note": "Restored R40A banner scene with a locally AI-restored title and a tightened silhouette matte. Title placement is custom and unofficial; outer reef and fine lettering details are inferred.",
+      "note": "Same source-restored coral, kelp and sand geometry as R40A, with coherent AI-restored water/bubbles and the reviewed title matte retained. The title placement is custom and unofficial; water and fine logo details remain inferred.",
       "update": "Update Aquatic",
       "width": 4320,
       "height": 1440,
       "format": "PNG",
-      "bytes": 6444938,
-      "sha256": "9ca2e873ad2d0e548ee5116b8e55f2a77f74bfdcabb37ea46800bfff8e89bda5",
+      "bytes": 5956698,
+      "sha256": "197df7a8e18d1dbedf3f8f2a3ddca0817c82040d387297add676b5a00e9c780c",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -1344,8 +1344,8 @@
       "preview": ".catalogue/previews/R40B.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
-        "score": 9
+        "round": 3,
+        "score": 8.1
       }
     },
     {
@@ -1375,8 +1375,8 @@
       "preview": ".catalogue/previews/R41.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
-        "score": 9
+        "round": 3,
+        "score": 8.7
       }
     },
     {
@@ -1494,8 +1494,8 @@
       "preview": ".catalogue/previews/R52.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
-        "score": 8
+        "round": 3,
+        "score": 8.5
       }
     },
     {
@@ -1563,19 +1563,19 @@
     },
     {
       "id": "R49",
-      "title": "Combat Update - AI-enhanced and resampled 5K",
+      "title": "Combat Update - source-faithful 5K resampling",
       "file": "artwork/24-combat-update/combat-enhanced-and-resampled-5120x2880.png",
       "derived_from": [
         "P49"
       ],
-      "classification": "AI enhancement and resampling",
-      "note": "5120 x 2880 derivative from P49 at 1280 x 720. An initial 1672 x 941 AI result was registered and resampled; localized AI restoration now also improves the title and Alex/Steve detail crops. Fine facial, lettering and scene detail is inferred; this is not native 5K source artwork.",
+      "classification": "Source resampling",
+      "note": "5120 x 2880 derivative rebuilt from the original 1280 x 720 P49 using bounded sharpening and Lanczos resampling only. Original block, terrain, wing, face and lettering shapes are retained; no generated scene detail remains. Stored 5K dimensions do not establish native 5K detail.",
       "update": "Combat Update",
       "width": 5120,
       "height": 2880,
       "format": "PNG",
-      "bytes": 9049150,
-      "sha256": "2d8e0872578a7e06ce64127c9a24c8f1d8f195b982df2f562ec6a0d2c61b6b8a",
+      "bytes": 3878184,
+      "sha256": "8a89c7933fee836494f7a5d7196b775bdd487d9eb97c70eb326d4c630a57499c",
       "pdf_asset_number": null,
       "origin": "reconstructed",
       "primary": false,
@@ -1587,8 +1587,8 @@
       "preview": ".catalogue/previews/R49.jpg",
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
-        "score": 8
+        "round": 3,
+        "score": 8.8
       }
     },
     {

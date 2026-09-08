@@ -14,25 +14,25 @@
     {
       "id": "R23",
       "file": "artwork/13-trails-tales/promotional-panorama-seams-repaired-4080x1350.png",
-      "sha256": "6035dd8a2b5133ba777bf2522ffa9d10fd7b7cbc576c5b282b88966e5f8a9306"
+      "sha256": "977113e0e21ac9d81e8a074d9f0a01e1cdee56532789f348637a692a578fbf94"
     }
   ],
   "current_quality_review": {
     "report": "reconstruction/quality-review/README.md",
     "data": "reconstruction/quality-review/final.json",
-    "round": 2,
+    "round": 3,
     "scores": {
-      "R21": 9,
-      "R23": 9
+      "R21": 9.2,
+      "R23": 8.5
     }
   },
   "current_methods": {
     "R21": "Direct source-pixel reconstruction; no AI generation. P22 scene with original P21 title and alternate Sniffer placement.",
-    "R23": "P23 promotional panorama with separator repair and three overlapping AI-restored tiles. Registration and broad color matching retain the scene layout and lighting; fine restored textures are inferred. Kept separate from key art."
+    "R23": "Original P23 geometry and textures with bounded source sharpening. Only a 66-pixel-wide strip of the earlier AI result remains at the damaged separator, blended to adjacent source gradients. Separator detail is inferred; original source softness remains elsewhere. Kept separate from key art."
   },
   "limitations": [
-    "R21 retains the original P21 title and alternate Sniffer detail.",
-    "R23 uses overlapping AI restoration; fine textures are inferred and may look processed at native size."
+    "R21 retains P21 title/Sniffer detail.",
+    "R23 now uses source geometry with bounded sharpening and a 66-pixel-wide localized AI separator repair; source softness remains and hidden separator detail is inferred."
   ],
   "initial_reconstruction_evidence_scope": "The record below describes the initial output hashes and methods before this quality revision. Its pixel-preservation assertions do not apply to the revised outputs above.",
   "initial_reconstruction": {
@@ -94,5 +94,9 @@
         "sha256": "30034d2d51802877726bf9bbbc2436059e49917256aadbafe7ce12a651eb5d03"
       }
     ]
+  },
+  "source_geometry_comparison": {
+    "R21": "Direct P21/P22 source composite; no generated geometry. Retained.",
+    "R23": "P23 compared across camel ground, distant trees and Sniffer. Broad AI surface changes were replaced with source geometry. The damaged separator retains a 66-pixel-wide strip from the earlier AI result after gradient-domain blending; exact hidden separator detail remains inferred."
   }
 }

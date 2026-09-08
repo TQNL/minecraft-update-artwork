@@ -7,24 +7,23 @@
     {
       "id": "R49",
       "file": "artwork/24-combat-update/combat-enhanced-and-resampled-5120x2880.png",
-      "sha256": "2d8e0872578a7e06ce64127c9a24c8f1d8f195b982df2f562ec6a0d2c61b6b8a"
+      "sha256": "8a89c7933fee836494f7a5d7196b775bdd487d9eb97c70eb326d4c630a57499c"
     }
   ],
   "current_quality_review": {
     "report": "reconstruction/quality-review/README.md",
     "data": "reconstruction/quality-review/final.json",
-    "round": 2,
+    "round": 3,
     "scores": {
-      "R49": 8
+      "R49": 8.8
     }
   },
   "current_methods": {
-    "R49": "5120 x 2880 derivative from P49 at 1280 x 720. An initial 1672 x 941 AI result was registered and resampled; localized AI restoration now also improves the title and Alex/Steve detail crops. Fine facial, lettering and scene detail is inferred; this is not native 5K source artwork."
+    "R49": "5120 x 2880 derivative rebuilt from the original 1280 x 720 P49 using bounded sharpening and Lanczos resampling only. Original block, terrain, wing, face and lettering shapes are retained; no generated scene detail remains. Stored 5K dimensions do not establish native 5K detail."
   },
   "limitations": [
-    "This is an AI-enhanced and resampled derivative, not native 5K source artwork.",
-    "The initial generation was 1672 x 941, followed by separate detail-crop restorations and resampling.",
-    "Fine scene, facial and lettering detail is inferred; the original remains available for strict source fidelity."
+    "The 5120 x 2880 file is a non-generative resampling of the 1280 x 720 source.",
+    "Source geometry is preserved with bounded sharpening; native-size softness remains because original detail is limited."
   ],
   "initial_reconstruction_evidence_scope": "The record below describes the initial output hashes and methods before this quality revision. Its pixel-preservation assertions do not apply to the revised outputs above.",
   "initial_reconstruction": {
@@ -77,5 +76,8 @@
         "sha256": "afe7634e509d99f91c98749d546e528cfe3d172001f6fcad7a862797a73391f3"
       }
     ]
+  },
+  "source_geometry_comparison": {
+    "R49": "P49 source compared at terrain, roofs, wings, faces and title. AI added bevels and changed small shapes across the scene. Rebuilt through non-generative sharpening/resampling from P49."
   }
 }

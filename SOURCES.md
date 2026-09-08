@@ -76,7 +76,7 @@ Creator: Mojang Studios.
 
 Creator: Derived from Mojang Studios artwork.
 
-P05 clean scene extended with P04 side coverage and synthesized missing corners. Source transitions are blended gradually; a boundary streak was removed using clean petal pixels. Original source files remain separate.
+P05 clean scene extended with P04 side coverage and synthesized missing corners. Source transitions are blended gradually; a boundary streak was removed using clean petal pixels. Original source files remain separate. The remaining upper sampling-boundary streak was removed using clean existing sky/scene pixels.
 
 Source asset IDs: P04, P05.
 
@@ -86,7 +86,7 @@ Source asset IDs: P04, P05.
 
 Creator: Derived from Mojang Studios artwork.
 
-Complete scene with original P04 lettering and synthesized corners. Source transitions are blended gradually; a boundary streak was removed using clean petal pixels. Added sides retain the smaller source detail limit.
+Complete scene with original P04 lettering and synthesized corners. Source transitions are blended gradually; a boundary streak was removed using clean petal pixels. Added sides retain the smaller source detail limit. The remaining upper sampling-boundary streak was removed using clean existing sky/scene pixels.
 
 Source asset IDs: P04, P05.
 
@@ -172,7 +172,7 @@ Creator: Mojang Studios.
 
 Creator: Derived from Mojang Studios artwork.
 
-P12 centre with P11 sides and synthesized missing corners. The joins now use gradual source blending; peripheral JPEG detail is still limited.
+P12 centre with P11 sides and synthesized missing corners. The joins now use gradual source blending; peripheral JPEG detail is still limited. Sampling-boundary streaks on both upper birch transitions were removed using clean existing source-composite pixels.
 
 Source asset IDs: P11, P12.
 
@@ -244,7 +244,7 @@ Creator: Mojang Studios.
 
 Creator: Derived from Mojang Studios artwork.
 
-P17 base with P16 side information and reconstructed corners. Local AI restoration brings the soft outer strips closer to the central scene; fine masonry and surface texture in those strips are inferred.
+P17 centre with registered P16 side coverage and small synthesized missing corners. Original source masonry and textures replace the broad AI side restoration; smaller-source side detail is retained.
 
 Source asset IDs: P16, P17.
 
@@ -254,7 +254,7 @@ Source asset IDs: P16, P17.
 
 Creator: Derived from Mojang Studios artwork.
 
-Widescreen P16 framing, original lettering and alternate foreground Breeze retained. Matching side-strip repairs from R17 reduce abrupt softness; AI-enhanced edge and Breeze details remain inferred.
+P16 widescreen framing, original lettering and alternate Breeze placement over P17. Registered source pixels restore side-strip masonry and the Breeze-region geometry; small corner fills and narrow transition pixels remain reconstructed.
 
 Source asset IDs: P16, P17.
 
@@ -326,13 +326,13 @@ Direct source-pixel reconstruction; no AI generation. P22 scene with original P2
 
 Source asset IDs: P21, P22.
 
-### R23: Promotional panorama with restored detail and seams
+### R23: Promotional panorama with source geometry and repaired seams
 
-[4080 × 1350 PNG](artwork/13-trails-tales/promotional-panorama-seams-repaired-4080x1350.png) · AI restoration
+[4080 × 1350 PNG](artwork/13-trails-tales/promotional-panorama-seams-repaired-4080x1350.png) · Source repair with localized AI reconstruction
 
 Creator: Derived from Mojang Studios artwork.
 
-P23 promotional panorama with separator repair and three overlapping AI-restored tiles. Registration and broad color matching retain the scene layout and lighting; fine restored textures are inferred. Kept separate from key art.
+Original P23 geometry and textures with bounded source sharpening. Only a 66-pixel-wide strip of the earlier AI result remains at the damaged separator, blended to adjacent source gradients. Separator detail is inferred; original source softness remains elsewhere. Kept separate from key art.
 
 Source asset IDs: P23.
 
@@ -586,7 +586,7 @@ Creator: Mojang Studios.
 
 Creator: Derived from Mojang Studios artwork.
 
-P41 centre with expanded P40 outer reefs. Local AI restoration reduces low/high-resolution borders, clipped bubble/fish fragments and outer-strip blotches. Reconstructed reef and water detail is inferred.
+P41 centre with expanded P40 outer reefs. Original registered coral, kelp and sand surfaces restore voxel geometry. The coherent AI-restored water/bubble field is retained around those solids; inferred water detail and smaller-source reef softness remain.
 
 Source asset IDs: P40, P41.
 
@@ -596,7 +596,7 @@ Source asset IDs: P40, P41.
 
 Creator: Derived from Mojang Studios artwork.
 
-Restored R40A banner scene with a locally AI-restored title and a tightened silhouette matte. Title placement is custom and unofficial; outer reef and fine lettering details are inferred.
+Same source-restored coral, kelp and sand geometry as R40A, with coherent AI-restored water/bubbles and the reviewed title matte retained. The title placement is custom and unofficial; water and fine logo details remain inferred.
 
 Source asset IDs: P40, P41.
 
@@ -692,13 +692,13 @@ Creator: Mojang Studios.
 
 [Source image](https://minecraft.wiki/images/Combat_Update.png?f362f)
 
-### R49: Combat Update - AI-enhanced and resampled 5K
+### R49: Combat Update - source-faithful 5K resampling
 
-[5120 × 2880 PNG](artwork/24-combat-update/combat-enhanced-and-resampled-5120x2880.png) · AI enhancement and resampling
+[5120 × 2880 PNG](artwork/24-combat-update/combat-enhanced-and-resampled-5120x2880.png) · Source resampling
 
 Creator: Derived from Mojang Studios artwork.
 
-5120 x 2880 derivative from P49 at 1280 x 720. An initial 1672 x 941 AI result was registered and resampled; localized AI restoration now also improves the title and Alex/Steve detail crops. Fine facial, lettering and scene detail is inferred; this is not native 5K source artwork.
+5120 x 2880 derivative rebuilt from the original 1280 x 720 P49 using bounded sharpening and Lanczos resampling only. Original block, terrain, wing, face and lettering shapes are retained; no generated scene detail remains. Stored 5K dimensions do not establish native 5K detail.
 
 Source asset IDs: P49.
 

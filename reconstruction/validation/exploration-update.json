@@ -14,9 +14,9 @@
   "current_quality_review": {
     "report": "reconstruction/quality-review/README.md",
     "data": "reconstruction/quality-review/final.json",
-    "round": 2,
+    "round": 3,
     "scores": {
-      "R52": 8
+      "R52": 8.5
     }
   },
   "current_methods": {
@@ -99,5 +99,8 @@
         "sha256": "8ea01f39ed8fd585793c94872072edbd86098d1feb75f25e465984c037464cd1"
       }
     ]
+  },
+  "source_geometry_comparison": {
+    "R52": "Trailer S52 and original P45 scene checked: source Vex remains cubic and local wall fill has straight planar edges. Exact hidden wall and fine logo details cannot be verified."
   }
 }

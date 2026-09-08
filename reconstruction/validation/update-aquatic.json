@@ -8,12 +8,12 @@
     {
       "id": "R40A",
       "file": "artwork/20-update-aquatic/expanded-banner-no-title-4320x1440.png",
-      "sha256": "03988f7e1c97e1135a552a274af4f646a55b32da45bb311bf0e871abc843bf9f"
+      "sha256": "b78fd3a32af7bd29305d2d7af49cb7884e3edc8c5ada835625ea3fc1652e90ca"
     },
     {
       "id": "R40B",
       "file": "artwork/20-update-aquatic/expanded-banner-with-title-4320x1440.png",
-      "sha256": "9ca2e873ad2d0e548ee5116b8e55f2a77f74bfdcabb37ea46800bfff8e89bda5"
+      "sha256": "197df7a8e18d1dbedf3f8f2a3ddca0817c82040d387297add676b5a00e9c780c"
     },
     {
       "id": "R41",
@@ -24,21 +24,21 @@
   "current_quality_review": {
     "report": "reconstruction/quality-review/README.md",
     "data": "reconstruction/quality-review/final.json",
-    "round": 2,
+    "round": 3,
     "scores": {
-      "R40A": 9,
-      "R40B": 9,
-      "R41": 9
+      "R40A": 8.1,
+      "R40B": 8.1,
+      "R41": 8.7
     }
   },
   "current_methods": {
-    "R40A": "P41 centre with expanded P40 outer reefs. Local AI restoration reduces low/high-resolution borders, clipped bubble/fish fragments and outer-strip blotches. Reconstructed reef and water detail is inferred.",
-    "R40B": "Restored R40A banner scene with a locally AI-restored title and a tightened silhouette matte. Title placement is custom and unofficial; outer reef and fine lettering details are inferred.",
+    "R40A": "P41 centre with expanded P40 outer reefs. Original registered coral, kelp and sand surfaces restore voxel geometry. The coherent AI-restored water/bubble field is retained around those solids; inferred water detail and smaller-source reef softness remain.",
+    "R40B": "Same source-restored coral, kelp and sand geometry as R40A, with coherent AI-restored water/bubbles and the reviewed title matte retained. The title placement is custom and unofficial; water and fine logo details remain inferred.",
     "R41": "P41 scene with a locally AI-restored title based on P40. Placement is custom and unofficial; fine lettering detail is inferred, with the scene retained outside the title crop."
   },
   "limitations": [
-    "Outer reefs, water and fine bubble details are locally AI-restored interpretations.",
-    "Title placements are custom and unofficial; restored logo texture is inferred."
+    "Original coral, kelp and sand shapes retain the smaller source resolution in outer regions.",
+    "Water and bubble detail remains locally AI-restored. Title placements remain custom and unofficial, with inferred fine lettering detail."
   ],
   "initial_reconstruction_evidence_scope": "The record below describes the initial output hashes and methods before this quality revision. Its pixel-preservation assertions do not apply to the revised outputs above.",
   "initial_reconstruction": {
@@ -99,5 +99,10 @@
         "sha256": "655deec30d480941a8c46894430415d6543725ee07f19a65f3694d05a9b5973d"
       }
     ]
+  },
+  "source_geometry_comparison": {
+    "R40A": "P40 registered outer reefs compared with AI crop: coral textures, kelp edges and sand details had changed. Original solid geometry restored selectively; inferred water/bubbles retained to avoid conflicting source backgrounds.",
+    "R40B": "Same reef correction as R40A. Title compared to P40 reference and existing clean matte retained.",
+    "R41": "Full restored title compared with original P40 logo treatment; overall letter contours remain coherent. Scene is P41 outside title crop. Retained."
   }
 }

@@ -27,7 +27,7 @@
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
+        "round": 3,
         "scores": {
           "R03": 9
         }
@@ -50,10 +50,10 @@
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
+        "round": 3,
         "scores": {
-          "R05": 9,
-          "R04": 9
+          "R05": 8.8,
+          "R04": 8.8
         }
       }
     },
@@ -103,9 +103,9 @@
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
+        "round": 3,
         "scores": {
-          "R12": 8
+          "R12": 8.7
         }
       }
     },
@@ -141,15 +141,15 @@
         "reconstruction/validation/tricky-trials.json"
       ],
       "limitations": [
-        "Corner masonry and restored side-strip textures are inferred.",
-        "Original P16 lettering retains its source detail; the enhanced foreground Breeze contains synthesized detail."
+        "Source masonry and Breeze geometry restored; smaller P16 side/lettering detail remains.",
+        "Small missing corner fills and narrow blend regions remain inferred."
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
+        "round": 3,
         "scores": {
-          "R17": 9,
-          "R16": 9
+          "R17": 8.6,
+          "R16": 8.4
         }
       }
     },
@@ -189,15 +189,15 @@
         "reconstruction/validation/trails-tales.json"
       ],
       "limitations": [
-        "R21 retains the original P21 title and alternate Sniffer detail.",
-        "R23 uses overlapping AI restoration; fine textures are inferred and may look processed at native size."
+        "R21 retains P21 title/Sniffer detail.",
+        "R23 now uses source geometry with bounded sharpening and a 66-pixel-wide localized AI separator repair; source softness remains and hidden separator detail is inferred."
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
+        "round": 3,
         "scores": {
-          "R21": 9,
-          "R23": 9
+          "R21": 9.2,
+          "R23": 8.5
         }
       }
     },
@@ -218,10 +218,10 @@
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
+        "round": 3,
         "scores": {
-          "R25": 8,
-          "R26": 9
+          "R25": 9.1,
+          "R26": 9.1
         }
       }
     },
@@ -240,7 +240,7 @@
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
+        "round": 3,
         "scores": {
           "R28": 9
         }
@@ -261,7 +261,7 @@
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
+        "round": 3,
         "scores": {
           "R30": 9
         }
@@ -283,9 +283,9 @@
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
+        "round": 3,
         "scores": {
-          "R34": 9
+          "R34": 8.6
         }
       }
     },
@@ -304,9 +304,9 @@
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
+        "round": 3,
         "scores": {
-          "R37": 9
+          "R37": 8.8
         }
       }
     },
@@ -325,9 +325,9 @@
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
+        "round": 3,
         "scores": {
-          "R38": 8
+          "R38": 9.1
         }
       }
     },
@@ -344,16 +344,16 @@
         "reconstruction/validation/update-aquatic.json"
       ],
       "limitations": [
-        "Outer reefs, water and fine bubble details are locally AI-restored interpretations.",
-        "Title placements are custom and unofficial; restored logo texture is inferred."
+        "Original coral, kelp and sand shapes retain the smaller source resolution in outer regions.",
+        "Water and bubble detail remains locally AI-restored. Title placements remain custom and unofficial, with inferred fine lettering detail."
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
+        "round": 3,
         "scores": {
-          "R40A": 9,
-          "R40B": 9,
-          "R41": 9
+          "R40A": 8.1,
+          "R40B": 8.1,
+          "R41": 8.7
         }
       }
     },
@@ -383,9 +383,9 @@
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
+        "round": 3,
         "scores": {
-          "R52": 8
+          "R52": 8.5
         }
       }
     },
@@ -412,15 +412,14 @@
         "reconstruction/validation/combat-update.json"
       ],
       "limitations": [
-        "This is an AI-enhanced and resampled derivative, not native 5K source artwork.",
-        "The initial generation was 1672 x 941, followed by separate detail-crop restorations and resampling.",
-        "Fine scene, facial and lettering detail is inferred; the original remains available for strict source fidelity."
+        "The 5120 x 2880 file is a non-generative resampling of the 1280 x 720 source.",
+        "Source geometry is preserved with bounded sharpening; native-size softness remains because original detail is limited."
       ],
       "quality_review": {
         "report": "reconstruction/quality-review/README.md",
-        "round": 2,
+        "round": 3,
         "scores": {
-          "R49": 8
+          "R49": 8.8
         }
       }
     }

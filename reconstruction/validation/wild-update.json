@@ -20,10 +20,10 @@
   "current_quality_review": {
     "report": "reconstruction/quality-review/README.md",
     "data": "reconstruction/quality-review/final.json",
-    "round": 2,
+    "round": 3,
     "scores": {
-      "R25": 8,
-      "R26": 9
+      "R25": 9.1,
+      "R26": 9.1
     }
   },
   "current_methods": {
@@ -106,5 +106,9 @@
         "sha256": "00e7beb9de293258c50852e2cd93fc3c7db56c17cb7400efc56bf215bca6b51d"
       }
     ]
+  },
+  "source_geometry_comparison": {
+    "R25": "Direct P24/P25 aligned source composite; no generated geometry. Retained.",
+    "R26": "Direct P24/P26 source composite; no generated geometry. Retained."
   }
 }

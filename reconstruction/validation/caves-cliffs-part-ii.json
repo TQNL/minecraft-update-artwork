@@ -15,7 +15,7 @@
   "current_quality_review": {
     "report": "reconstruction/quality-review/README.md",
     "data": "reconstruction/quality-review/final.json",
-    "round": 2,
+    "round": 3,
     "scores": {
       "R28": 9
     }
@@ -70,5 +70,8 @@
         "sha256": "7b133723e4c020232c36064e7d76dd0aad4070f654ef1f6392619356cd7d774c"
       }
     ]
+  },
+  "source_geometry_comparison": {
+    "R28": "Official P32 logo, P28 part lettering and P29 scene; no generated geometry. Retained."
   }
 }

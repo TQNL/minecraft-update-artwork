@@ -14,9 +14,9 @@
   "current_quality_review": {
     "report": "reconstruction/quality-review/README.md",
     "data": "reconstruction/quality-review/final.json",
-    "round": 2,
+    "round": 3,
     "scores": {
-      "R38": 8
+      "R38": 9.1
     }
   },
   "current_methods": {
@@ -56,5 +56,8 @@
         "sha256": "2cdd0bd97d440781635926ea891267f4c61494e3c5a4fa9b0d346ebf62b2c4e8"
       }
     ]
+  },
+  "source_geometry_comparison": {
+    "R38": "Source P38/P39 lettering/scene composite; no generated geometry. Retained."
   }
 }

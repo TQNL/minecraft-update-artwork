@@ -13,7 +13,7 @@
   "current_quality_review": {
     "report": "reconstruction/quality-review/README.md",
     "data": "reconstruction/quality-review/final.json",
-    "round": 2,
+    "round": 3,
     "scores": {
       "R03": 9
     }
@@ -73,5 +73,8 @@
         "sha256": "7a291ea7046352a1cdd38867ce1097bc7c32de53338777aafefd622e39d50706"
       }
     ]
+  },
+  "source_geometry_comparison": {
+    "R03": "Covered rating wall checked against adjacent P03 wall pattern and P02 composition. Pixel steps and flat block surfaces remain coherent. Hidden exact pixels cannot be verified."
   }
 }

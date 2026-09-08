@@ -8,19 +8,19 @@
     {
       "id": "R12",
       "file": "artwork/07-spring-to-life/complete-scene-3430x2048.png",
-      "sha256": "e1103099d54222a75b3ee350c04543f66a177f4b05a541f1b14a5238d3ddcafe"
+      "sha256": "492998c69c30aada47d1c27c7785a5c75e0ff4e67a27f5c0aa00c0f393d58962"
     }
   ],
   "current_quality_review": {
     "report": "reconstruction/quality-review/README.md",
     "data": "reconstruction/quality-review/final.json",
-    "round": 2,
+    "round": 3,
     "scores": {
-      "R12": 8
+      "R12": 8.7
     }
   },
   "current_methods": {
-    "R12": "P12 centre with P11 sides and synthesized missing corners. The joins now use gradual source blending; peripheral JPEG detail is still limited."
+    "R12": "P12 centre with P11 sides and synthesized missing corners. The joins now use gradual source blending; peripheral JPEG detail is still limited. Sampling-boundary streaks on both upper birch transitions were removed using clean existing source-composite pixels."
   },
   "limitations": [
     "Missing corners are synthesized.",
@@ -82,5 +82,8 @@
         "sha256": "0d7f035a0a07750f99fc9059b50a0dc0e14dbe2c40627bbd418a126bc12b6104"
       }
     ]
+  },
+  "source_geometry_comparison": {
+    "R12": "P11/P12 source/composite and all four missing corners checked. Synthesized blocks follow adjoining straight faces; no additional deformation found. Exact missing corner content is unavailable. Critic native inspection found an upper birch sampling streak; it was removed using clean existing source-composite pixels."
   }
 }
